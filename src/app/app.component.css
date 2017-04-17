@@ -1,23 +1,23 @@
 .cards {
-    background: grey;
+    background: white;
 }
 .white {
-    color: white;
+    color: black;
 }
 .blue {
-    color: blue;
+    color: black;
 }
 .black {
     color: black;
 }
 .red {
-    color: red;
+    color: black;
 }
 .green {
-    color: green;
+    color: black;
 }
 .multi {
-    color: orange;
+    color: black;
 }
 .border-top {
     border-top: 1px solid black;

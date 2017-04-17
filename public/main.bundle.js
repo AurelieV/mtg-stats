@@ -8,7 +8,7 @@ exports = module.exports = __webpack_require__(44)();
 
 
 // module
-exports.push([module.i, ".cards {\n    background: grey;\n}\n.white {\n    color: white;\n}\n.blue {\n    color: blue;\n}\n.black {\n    color: black;\n}\n.red {\n    color: red;\n}\n.green {\n    color: green;\n}\n.multi {\n    color: orange;\n}\n.border-top {\n    border-top: 1px solid black;\n}\n\ntd {\n    padding: 5px;\n}\n\ntr.last > td {\n    padding-bottom: 10px;\n    border-bottom: 1px solid black;\n}", ""]);
+exports.push([module.i, ".cards {\n    background: white;\n}\n.white {\n    color: black;\n}\n.blue {\n    color: black;\n}\n.black {\n    color: black;\n}\n.red {\n    color: black;\n}\n.green {\n    color: black;\n}\n.multi {\n    color: black;\n}\n.border-top {\n    border-top: 1px solid black;\n}\n\ntd {\n    padding: 5px;\n}\n\ntr.last > td {\n    padding-bottom: 10px;\n    border-bottom: 1px solid black;\n}", ""]);
 
 // exports
 
