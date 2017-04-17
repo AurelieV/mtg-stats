@@ -16,3 +16,18 @@
 .green {
     color: green;
 }
+.multi {
+    color: orange;
+}
+.border-top {
+    border-top: 1px solid black;
+}
+
+td {
+    padding: 5px;
+}
+
+tr.last > td {
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+}
