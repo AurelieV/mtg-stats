@@ -21,7 +21,7 @@ module.exports = module.exports.toString();
 /***/ 137:
 /***/ (function(module, exports) {
 
-module.exports = "<a [href]=\"dashboardLink\">Link to stats</a>\n<table class=\"cards\">\n  <thead>\n    <tr>\n      <th>CCM</th>\n      <th class=\"white\">White</th>\n      <th class=\"blue\">Blue</th>\n      <th class=\"black\">Black</th>\n      <th class=\"red\">Red</th>\n      <th class=\"green\">Green</th>\n      <th class=\"multi\">Multi</th>\n    </tr>\n  </thead>\n  <tbody>\n    <ng-template ngFor [ngForOf]=\"data\" let-d>\n      <tr>\n        <td [attr.rowspan]=\"d.max.length + 1\" class=\"cmc\">{{d.cmc}}</td>\n      </tr>\n      <tr *ngFor=\"let i of d.max;let l = last\" [class.border-top]=\"i === 0\" [class.last]=\"l\">\n        <td class=\"white\">\n          <div *ngIf=\"d.colors.White && d.colors.White[i]\">\n            <span class=\"name\">{{d.colors.White[i].name}}</span>\n            <span class=\"cost\">{{d.colors.White[i].manaCost}}</span>\n          </div>\n        </td>\n        <td class=\"blue\">\n          <div *ngIf=\"d.colors.Blue && d.colors.Blue[i]\">\n            <span class=\"name\">{{d.colors.Blue[i].name}}</span>\n            <span class=\"cost\">{{d.colors.Blue[i].manaCost}}</span>\n          </div>\n        </td>\n        <td class=\"black\">\n          <div *ngIf=\"d.colors.Black && d.colors.Black[i]\">\n            <span class=\"name\">{{d.colors.Black[i].name}}</span>\n            <span class=\"cost\">{{d.colors.Black[i].manaCost}}</span>\n          </div>\n        </td>\n        <td class=\"red\">\n          <div *ngIf=\"d.colors.Red && d.colors.Red[i]\">\n            <span class=\"name\">{{d.colors.Red[i].name}}</span>\n            <span class=\"cost\">{{d.colors.Red[i].manaCost}}</span>\n          </div>\n        </td>\n        <td class=\"green\">\n          <div *ngIf=\"d.colors.Green && d.colors.Green[i]\">\n            <span class=\"name\">{{d.colors.Green[i].name}}</span>\n            <span class=\"cost\">{{d.colors.Green[i].manaCost}}</span>\n          </div>\n        </td>\n        <td class=\"multi\">\n          <div *ngIf=\"d.colors.Multicolore && d.colors.Multicolore[i]\">\n            <span class=\"name\">{{d.colors.Multicolore[i].name}}</span>\n            <span class=\"cost\">{{d.colors.Multicolore[i].manaCost}}</span>\n          </div>\n        </td>\n      </tr>\n    </ng-template>\n  </tbody>\n</table>\n"
+module.exports = "<a [href]=\"dashboardLink\">Link to stats</a>\n<i class=\"ms ms-g ms-cost\"></i> \n<table class=\"cards\">\n  <thead>\n    <tr>\n      <th>CCM</th>\n      <th class=\"white\">White</th>\n      <th class=\"blue\">Blue</th>\n      <th class=\"black\">Black</th>\n      <th class=\"red\">Red</th>\n      <th class=\"green\">Green</th>\n      <th class=\"multi\">Multi</th>\n    </tr>\n  </thead>\n  <tbody>\n    <ng-template ngFor [ngForOf]=\"data\" let-d>\n      <tr>\n        <td [attr.rowspan]=\"d.max.length + 1\" class=\"cmc\">{{d.cmc}}</td>\n      </tr>\n      <tr *ngFor=\"let i of d.max;let l = last\" [class.border-top]=\"i === 0\" [class.last]=\"l\">\n        <td class=\"white\">\n          <div *ngIf=\"d.colors.White && d.colors.White[i]\">\n            <span class=\"name\">{{d.colors.White[i].name}}</span>\n            <span class=\"cost\">\n              <i *ngFor=\"let cost of d.colors.White[i].costs\" [ngClass]=\"cost\"></i>\n            </span>\n          </div>\n        </td>\n        <td class=\"blue\">\n          <div *ngIf=\"d.colors.Blue && d.colors.Blue[i]\">\n            <span class=\"name\">{{d.colors.Blue[i].name}}</span>\n            <span class=\"cost\">\n              <i *ngFor=\"let cost of d.colors.Blue[i].costs\" [ngClass]=\"cost\"></i>\n            </span>\n          </div>\n        </td>\n        <td class=\"black\">\n          <div *ngIf=\"d.colors.Black && d.colors.Black[i]\">\n            <span class=\"name\">{{d.colors.Black[i].name}}</span>\n            <span class=\"cost\">\n              <i *ngFor=\"let cost of d.colors.Black[i].costs\" [ngClass]=\"cost\"></i>\n            </span>\n          </div>\n        </td>\n        <td class=\"red\">\n          <div *ngIf=\"d.colors.Red && d.colors.Red[i]\">\n            <span class=\"name\">{{d.colors.Red[i].name}}</span>\n            <span class=\"cost\">\n              <i *ngFor=\"let cost of d.colors.Red[i].costs\" [ngClass]=\"cost\"></i>\n            </span>\n          </div>\n        </td>\n        <td class=\"green\">\n          <div *ngIf=\"d.colors.Green && d.colors.Green[i]\">\n            <span class=\"name\">{{d.colors.Green[i].name}}</span>\n            <span class=\"cost\">\n              <i *ngFor=\"let cost of d.colors.Green[i].costs\" [ngClass]=\"cost\"></i>\n            </span>\n          </div>\n        </td>\n        <td class=\"multi\">\n          <div *ngIf=\"d.colors.Multicolore && d.colors.Multicolore[i]\">\n            <span class=\"name\">{{d.colors.Multicolore[i].name}}</span>\n            <span class=\"cost\">\n              <i *ngFor=\"let cost of d.colors.Multicolore[i].costs\" [ngClass]=\"cost\"></i>\n            </span>\n          </div>\n        </td>\n      </tr>\n    </ng-template>\n  </tbody>\n</table>\n"
 
 /***/ }),
 
@@ -94,7 +94,24 @@ var AppComponent = (function () {
         var _this = this;
         this.dashboardLink = "http://mtg-stats.purple-fox.fr/app/kibana#/dashboard/0f1b4b30-2204-11e7-a4a7-a3aa983ebfc9";
         this.data = [];
-        var costs = __WEBPACK_IMPORTED_MODULE_1_lodash__["groupBy"](__WEBPACK_IMPORTED_MODULE_2__data_AKH_tricks__["a" /* tricks */], "cmc");
+        var costRegexp = new RegExp(/\{(.)\}/g);
+        var cards = __WEBPACK_IMPORTED_MODULE_2__data_AKH_tricks__["a" /* tricks */].map(function (c) {
+            var costs = [];
+            var cost = costRegexp.exec(c.manaCost);
+            while (cost !== null) {
+                costs.push("ms-" + cost[1].toLowerCase() + " ms ms-cost");
+                cost = costRegexp.exec(c.manaCost);
+            }
+            return {
+                name: c.name,
+                cmc: c.cmc,
+                manaCost: c.manaCost,
+                colors: c.colors,
+                effect: c.effect,
+                costs: costs
+            };
+        });
+        var costs = __WEBPACK_IMPORTED_MODULE_1_lodash__["groupBy"](cards, "cmc");
         Object.keys(costs).forEach(function (cmc) {
             _this.data.push({
                 cmc: cmc,

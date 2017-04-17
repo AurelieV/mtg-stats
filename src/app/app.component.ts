@@ -14,7 +14,25 @@ export class AppComponent {
   data: any[] = [];
 
   constructor() {
-    const costs = _.groupBy(tricks, "cmc");
+    const costRegexp = new RegExp(/\{(.)\}/g);
+    const cards = tricks.map(c => {
+      const costs = [];
+      let cost = costRegexp.exec(c.manaCost);
+      while(cost !== null) {
+        costs.push(`ms-${cost[1].toLowerCase()} ms ms-cost`);
+        cost = costRegexp.exec(c.manaCost);
+      }
+      return {
+        name: c.name,
+        cmc: c.cmc,
+        manaCost: c.manaCost,
+        colors: c.colors,
+        effect: c.effect,
+        costs
+      };
+    });
+
+    const costs = _.groupBy(cards, "cmc");
     Object.keys(costs).forEach(cmc => {
       this.data.push({
         cmc,

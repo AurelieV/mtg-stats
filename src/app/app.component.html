@@ -1,4 +1,5 @@
 <a [href]="dashboardLink">Link to stats</a>
+<i class="ms ms-g ms-cost"></i> 
 <table class="cards">
   <thead>
     <tr>
@@ -20,37 +21,49 @@
         <td class="white">
           <div *ngIf="d.colors.White && d.colors.White[i]">
             <span class="name">{{d.colors.White[i].name}}</span>
-            <span class="cost">{{d.colors.White[i].manaCost}}</span>
+            <span class="cost">
+              <i *ngFor="let cost of d.colors.White[i].costs" [ngClass]="cost"></i>
+            </span>
           </div>
         </td>
         <td class="blue">
           <div *ngIf="d.colors.Blue && d.colors.Blue[i]">
             <span class="name">{{d.colors.Blue[i].name}}</span>
-            <span class="cost">{{d.colors.Blue[i].manaCost}}</span>
+            <span class="cost">
+              <i *ngFor="let cost of d.colors.Blue[i].costs" [ngClass]="cost"></i>
+            </span>
           </div>
         </td>
         <td class="black">
           <div *ngIf="d.colors.Black && d.colors.Black[i]">
             <span class="name">{{d.colors.Black[i].name}}</span>
-            <span class="cost">{{d.colors.Black[i].manaCost}}</span>
+            <span class="cost">
+              <i *ngFor="let cost of d.colors.Black[i].costs" [ngClass]="cost"></i>
+            </span>
           </div>
         </td>
         <td class="red">
           <div *ngIf="d.colors.Red && d.colors.Red[i]">
             <span class="name">{{d.colors.Red[i].name}}</span>
-            <span class="cost">{{d.colors.Red[i].manaCost}}</span>
+            <span class="cost">
+              <i *ngFor="let cost of d.colors.Red[i].costs" [ngClass]="cost"></i>
+            </span>
           </div>
         </td>
         <td class="green">
           <div *ngIf="d.colors.Green && d.colors.Green[i]">
             <span class="name">{{d.colors.Green[i].name}}</span>
-            <span class="cost">{{d.colors.Green[i].manaCost}}</span>
+            <span class="cost">
+              <i *ngFor="let cost of d.colors.Green[i].costs" [ngClass]="cost"></i>
+            </span>
           </div>
         </td>
         <td class="multi">
           <div *ngIf="d.colors.Multicolore && d.colors.Multicolore[i]">
             <span class="name">{{d.colors.Multicolore[i].name}}</span>
-            <span class="cost">{{d.colors.Multicolore[i].manaCost}}</span>
+            <span class="cost">
+              <i *ngFor="let cost of d.colors.Multicolore[i].costs" [ngClass]="cost"></i>
+            </span>
           </div>
         </td>
       </tr>
