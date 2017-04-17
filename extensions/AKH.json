@@ -1,0 +1,4389 @@
+{
+    "name": "Amonkhet",
+    "code": "AKH",
+    "cards": [
+        {
+            "name": "Ahn-Crop Champion",
+            "cmc": 4,
+            "supertypes": [],
+            "subtypes": [
+                "human",
+                "warrior"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "Green",
+                "White"
+            ],
+            "rarity": "Uncommon",
+            "multiverseid": 0,
+            "power": "4",
+            "toughness": "4",
+            "text": "You may exert Ahn-Crop Champion as it attacks. When you do, untap all other creatures you control"
+        },
+        {
+            "name": "Ahn-Crop Crasher",
+            "cmc": 3,
+            "supertypes": [],
+            "subtypes": [
+                "minotaur",
+                "warrior"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "Red"
+            ],
+            "rarity": "Uncommon",
+            "multiverseid": 1,
+            "power": "3",
+            "toughness": "2",
+            "text": "Haste\nYou may exert Ahn-Crop Crasher as it attacks. When you do, target creature can't block this turn"
+        },
+        {
+            "name": "Ancient Crab",
+            "cmc": 3,
+            "supertypes": [],
+            "subtypes": [
+                "crab"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "Blue"
+            ],
+            "rarity": "Common",
+            "multiverseid": 2,
+            "power": "1",
+            "toughness": "5",
+            "text": ""
+        },
+        {
+            "name": "Angel of Sanctions",
+            "cmc": 5,
+            "supertypes": [],
+            "subtypes": [
+                "angel"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "White"
+            ],
+            "rarity": "Mythic",
+            "multiverseid": 3,
+            "power": "3",
+            "toughness": "4",
+            "text": "Flying\nWhen Angel of Sanctions enters the battlefield, you may exile target nonland permanent an opponent controls until Angel of Sanctions leaves the battlefield\nEmbalm {5}{W}"
+        },
+        {
+            "name": "Angler Drake",
+            "cmc": 6,
+            "supertypes": [],
+            "subtypes": [
+                "drake"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "Blue"
+            ],
+            "rarity": "Uncommon",
+            "multiverseid": 4,
+            "power": "4",
+            "toughness": "4",
+            "text": "Flying\nWhen Angler Drake enters the battlefield, you may return target creature to its owner's hand"
+        },
+        {
+            "name": "Anointed Procession",
+            "cmc": 4,
+            "supertypes": [],
+            "subtypes": [],
+            "types": [
+                "enchantment"
+            ],
+            "colors": [
+                "White"
+            ],
+            "rarity": "Rare",
+            "multiverseid": 5,
+            "text": "If an effect would create one or more tokens under your control, it creates twice that many of those tokens instead"
+        },
+        {
+            "name": "Anointer Priest",
+            "cmc": 2,
+            "supertypes": [],
+            "subtypes": [
+                "human",
+                "cleric"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "White"
+            ],
+            "rarity": "Common",
+            "multiverseid": 6,
+            "power": "1",
+            "toughness": "3",
+            "text": "Whenever a creature token enters the battlefield under your control, you gain 1 life\nEmbalm {3}{W}"
+        },
+        {
+            "name": "Approach of the Second Sun",
+            "cmc": 7,
+            "supertypes": [],
+            "subtypes": [],
+            "types": [
+                "sorcery"
+            ],
+            "colors": [
+                "White"
+            ],
+            "rarity": "Rare",
+            "multiverseid": 7,
+            "text": "If Approach of the Second Sun was cast from your hand and you've cast another spell named Approach of the Second Sun this game, you win the game. Otherwise, put Approach of the Second Sun into its owner's library seventh from the top and you gain 7 life"
+        },
+        {
+            "name": "Archfiend of Ifnir",
+            "cmc": 5,
+            "supertypes": [],
+            "subtypes": [
+                "demon"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "Black"
+            ],
+            "rarity": "Rare",
+            "multiverseid": 8,
+            "power": "5",
+            "toughness": "4",
+            "text": "Flying\nWhenever you cycle or discard another card, put a -1/-1 counter on each creature your opponents control\nCycling {2}"
+        },
+        {
+            "name": "As Foretold",
+            "cmc": 3,
+            "supertypes": [],
+            "subtypes": [],
+            "types": [
+                "enchantment"
+            ],
+            "colors": [
+                "Blue"
+            ],
+            "rarity": "Mythic",
+            "multiverseid": 9,
+            "text": "At the beginning of your upkeep, put a time counter on As Foretold\nOnce each turn, you may pay {0} rather than pay the mana cost for a spell you cast with converted mana cost X or less, where X is the number of time counters on As Foretold"
+        },
+        {
+            "name": "Aven Initiate",
+            "cmc": 4,
+            "supertypes": [],
+            "subtypes": [
+                "bird",
+                "warrior"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "Blue"
+            ],
+            "rarity": "Common",
+            "multiverseid": 10,
+            "power": "3",
+            "toughness": "2",
+            "text": "Flying\nEmbalm {6}{U}"
+        },
+        {
+            "name": "Aven Mindcensor",
+            "cmc": 3,
+            "supertypes": [],
+            "subtypes": [
+                "bird",
+                "wizard"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "White"
+            ],
+            "rarity": "Rare",
+            "multiverseid": 11,
+            "power": "2",
+            "toughness": "1",
+            "text": "Flash\nFlying\nIf an opponent would search a library, that player searches the top four cards of that library instead"
+        },
+        {
+            "name": "Aven Wind Guide",
+            "cmc": 4,
+            "supertypes": [],
+            "subtypes": [
+                "bird",
+                "warrior"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "White",
+                "Blue"
+            ],
+            "rarity": "Uncommon",
+            "multiverseid": 12,
+            "power": "2",
+            "toughness": "3",
+            "text": "Flying, vigilance\nCreature tokens you control have flying and vigilance\nEmbalm {4}{W}{U}"
+        },
+        {
+            "name": "Baleful Ammit",
+            "cmc": 3,
+            "supertypes": [],
+            "subtypes": [
+                "crocodile",
+                "demon"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "Black"
+            ],
+            "rarity": "Uncommon",
+            "multiverseid": 13,
+            "power": "4",
+            "toughness": "3",
+            "text": "Lifelink\nWhen Baleful Ammit enters the battlefield, put a -1/-1 counter on target creature you control"
+        },
+        {
+            "name": "Battlefield Scavenger",
+            "cmc": 2,
+            "supertypes": [],
+            "subtypes": [
+                "jackal",
+                "rogue"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "Red"
+            ],
+            "rarity": "Uncommon",
+            "multiverseid": 14,
+            "power": "2",
+            "toughness": "2",
+            "text": "You may exert Battlefield Scavenger as it attacks\nWhenever you exert a creature, you may discard a card. If you do, draw a card"
+        },
+        {
+            "name": "Benefaction of Rhonas",
+            "cmc": 3,
+            "supertypes": [],
+            "subtypes": [],
+            "types": [
+                "sorcery"
+            ],
+            "colors": [
+                "Green"
+            ],
+            "rarity": "Common",
+            "multiverseid": 15,
+            "text": "Reveal the top five cards of your library. You may put a creature card and/or an enchantment card from among them into your hand. Put the rest into your graveyard"
+        },
+        {
+            "name": "Binding Mummy",
+            "cmc": 2,
+            "supertypes": [],
+            "subtypes": [
+                "zombie"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "White"
+            ],
+            "rarity": "Common",
+            "multiverseid": 16,
+            "power": "2",
+            "toughness": "2",
+            "text": "Whenever another Zombie enters the battlefield under your control, you may tap target artifact or creature"
+        },
+        {
+            "name": "Bitterblade Warrior",
+            "cmc": 2,
+            "supertypes": [],
+            "subtypes": [
+                "jackal",
+                "warrior"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "Green"
+            ],
+            "rarity": "Common",
+            "multiverseid": 17,
+            "power": "2",
+            "toughness": "2",
+            "text": "You may exert Bitterblade Warrior as it attacks. When you do, it gains +1/+0 and gains deathtouch until end of turn",
+            "attackingPower": "3"
+        },
+        {
+            "name": "Blazing Volley",
+            "cmc": 1,
+            "supertypes": [],
+            "subtypes": [],
+            "types": [
+                "sorcery"
+            ],
+            "colors": [
+                "Red"
+            ],
+            "rarity": "Common",
+            "multiverseid": 18,
+            "text": "Blazing Volley deals 1 damage to each creature your opponents control"
+        },
+        {
+            "name": "Blighted Bat",
+            "cmc": 3,
+            "supertypes": [],
+            "subtypes": [
+                "zombie",
+                "bat"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "Black"
+            ],
+            "rarity": "Common",
+            "multiverseid": 19,
+            "power": "2",
+            "toughness": "1",
+            "text": "Flying\n{1}: Blighted Bat gains haste until end of turn"
+        },
+        {
+            "name": "Bloodlust Inciter",
+            "cmc": 1,
+            "supertypes": [],
+            "subtypes": [
+                "human",
+                "warrior"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "Red"
+            ],
+            "rarity": "Common",
+            "multiverseid": 20,
+            "power": "1",
+            "toughness": "1",
+            "text": "{T}: Target creature gains haste until end of turn"
+        },
+        {
+            "name": "Bloodrage Brawler",
+            "cmc": 2,
+            "supertypes": [],
+            "subtypes": [
+                "minotaur",
+                "warrior"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "Red"
+            ],
+            "rarity": "Uncommon",
+            "multiverseid": 21,
+            "power": "4",
+            "toughness": "3",
+            "text": "When Bloodrage Brawler enters the battlefield, discard a card"
+        },
+        {
+            "name": "Bone Picker",
+            "cmc": 4,
+            "supertypes": [],
+            "subtypes": [
+                "bird"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "Black"
+            ],
+            "rarity": "Uncommon",
+            "multiverseid": 22,
+            "power": "3",
+            "toughness": "2",
+            "text": "Bone Picker costs {3} less to cast if a creature died this turn\nFlying, deathtouch"
+        },
+        {
+            "name": "Bontu the Glorified",
+            "cmc": 3,
+            "supertypes": [
+                "legendary"
+            ],
+            "subtypes": [
+                "god"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "Black"
+            ],
+            "rarity": "Mythic",
+            "multiverseid": 23,
+            "power": "4",
+            "toughness": "6",
+            "text": "Menace, indestructible\nBontu the Glorified can't attack or block unless a creature died under your control this turn\n{1}{B}, Sacrifice another creature: Scry 1. Each opponent loses 1 life and you gain 1 life"
+        },
+        {
+            "name": "Bontu's Monument",
+            "cmc": 3,
+            "supertypes": [
+                "legendary"
+            ],
+            "subtypes": [],
+            "types": [
+                "artifact"
+            ],
+            "colors": null,
+            "rarity": "Uncommon",
+            "multiverseid": 24,
+            "text": "Black creature spells you cast cost {1} less to cast\nWhenever you cast a creature spell, each opponent loses 1 life and you gain 1 life"
+        },
+        {
+            "name": "Bounty of the Luxa",
+            "cmc": 4,
+            "supertypes": [],
+            "subtypes": [],
+            "types": [
+                "enchantment"
+            ],
+            "colors": [
+                "Green",
+                "Blue"
+            ],
+            "rarity": "Rare",
+            "multiverseid": 25,
+            "text": "At the beginning of your precombat main phase, remove all flood counters from Bounty of the Luxa. If no counters were removed this way, put a flood counter on Bounty of the Luxa and draw a card. Otherwise, add {C}{G}{U} to your mana pool"
+        },
+        {
+            "name": "Brute Strength",
+            "cmc": 2,
+            "supertypes": [],
+            "subtypes": [],
+            "types": [
+                "instant"
+            ],
+            "colors": [
+                "Red"
+            ],
+            "rarity": "Common",
+            "multiverseid": 26,
+            "text": "Target creature gets +3/+1 and gains trample until end of turn"
+        },
+        {
+            "name": "By Force",
+            "cmc": 1,
+            "supertypes": [],
+            "subtypes": [],
+            "types": [
+                "sorcery"
+            ],
+            "colors": [
+                "Red"
+            ],
+            "rarity": "Uncommon",
+            "multiverseid": 27,
+            "text": "Destroy X target artifacts"
+        },
+        {
+            "name": "Cancel",
+            "cmc": 3,
+            "supertypes": [],
+            "subtypes": [],
+            "types": [
+                "instant"
+            ],
+            "colors": [
+                "Blue"
+            ],
+            "rarity": "Common",
+            "multiverseid": 28,
+            "text": "Counter target spell"
+        },
+        {
+            "name": "Canyon Slough",
+            "cmc": 0,
+            "supertypes": [],
+            "subtypes": [
+                "swamp",
+                "mountain"
+            ],
+            "types": [
+                "land"
+            ],
+            "colors": null,
+            "rarity": "Rare",
+            "multiverseid": 29,
+            "text": "Canyon Slough enters the battlefield tapped\nCycling {2}"
+        },
+        {
+            "name": "Cartouche of Ambition",
+            "cmc": 3,
+            "supertypes": [],
+            "subtypes": [
+                "aura",
+                "cartouche"
+            ],
+            "types": [
+                "enchantment"
+            ],
+            "colors": [
+                "Black"
+            ],
+            "rarity": "Common",
+            "multiverseid": 30,
+            "text": "Enchant creature you control\nWhen Cartouche of Ambition enters the battlefield, you may put a -1/-1 counter on target creature\nEnchanted creature gets +1/+1 and has lifelink"
+        },
+        {
+            "name": "Cartouche of Knowledge",
+            "cmc": 2,
+            "supertypes": [],
+            "subtypes": [
+                "aura",
+                "cartouche"
+            ],
+            "types": [
+                "enchantment"
+            ],
+            "colors": [
+                "Blue"
+            ],
+            "rarity": "Common",
+            "multiverseid": 31,
+            "text": "Enchant creature you control\nWhen Cartouche of Knowledge enters the battlefield, draw a card\nEnchanted creature gets +1/+1 and flying"
+        },
+        {
+            "name": "Cartouche of Solidarity",
+            "cmc": 1,
+            "supertypes": [],
+            "subtypes": [
+                "aura",
+                "cartouche"
+            ],
+            "types": [
+                "enchantment"
+            ],
+            "colors": [
+                "White"
+            ],
+            "rarity": "Common",
+            "multiverseid": 32,
+            "text": "Enchant creature you control\nWhen Cartouche of Solidarity enters the battlefield, create a 1/1 white Warrior creature token with vigilance\nEnchanted creature gets +1/+1 and has first strike"
+        },
+        {
+            "name": "Cartouche of Strength",
+            "cmc": 3,
+            "supertypes": [],
+            "subtypes": [
+                "aura",
+                "cartouche"
+            ],
+            "types": [
+                "enchantment"
+            ],
+            "colors": [
+                "Green"
+            ],
+            "rarity": "Common",
+            "multiverseid": 33,
+            "text": "Enchant creature you control\nWhen Cartouche of Strength enters the battlefield, you may have enchanted creature fight target creature an opponent controls\nEnchanted creature gets +1/+1 and has trample"
+        },
+        {
+            "name": "Cartouche of Zeal",
+            "cmc": 1,
+            "supertypes": [],
+            "subtypes": [
+                "aura",
+                "cartouche"
+            ],
+            "types": [
+                "enchantment"
+            ],
+            "colors": [
+                "Red"
+            ],
+            "rarity": "Common",
+            "multiverseid": 34,
+            "text": "Enchant creature you control\nWhen Cartouche of Zeal enters the battlefield, target creature can't block this turn\nEnchanted creature gets +1/+1 and has haste"
+        },
+        {
+            "name": "Cascading Cataracts",
+            "cmc": 0,
+            "supertypes": [],
+            "subtypes": [],
+            "types": [
+                "land"
+            ],
+            "colors": null,
+            "rarity": "Rare",
+            "multiverseid": 35,
+            "text": "Indestructible\n{T}: Add {C} to your mana pool\n{5}, {T}: Add five mana in any combination of colors to your mana pool"
+        },
+        {
+            "name": "Cast Out",
+            "cmc": 4,
+            "supertypes": [],
+            "subtypes": [],
+            "types": [
+                "enchantment"
+            ],
+            "colors": [
+                "White"
+            ],
+            "rarity": "Uncommon",
+            "multiverseid": 36,
+            "text": "Flash\nWhen Cast Out enters the battlefield, exile target nonland permanent an opponent controls until Cast Out leaves the battlefield\nCycling {W}"
+        },
+        {
+            "name": "Censor",
+            "cmc": 2,
+            "supertypes": [],
+            "subtypes": [],
+            "types": [
+                "instant"
+            ],
+            "colors": [
+                "Blue"
+            ],
+            "rarity": "Uncommon",
+            "multiverseid": 37,
+            "text": "Counter target spell unless its controller pays {1}\nCycling {U}"
+        },
+        {
+            "name": "Champion of Rhonas",
+            "cmc": 4,
+            "supertypes": [],
+            "subtypes": [
+                "jackal",
+                "warrior"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "Green"
+            ],
+            "rarity": "Rare",
+            "multiverseid": 38,
+            "power": "3",
+            "toughness": "3",
+            "text": "You may exert Champion of Rhonas as it attacks. When you do, you may put a creature card from your hand onto the battlefield"
+        },
+        {
+            "name": "Channeler Initiate",
+            "cmc": 2,
+            "supertypes": [],
+            "subtypes": [
+                "human",
+                "druid"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "Green"
+            ],
+            "rarity": "Rare",
+            "multiverseid": 39,
+            "power": "3",
+            "toughness": "4",
+            "text": "When Channeler Initiate enters the battlefield, put three -1/-1 counters on target creature you control\n{T}, Remove a -1/-1 counter from Channeler Initiate: Add one mana of any color to your mana pool"
+        },
+        {
+            "name": "Colossapede",
+            "cmc": 5,
+            "supertypes": [],
+            "subtypes": [
+                "insect"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "Green"
+            ],
+            "rarity": "Common",
+            "multiverseid": 40,
+            "power": "5",
+            "toughness": "5",
+            "text": ""
+        },
+        {
+            "name": "Combat Celebrant",
+            "cmc": 3,
+            "supertypes": [],
+            "subtypes": [
+                "human",
+                "warrior"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "Red"
+            ],
+            "rarity": "Mythic",
+            "multiverseid": 41,
+            "power": "4",
+            "toughness": "1",
+            "text": "If Combat Celebrant hasn't been exerted this turn, you may exert it as it attacks. When you do, untap all other creatures you control and after this phase, there is an additional combat phase"
+        },
+        {
+            "name": "Commit / Memory",
+            "cmc": 4,
+            "supertypes": [],
+            "subtypes": [],
+            "types": [
+                "instant"
+            ],
+            "colors": [
+                "Blue"
+            ],
+            "rarity": "Rare",
+            "multiverseid": 42,
+            "text": "Put target spell or non land permanent into its owner's library second from the top\n----\n4UU\nSorcery\nAftermath\nEach player shuffles his or her hand and graveyard into his or her library, then draws seven cards"
+        },
+        {
+            "name": "Compelling Argument",
+            "cmc": 2,
+            "supertypes": [],
+            "subtypes": [],
+            "types": [
+                "sorcery"
+            ],
+            "colors": [
+                "Blue"
+            ],
+            "rarity": "Common",
+            "multiverseid": 43,
+            "text": "Target player puts the top five cards of his or her library into his or her graveyard\nCycling {U}"
+        },
+        {
+            "name": "Compulsory Rest",
+            "cmc": 2,
+            "supertypes": [],
+            "subtypes": [
+                "aura"
+            ],
+            "types": [
+                "enchantment"
+            ],
+            "colors": [
+                "White"
+            ],
+            "rarity": "Common",
+            "multiverseid": 44,
+            "text": "Enchant creature\nEnchanted creature can't attack or block\nEnchanted creature has"
+        },
+        {
+            "name": "Consuming Fervor",
+            "cmc": 1,
+            "supertypes": [],
+            "subtypes": [
+                "aura"
+            ],
+            "types": [
+                "enchantment"
+            ],
+            "colors": [
+                "Red"
+            ],
+            "rarity": "Uncommon",
+            "multiverseid": 45,
+            "text": "Enchant creature\nEnchanted creature gets +3/+3 and has"
+        },
+        {
+            "name": "Cradle of the Accursed",
+            "cmc": 0,
+            "supertypes": [],
+            "subtypes": [
+                "desert"
+            ],
+            "types": [
+                "land"
+            ],
+            "colors": null,
+            "rarity": "Common",
+            "multiverseid": 46,
+            "text": "{T}: Add {C} to your mana pool\n{3}, {T}, Sacrifice Cradle of the Accursed: Create a 2/2 black Zombie creature token. Activate this ability only any time you could cast a sorcery"
+        },
+        {
+            "name": "Crocodile of the Crossing",
+            "cmc": 4,
+            "supertypes": [
+                "- crocodile"
+            ],
+            "subtypes": [],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "Green"
+            ],
+            "rarity": "Uncommon",
+            "multiverseid": 47,
+            "power": "5",
+            "toughness": "4",
+            "text": "Haste\nWhen Crocodile of the Crossing enters the battlefield, put a -1/-1 counter on target creature you control"
+        },
+        {
+            "name": "Cruel Reality",
+            "cmc": 7,
+            "supertypes": [],
+            "subtypes": [
+                "aura",
+                "curse"
+            ],
+            "types": [
+                "enchantment"
+            ],
+            "colors": [
+                "Black"
+            ],
+            "rarity": "Mythic",
+            "multiverseid": 48,
+            "text": "Enchant player\nAt the beginning of enchanted player's upkeep, that player sacrifices a creature or planeswalker. If the player can't, he or she loses 5 life"
+        },
+        {
+            "name": "Cryptic Serpent",
+            "cmc": 7,
+            "supertypes": [],
+            "subtypes": [
+                "serpent"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "Blue"
+            ],
+            "rarity": "Uncommon",
+            "multiverseid": 49,
+            "power": "6",
+            "toughness": "5",
+            "text": "Cryptic Serpent costs {1} less to cast for each instant and sorcery card in your graveyard"
+        },
+        {
+            "name": "Curator of Mysteries",
+            "cmc": 4,
+            "supertypes": [],
+            "subtypes": [
+                "sphinx"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "Blue"
+            ],
+            "rarity": "Rare",
+            "multiverseid": 50,
+            "power": "0",
+            "toughness": "0",
+            "text": "Flying\nWhenever you cycle or discard another card, scry 1\nCycling {U}"
+        },
+        {
+            "name": "Cursed Minotaur",
+            "cmc": 3,
+            "supertypes": [],
+            "subtypes": [
+                "zombie",
+                "minotaur"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "Black"
+            ],
+            "rarity": "Common",
+            "multiverseid": 51,
+            "power": "3",
+            "toughness": "2",
+            "text": "Menace"
+        },
+        {
+            "name": "Cut / Ribbons",
+            "cmc": 2,
+            "supertypes": [],
+            "subtypes": [],
+            "types": [
+                "sorcery"
+            ],
+            "colors": [
+                "Red",
+                "Black"
+            ],
+            "rarity": "Rare",
+            "multiverseid": 52,
+            "text": "Cut deals 4 damage to target creature\n----\nXBB\nSorcery\nAftermath\nEach opponent loses X life"
+        },
+        {
+            "name": "Decimator Beetle",
+            "cmc": 5,
+            "supertypes": [],
+            "subtypes": [
+                "insect"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "Black",
+                "Green"
+            ],
+            "rarity": "Uncommon",
+            "multiverseid": 53,
+            "power": "4",
+            "toughness": "5",
+            "text": "When Decimator Beetle enters the battlefield, put a -1/-1 counter on target creature you control\nWhenever Decimator Beetle attacks, remove a -1/-1 counter from target creature you control and put a -1/-1 counter on up to one target creature defending player controls"
+        },
+        {
+            "name": "Decision Paralysis",
+            "cmc": 4,
+            "supertypes": [],
+            "subtypes": [],
+            "types": [
+                "instant"
+            ],
+            "colors": [
+                "Blue"
+            ],
+            "rarity": "Common",
+            "multiverseid": 54,
+            "text": "Tap up to two target creatures. Those creatures don't untap during their controller's next untap step"
+        },
+        {
+            "name": "Deem Worthy",
+            "cmc": 5,
+            "supertypes": [],
+            "subtypes": [],
+            "types": [
+                "instant"
+            ],
+            "colors": [
+                "Red"
+            ],
+            "rarity": "Uncommon",
+            "multiverseid": 55,
+            "text": "Deem Worthy deals 7 damage to target creature\nCycling {3}{R}\nWhen you cycle Deem Worthy, you may have it deal 2 damage to target creature"
+        },
+        {
+            "name": "Defiant Greatmaw",
+            "cmc": 3,
+            "supertypes": [],
+            "subtypes": [
+                "hippo"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "Green"
+            ],
+            "rarity": "Uncommon",
+            "multiverseid": 56,
+            "power": "4",
+            "toughness": "5",
+            "text": "When Defiant Greatmaw enters the battlefield, put two -1/-1 counters on target creature you control\nWhenever you put one or more -1/-1 counters on Defiant Greatmaw, remove a -1/-1 counter from another creature you control"
+        },
+        {
+            "name": "Desert Cerodon",
+            "cmc": 6,
+            "supertypes": [],
+            "subtypes": [
+                "beast"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "Red"
+            ],
+            "rarity": "Common",
+            "multiverseid": 57,
+            "power": "6",
+            "toughness": "4",
+            "text": "Cycling {R}"
+        },
+        {
+            "name": "Destined / Lead",
+            "cmc": 2,
+            "supertypes": [],
+            "subtypes": [],
+            "types": [
+                "instant"
+            ],
+            "colors": [
+                "Black",
+                "Green"
+            ],
+            "rarity": "Uncommon",
+            "multiverseid": 58,
+            "text": "Target creature gets +1/+0 and gains indestructible until end of turn\n----\n3G\nSorcery\nAftermath\nAll creatures able to block target creature this turn must do so"
+        },
+        {
+            "name": "Devoted Crop-Mate",
+            "cmc": 3,
+            "supertypes": [],
+            "subtypes": [
+                "human",
+                "warrior"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "White"
+            ],
+            "rarity": "Uncommon",
+            "multiverseid": 59,
+            "power": "3",
+            "toughness": "2",
+            "text": "You may exert Devoted Crop-Mate as it attacks. When you do, return target creature card with converted mana cost 2 or less from your graveyard to the battlefield"
+        },
+        {
+            "name": "Dispossess",
+            "cmc": 3,
+            "supertypes": [],
+            "subtypes": [],
+            "types": [
+                "sorcery"
+            ],
+            "colors": [
+                "Black"
+            ],
+            "rarity": "Rare",
+            "multiverseid": 60,
+            "text": "Choose an artifact card name. Search target opponent's graveyard, hand, and library for any number of cards with the chosen name and exile them. Then that player shuffles his or her library"
+        },
+        {
+            "name": "Dissenter's Deliverance",
+            "cmc": 2,
+            "supertypes": [],
+            "subtypes": [],
+            "types": [
+                "instant"
+            ],
+            "colors": [
+                "Green"
+            ],
+            "rarity": "Common",
+            "multiverseid": 61,
+            "text": "Destroy target artifact\nCycling {G}"
+        },
+        {
+            "name": "Djeru's Resolve",
+            "cmc": 1,
+            "supertypes": [],
+            "subtypes": [],
+            "types": [
+                "instant"
+            ],
+            "colors": [
+                "White"
+            ],
+            "rarity": "Common",
+            "multiverseid": 62,
+            "text": "Untap target creature. Prevent all damage that would be dealt to it this turn\nCycling {2}"
+        },
+        {
+            "name": "Doomed Dissenter",
+            "cmc": 2,
+            "supertypes": [],
+            "subtypes": [
+                "human"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "Black"
+            ],
+            "rarity": "Common",
+            "multiverseid": 63,
+            "power": "1",
+            "toughness": "1",
+            "text": "When Doomed Dissenter dies, create a 2/2 black Zombie creature token"
+        },
+        {
+            "name": "Drake Haven",
+            "cmc": 3,
+            "supertypes": [],
+            "subtypes": [],
+            "types": [
+                "enchantment"
+            ],
+            "colors": [
+                "Blue"
+            ],
+            "rarity": "Rare",
+            "multiverseid": 64,
+            "text": "Whenever you cycle or discard a card, you may pay {1}. If you do, create a 2/2 blue Drake creature token with flying"
+        },
+        {
+            "name": "Dread Wanderer",
+            "cmc": 1,
+            "supertypes": [],
+            "subtypes": [
+                "zombie",
+                "jackal"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "Black"
+            ],
+            "rarity": "Rare",
+            "multiverseid": 65,
+            "power": "2",
+            "toughness": "1",
+            "text": "Dread Wanderer enters the battlefield tapped\n{2}{B}: Return Dread Wanderer from your graveyard to the battlefield. Activate this ability only any time you could cast a sorcery and only if you have one of fewer cards in hand"
+        },
+        {
+            "name": "Dune Beetle",
+            "cmc": 2,
+            "supertypes": [],
+            "subtypes": [
+                "insect"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "Black"
+            ],
+            "rarity": "Common",
+            "multiverseid": 66,
+            "power": "1",
+            "toughness": "4",
+            "text": ""
+        },
+        {
+            "name": "Dusk / Dawn",
+            "cmc": 4,
+            "supertypes": [],
+            "subtypes": [],
+            "types": [
+                "sorcery"
+            ],
+            "colors": [
+                "White"
+            ],
+            "rarity": "Rare",
+            "multiverseid": 67,
+            "text": "Destroy all creatures with power 3 or greater\n----\n3WW\nSorcery\nAftermath\nReturn all creature cards with power 2 or less from your graveyard to your hand"
+        },
+        {
+            "name": "Edifice of Authority",
+            "cmc": 3,
+            "supertypes": [],
+            "subtypes": [],
+            "types": [
+                "artifact"
+            ],
+            "colors": null,
+            "rarity": "Uncommon",
+            "multiverseid": 68,
+            "text": "{1}, {T}: Target creature can't attack this turn. Put a brick counter on Edifice of Authority\n{1}, {T}: Until your next turn, target creature can't attack or block and its activated abilities can't be activated. Activate this ability only if there are three or more brick counters on Edifice of Authority"
+        },
+        {
+            "name": "Electrify",
+            "cmc": 4,
+            "supertypes": [],
+            "subtypes": [],
+            "types": [
+                "instant"
+            ],
+            "colors": [
+                "Red"
+            ],
+            "rarity": "Common",
+            "multiverseid": 69,
+            "text": "Electrify deals 4 damage to target creature"
+        },
+        {
+            "name": "Embalmer's Tools",
+            "cmc": 2,
+            "supertypes": [],
+            "subtypes": [],
+            "types": [
+                "artifact"
+            ],
+            "colors": null,
+            "rarity": "Uncommon",
+            "multiverseid": 70,
+            "text": "Activated abilities of creature cards in your graveyard cost {1} less to activate\nTap an untapped Zombie you control: Target player puts the top card of his or her library into his or her graveyard"
+        },
+        {
+            "name": "Emberhorn Minotaur",
+            "cmc": 4,
+            "supertypes": [],
+            "subtypes": [
+                "minotaur",
+                "warrior"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "Red"
+            ],
+            "rarity": "Common",
+            "multiverseid": 71,
+            "power": "4",
+            "toughness": "3",
+            "text": "You may exert Emberhorn Minotaur as it attacks. When you do, it gets +1/+1 and gains menace until end of turn",
+            "attackingPower": "5",
+            "attackingToughness": "4"
+        },
+        {
+            "name": "Enigma Drake",
+            "cmc": 3,
+            "supertypes": [],
+            "subtypes": [
+                "drake"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "Blue",
+                "Red"
+            ],
+            "rarity": "Uncommon",
+            "multiverseid": 72,
+            "power": "*",
+            "toughness": "4",
+            "text": "Flying\nEnigma Drake's power is equal to the number of instant and sorcery cards in your graveyard"
+        },
+        {
+            "name": "Essence Scatter",
+            "cmc": 2,
+            "supertypes": [],
+            "subtypes": [],
+            "types": [
+                "instant"
+            ],
+            "colors": [
+                "Blue"
+            ],
+            "rarity": "Common",
+            "multiverseid": 73,
+            "text": "Counter target creature spell"
+        },
+        {
+            "name": "Evolving Wilds",
+            "cmc": 0,
+            "supertypes": [],
+            "subtypes": [],
+            "types": [
+                "land"
+            ],
+            "colors": null,
+            "rarity": "Common",
+            "multiverseid": 74,
+            "text": "{T}, Sacrifice Evolving Wilds: Search your library for a basic land card and put it onto the battlefield tapped. Then shuffle your library"
+        },
+        {
+            "name": "Exemplar of Strength",
+            "cmc": 2,
+            "supertypes": [],
+            "subtypes": [
+                "human",
+                "warrior"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "Green"
+            ],
+            "rarity": "Uncommon",
+            "multiverseid": 75,
+            "power": "4",
+            "toughness": "4",
+            "text": "When Exemplar of Strength enters the battlefield, put three -1/-1 counters on target creature you control\nWhenever Exemplar of Strength attacks, remove a -1/-1 counter from it. If you do, you gain 1 life"
+        },
+        {
+            "name": "Failure / Comply",
+            "cmc": 2,
+            "supertypes": [],
+            "subtypes": [],
+            "types": [
+                "instant"
+            ],
+            "colors": [
+                "Blue",
+                "White"
+            ],
+            "rarity": "Rare",
+            "multiverseid": 76,
+            "text": "Return target spell to its owner's hand\n----\nW\nSorcery\nAftermath\nChoose a card name. Until your next turn, your opponents can't cast spells with the chosen name"
+        },
+        {
+            "name": "Faith of the Devoted",
+            "cmc": 3,
+            "supertypes": [],
+            "subtypes": [],
+            "types": [
+                "enchantment"
+            ],
+            "colors": [
+                "Black"
+            ],
+            "rarity": "Uncommon",
+            "multiverseid": 77,
+            "text": "Whenever you cycle or discard a card, you may pay {1}. If you do each opponent loses 2 life and you gain 2 life"
+        },
+        {
+            "name": "Fan Bearer",
+            "cmc": 1,
+            "supertypes": [],
+            "subtypes": [
+                "zombie"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "White"
+            ],
+            "rarity": "Common",
+            "multiverseid": 78,
+            "power": "1",
+            "toughness": "2",
+            "text": "{2}, {T}: Tap target creature"
+        },
+        {
+            "name": "Festering Mummy",
+            "cmc": 1,
+            "supertypes": [],
+            "subtypes": [
+                "zombie"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "Black"
+            ],
+            "rarity": "Common",
+            "multiverseid": 79,
+            "power": "1",
+            "toughness": "1",
+            "text": "When Festering Mummy dies, you may put a -1/-1 counter on target creature"
+        },
+        {
+            "name": "Fetid Pool",
+            "cmc": 0,
+            "supertypes": [],
+            "subtypes": [
+                "island",
+                "swamp"
+            ],
+            "types": [
+                "land"
+            ],
+            "colors": null,
+            "rarity": "Rare",
+            "multiverseid": 80,
+            "text": "Fetid Pool enters the battlefield tapped\nCycling {2}"
+        },
+        {
+            "name": "Final Reward",
+            "cmc": 5,
+            "supertypes": [],
+            "subtypes": [],
+            "types": [
+                "instant"
+            ],
+            "colors": [
+                "Black"
+            ],
+            "rarity": "Common",
+            "multiverseid": 81,
+            "text": "Exile target creature"
+        },
+        {
+            "name": "Flameblade Adept",
+            "cmc": 1,
+            "supertypes": [],
+            "subtypes": [
+                "jackal",
+                "warrior"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "Red"
+            ],
+            "rarity": "Uncommon",
+            "multiverseid": 82,
+            "power": "1",
+            "toughness": "2",
+            "text": "Menace\nWhenever you cycle or discard a card, Flameblade Adept gets +1/+0 until end of turn"
+        },
+        {
+            "name": "Fling",
+            "cmc": 2,
+            "supertypes": [],
+            "subtypes": [],
+            "types": [
+                "instant"
+            ],
+            "colors": [
+                "Red"
+            ],
+            "rarity": "Common",
+            "multiverseid": 83,
+            "text": "As an additional cost to cast Fling, sacrifice a creature\nFling deals damage equal to the sacrificed creature's power to target creature or player"
+        },
+        {
+            "name": "Floodwaters",
+            "cmc": 6,
+            "supertypes": [],
+            "subtypes": [],
+            "types": [
+                "sorcery"
+            ],
+            "colors": [
+                "Blue"
+            ],
+            "rarity": "Common",
+            "multiverseid": 84,
+            "text": "Return up to two target creatures to their owners' hands\nCycling {2}"
+        },
+        {
+            "name": "Forsake the Worldly",
+            "cmc": 3,
+            "supertypes": [],
+            "subtypes": [],
+            "types": [
+                "instant"
+            ],
+            "colors": [
+                "White"
+            ],
+            "rarity": "Common",
+            "multiverseid": 85,
+            "text": "Exile target artifact or enchantment\nCycling {2}"
+        },
+        {
+            "name": "Galestrike",
+            "cmc": 3,
+            "supertypes": [],
+            "subtypes": [],
+            "types": [
+                "instant"
+            ],
+            "colors": [
+                "Blue"
+            ],
+            "rarity": "Uncommon",
+            "multiverseid": 86,
+            "text": "Return target tapped creature to its owner's hand\nDraw a card"
+        },
+        {
+            "name": "Gate to the Afterlife",
+            "cmc": 3,
+            "supertypes": [],
+            "subtypes": [],
+            "types": [
+                "artifact"
+            ],
+            "colors": null,
+            "rarity": "Uncommon",
+            "multiverseid": 87,
+            "text": "Whenever a nontoken creature you control dies, you gain 1 life. Then you may draw a card. If you do, discard a card\n{2}, {T}, Sacrifice Gate to the Afterlife: Search your graveyard, hand, and/or library for a card named God-Pharaoh's Gift and put it onto the battlefield. If you search your library this way, shuffle it\nActivate this ability only if there are six or more creature cards in your graveyard"
+        },
+        {
+            "name": "Giant Spider",
+            "cmc": 4,
+            "supertypes": [],
+            "subtypes": [
+                "spider"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "Green"
+            ],
+            "rarity": "Common",
+            "multiverseid": 88,
+            "power": "2",
+            "toughness": "4",
+            "text": "Reach"
+        },
+        {
+            "name": "Gideon of the Trials",
+            "cmc": 3,
+            "supertypes": [],
+            "subtypes": [
+                "gideon"
+            ],
+            "types": [
+                "planeswalker"
+            ],
+            "colors": [
+                "White"
+            ],
+            "rarity": "Mythic",
+            "multiverseid": 89,
+            "text": "3\n+1: Until your next turn, prevent all damage target permanent would deal\n0: Until end of turn, Gideon of the Trials becomes a 4/4 Human Soldier creature with indestructible that's still a planeswalker. Prevent all damage that would be dealt to him this turn\n0: You get an emblem with"
+        },
+        {
+            "name": "Gideon's Intervention",
+            "cmc": 4,
+            "supertypes": [],
+            "subtypes": [],
+            "types": [
+                "enchantment"
+            ],
+            "colors": [
+                "White"
+            ],
+            "rarity": "Rare",
+            "multiverseid": 90,
+            "text": "As Gideon's Intervention enters the battlefield, choose a card name\nYour opponents can't cast spells with the chosen name\nPrevent all damage that would be dealt to you and permanents you control by sources with the chosen name"
+        },
+        {
+            "name": "Gift of Paradise",
+            "cmc": 3,
+            "supertypes": [],
+            "subtypes": [
+                "aura"
+            ],
+            "types": [
+                "enchantment"
+            ],
+            "colors": [
+                "Green"
+            ],
+            "rarity": "Common",
+            "multiverseid": 91,
+            "text": "Enchant land\nWhen Gift of Paradise enters the battlefield, you gain 3 life\nEnchanted land has"
+        },
+        {
+            "name": "Glorious End",
+            "cmc": 3,
+            "supertypes": [],
+            "subtypes": [],
+            "types": [
+                "instant"
+            ],
+            "colors": [
+                "Red"
+            ],
+            "rarity": "Mythic",
+            "multiverseid": 92,
+            "text": "End the turn\nAt the beginning of your next end step, you lose the game"
+        },
+        {
+            "name": "Glory-Bound Initiate",
+            "cmc": 2,
+            "supertypes": [],
+            "subtypes": [
+                "human",
+                "warrior"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "White"
+            ],
+            "rarity": "Rare",
+            "multiverseid": 93,
+            "power": "3",
+            "toughness": "1",
+            "text": "You may exert Glory-Bound Initiate as it attacks. When you do, it gets +1/+3 and gains lifelink until end of turn",
+            "attackingPower": "4",
+            "attackingToughness": "4"
+        },
+        {
+            "name": "Glorybringer",
+            "cmc": 5,
+            "supertypes": [],
+            "subtypes": [
+                "dragon"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "Red"
+            ],
+            "rarity": "Rare",
+            "multiverseid": 94,
+            "power": "4",
+            "toughness": "4",
+            "text": "Flying, haste\nYou may exert Glorybringer as it attacks. When you do, it deals 4 damage to target non-Dragon creature an opponent controls"
+        },
+        {
+            "name": "Glyph Keeper",
+            "cmc": 5,
+            "supertypes": [],
+            "subtypes": [
+                "sphinx"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "Blue"
+            ],
+            "rarity": "Rare",
+            "multiverseid": 95,
+            "power": "5",
+            "toughness": "3",
+            "text": "Flying\nWhenever Glyph Keeper becomes the target of a spell or ability for the first time each turn, counter that spell or ability\nEmbalm {5}{U}{U}"
+        },
+        {
+            "name": "Grasping Dunes",
+            "cmc": 0,
+            "supertypes": [],
+            "subtypes": [
+                "desert"
+            ],
+            "types": [
+                "land"
+            ],
+            "colors": null,
+            "rarity": "Uncommon",
+            "multiverseid": 96,
+            "text": "{T}: Add {C} to your mana pool\n{1}, {T}, Sacrifice Grasping Dunes: Put a -1/-1 counter target creature. Activate this ability only any time you could cast a sorcery"
+        },
+        {
+            "name": "Gravedigger",
+            "cmc": 4,
+            "supertypes": [],
+            "subtypes": [
+                "zombie"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "Black"
+            ],
+            "rarity": "Uncommon",
+            "multiverseid": 97,
+            "power": "2",
+            "toughness": "2",
+            "text": "When Gravedigger enters the battlefield, you may return target creature card from your graveyard to your hand"
+        },
+        {
+            "name": "Greater Sandwurm",
+            "cmc": 7,
+            "supertypes": [],
+            "subtypes": [
+                "wurm"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "Green"
+            ],
+            "rarity": "Common",
+            "multiverseid": 98,
+            "power": "7",
+            "toughness": "7",
+            "text": "Greater Sandwurm can't be blocked by creatures with power 2 or less\nCycling {2}"
+        },
+        {
+            "name": "Grim Strider",
+            "cmc": 4,
+            "supertypes": [],
+            "subtypes": [
+                "horror"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "Black"
+            ],
+            "rarity": "Uncommon",
+            "multiverseid": 99,
+            "power": "6",
+            "toughness": "6",
+            "text": "Grim Strider gets -1/-1 for each card in your hand"
+        },
+        {
+            "name": "Gust Walker",
+            "cmc": 2,
+            "supertypes": [],
+            "subtypes": [
+                "human",
+                "wizard"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "White"
+            ],
+            "rarity": "Common",
+            "multiverseid": 100,
+            "power": "2",
+            "toughness": "2",
+            "text": "You may exert Gust Walker as it attacks. When you do, it gets +1/+1 and gains flying until end of turn",
+            "attackingPower": "3",
+            "attackingToughness": "3"
+        },
+        {
+            "name": "Hapatra's Mark",
+            "cmc": 1,
+            "supertypes": [],
+            "subtypes": [],
+            "types": [
+                "instant"
+            ],
+            "colors": [
+                "Green"
+            ],
+            "rarity": "Uncommon",
+            "multiverseid": 101,
+            "text": "Target creature you control gains hexproof until end of turn. Remove all -1/-1 counters from it"
+        },
+        {
+            "name": "Hapatra, Vizier of Poisons",
+            "cmc": 2,
+            "supertypes": [
+                "legendary"
+            ],
+            "subtypes": [
+                "human",
+                "cleric"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "Black",
+                "Green"
+            ],
+            "rarity": "Rare",
+            "multiverseid": 102,
+            "power": "2",
+            "toughness": "2",
+            "text": "Whenever Hapatra, Vizier of Poisons deals combat damage to a player, you may put a -1/-1 counter on target creature\nWhenever you put one or more -1/-1 counters on a creature, create a 1/1 green Snake creature token with deathtouch"
+        },
+        {
+            "name": "Harsh Mentor",
+            "cmc": 2,
+            "supertypes": [],
+            "subtypes": [
+                "human",
+                "cleric"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "Red"
+            ],
+            "rarity": "Rare",
+            "multiverseid": 103,
+            "power": "2",
+            "toughness": "2",
+            "text": "Whenever an opponent activates an ability of an artifact, creature, or land on the battlefield, if it isn't a mana ability, Harsh Mentor deals 2 damage to that player"
+        },
+        {
+            "name": "Harvest Season",
+            "cmc": 3,
+            "supertypes": [],
+            "subtypes": [],
+            "types": [
+                "sorcery"
+            ],
+            "colors": [
+                "Green"
+            ],
+            "rarity": "Rare",
+            "multiverseid": 104,
+            "text": "Search your library for up to X basic land cards, where X is the number of tapped creatures you control, and put those cards onto the battlefield tapped. Then shuffle your library"
+        },
+        {
+            "name": "Haze of Pollen",
+            "cmc": 2,
+            "supertypes": [],
+            "subtypes": [],
+            "types": [
+                "instant"
+            ],
+            "colors": [
+                "Green"
+            ],
+            "rarity": "Common",
+            "multiverseid": 105,
+            "text": "Prevent all combat damage that would be dealt this turn\nCycling {3}"
+        },
+        {
+            "name": "Hazoret the Fervent",
+            "cmc": 4,
+            "supertypes": [
+                "legendary"
+            ],
+            "subtypes": [
+                "god"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "Red"
+            ],
+            "rarity": "Mythic",
+            "multiverseid": 106,
+            "power": "5",
+            "toughness": "4",
+            "text": "Indestructible, haste\nHazoret the Fervent can't attack or block unless you have one or fewer cards in hand\n{2}{R}, Discard a card: Hazoret deals 2 damage to each opponent"
+        },
+        {
+            "name": "Hazoret's Favor",
+            "cmc": 3,
+            "supertypes": [],
+            "subtypes": [],
+            "types": [
+                "enchantment"
+            ],
+            "colors": [
+                "Red"
+            ],
+            "rarity": "Rare",
+            "multiverseid": 107,
+            "text": "At the beginning of combat on your turn, you may have target creature you control get +2/+0 and gain haste until end of turn. If you do, sacrifice it at the beginning of the next end step"
+        },
+        {
+            "name": "Hazoret's Monument",
+            "cmc": 3,
+            "supertypes": [
+                "legendary"
+            ],
+            "subtypes": [],
+            "types": [
+                "artifact"
+            ],
+            "colors": null,
+            "rarity": "Uncommon",
+            "multiverseid": 108,
+            "text": "Red creature spells you cast cost {1} less to cast\nWhenever you cast a creature spell, you may discard a card. If you do, draw a card"
+        },
+        {
+            "name": "Heart-Piercer Manticore",
+            "cmc": 4,
+            "supertypes": [],
+            "subtypes": [
+                "manticore"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "Red"
+            ],
+            "rarity": "Rare",
+            "multiverseid": 109,
+            "power": "4",
+            "toughness": "3",
+            "text": "When Heart-Piercer Manticore enters the battlefield, you may sacrifice another creature. When you do, Heart-Piercer Manticore deals damage equal to that creature's power to target creature or player\nEmbalm {5}{R}"
+        },
+        {
+            "name": "Heaven / Earth",
+            "cmc": 1,
+            "supertypes": [],
+            "subtypes": [],
+            "types": [
+                "instant"
+            ],
+            "colors": [
+                "Green",
+                "Red"
+            ],
+            "rarity": "Rare",
+            "multiverseid": 110,
+            "text": "Heaven deals X damage to each creature with flying\n----\nXRR\nSorcery\nAftermath\nEarth deals X damage to each creature without flying"
+        },
+        {
+            "name": "Hekma Sentinels",
+            "cmc": 3,
+            "supertypes": [],
+            "subtypes": [
+                "human",
+                "cleric"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "Blue"
+            ],
+            "rarity": "Common",
+            "multiverseid": 111,
+            "power": "2",
+            "toughness": "3",
+            "text": "Whenever you cycle or discard a card, Hekma Sentinels gets +1/+1 until end of turn"
+        },
+        {
+            "name": "Hieroglyphic Illumination",
+            "cmc": 4,
+            "supertypes": [],
+            "subtypes": [],
+            "types": [
+                "instant"
+            ],
+            "colors": [
+                "Blue"
+            ],
+            "rarity": "Common",
+            "multiverseid": 112,
+            "text": "Draw two cards\nCycling {U}"
+        },
+        {
+            "name": "Honed Khopesh",
+            "cmc": 1,
+            "supertypes": [],
+            "subtypes": [
+                "equipment"
+            ],
+            "types": [
+                "artifact"
+            ],
+            "colors": null,
+            "rarity": "Common",
+            "multiverseid": 113,
+            "text": "Equipped creature gets +1/+1\nEquip {1}"
+        },
+        {
+            "name": "Honored Crop-Captain",
+            "cmc": 2,
+            "supertypes": [],
+            "subtypes": [
+                "human",
+                "warrior"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "Red",
+                "White"
+            ],
+            "rarity": "Uncommon",
+            "multiverseid": 114,
+            "power": "3",
+            "toughness": "2",
+            "text": "Whenever Honored Crop-Champion attacks, other attacking creatures get +1/+0 until end of turn"
+        },
+        {
+            "name": "Honored Hydra",
+            "cmc": 6,
+            "supertypes": [],
+            "subtypes": [
+                "snake",
+                "hydra"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "Green"
+            ],
+            "rarity": "Rare",
+            "multiverseid": 115,
+            "power": "6",
+            "toughness": "6",
+            "text": "Trample\nEmbalm {3}{G}"
+        },
+        {
+            "name": "Hooded Brawler",
+            "cmc": 3,
+            "supertypes": [],
+            "subtypes": [
+                "naga",
+                "warrior"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "Green"
+            ],
+            "rarity": "Common",
+            "multiverseid": 116,
+            "power": "3",
+            "toughness": "2",
+            "text": "You may exert Hooded Brawler as it attacks. When you do, it gains +2/+2 until end of turn",
+            "attackingPower": "5",
+            "attackingToughness": "4"
+        },
+        {
+            "name": "Horror of the Broken Lands",
+            "cmc": 5,
+            "supertypes": [],
+            "subtypes": [
+                "horror"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "Black"
+            ],
+            "rarity": "Common",
+            "multiverseid": 117,
+            "power": "4",
+            "toughness": "4",
+            "text": "Whenever you cycle or discard another card, Horror of the Broken Lands gets +2/+1 until end of turn\nCycling {B}"
+        },
+        {
+            "name": "Hyena Pack",
+            "cmc": 4,
+            "supertypes": [],
+            "subtypes": [
+                "hyena"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "Red"
+            ],
+            "rarity": "Common",
+            "multiverseid": 118,
+            "power": "3",
+            "toughness": "4",
+            "text": ""
+        },
+        {
+            "name": "Illusory Wrappings",
+            "cmc": 3,
+            "supertypes": [],
+            "subtypes": [
+                "aura"
+            ],
+            "types": [
+                "enchantment"
+            ],
+            "colors": [
+                "Blue"
+            ],
+            "rarity": "Common",
+            "multiverseid": 119,
+            "text": "Enchant creature\nEnchanted creature has base power and toughness 0/2"
+        },
+        {
+            "name": "Impeccable Timing",
+            "cmc": 2,
+            "supertypes": [],
+            "subtypes": [],
+            "types": [
+                "instant"
+            ],
+            "colors": [
+                "White"
+            ],
+            "rarity": "Common",
+            "multiverseid": 120,
+            "text": "Impeccable Timing deals 3 damage to target attacking or blocking creature"
+        },
+        {
+            "name": "In Oketra's Name",
+            "cmc": 2,
+            "supertypes": [],
+            "subtypes": [],
+            "types": [
+                "instant"
+            ],
+            "colors": [
+                "White"
+            ],
+            "rarity": "Common",
+            "multiverseid": 121,
+            "text": "Zombies you control get +2/+1 until end of turn. Other creatures you control get +1/+1 until end of turn"
+        },
+        {
+            "name": "Initiate's Companion",
+            "cmc": 2,
+            "supertypes": [],
+            "subtypes": [
+                "cat"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "Green"
+            ],
+            "rarity": "Common",
+            "multiverseid": 122,
+            "power": "3",
+            "toughness": "1",
+            "text": "Whenever Initiate's Companion deals combat damage to a player, untap target creature or land"
+        },
+        {
+            "name": "Insult / Injury",
+            "cmc": 3,
+            "supertypes": [],
+            "subtypes": [],
+            "types": [
+                "sorcery"
+            ],
+            "colors": [
+                "Red"
+            ],
+            "rarity": "Rare",
+            "multiverseid": 123,
+            "text": "Damage can't be prevented this turn. If a source you control would deal damage this turn, it deals double that damage instead\n----\n2R\nSorcery\nAftermath\nInjury deals 2 damage to target creature and 2 damage to target player"
+        },
+        {
+            "name": "Irrigated Farmland",
+            "cmc": 0,
+            "supertypes": [],
+            "subtypes": [
+                "plains",
+                "island"
+            ],
+            "types": [
+                "land"
+            ],
+            "colors": null,
+            "rarity": "Rare",
+            "multiverseid": 124,
+            "text": "Irrigated Farmland enters the battlefield tapped\nCycling {2}"
+        },
+        {
+            "name": "Kefnet the Mindful",
+            "cmc": 3,
+            "supertypes": [
+                "legendary"
+            ],
+            "subtypes": [
+                "god"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "Blue"
+            ],
+            "rarity": "Mythic",
+            "multiverseid": 125,
+            "power": "5",
+            "toughness": "5",
+            "text": "Flying, indestructible\nKefnet the Mindful can't attack or block unless you have seven or more cards in hand\n{3}{U}: Draw a card, then you may return a land you control to its owner's hand"
+        },
+        {
+            "name": "Kefnet's Monument",
+            "cmc": 3,
+            "supertypes": [
+                "legendary"
+            ],
+            "subtypes": [],
+            "types": [
+                "artifact"
+            ],
+            "colors": null,
+            "rarity": "Uncommon",
+            "multiverseid": 126,
+            "text": "Blue creature spells you cast cost {1} less to cast\nWhenever you cast a creature spell, target creature an opponent controls doesn't untap during its controller's next untap step"
+        },
+        {
+            "name": "Khenra Charioteer",
+            "cmc": 3,
+            "supertypes": [],
+            "subtypes": [
+                "jackal",
+                "warrior"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "Red",
+                "Green"
+            ],
+            "rarity": "Uncommon",
+            "multiverseid": 127,
+            "power": "3",
+            "toughness": "3",
+            "text": "Trample\nOther creatures you control have trample"
+        },
+        {
+            "name": "Labyrinth Guardian",
+            "cmc": 2,
+            "supertypes": [],
+            "subtypes": [
+                "illusion",
+                "warrior"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "Blue"
+            ],
+            "rarity": "Uncommon",
+            "multiverseid": 128,
+            "power": "2",
+            "toughness": "3",
+            "text": "When Labyrinth Guardian becomes the target of a spell, sacrifice it\nEmbalm {3}{U}"
+        },
+        {
+            "name": "Lay Bare the Heart",
+            "cmc": 2,
+            "supertypes": [],
+            "subtypes": [],
+            "types": [
+                "sorcery"
+            ],
+            "colors": [
+                "Black"
+            ],
+            "rarity": "Uncommon",
+            "multiverseid": 129,
+            "text": "Target opponent reveals his or her hand. You choose a nonlegendary, nonland card from it. That player discards that card"
+        },
+        {
+            "name": "Lay Claim",
+            "cmc": 7,
+            "supertypes": [],
+            "subtypes": [
+                "aura"
+            ],
+            "types": [
+                "enchantment"
+            ],
+            "colors": [
+                "Blue"
+            ],
+            "rarity": "Uncommon",
+            "multiverseid": 130,
+            "text": "Enchant permanent\nYou control enchanted permanent\nCycling {2}"
+        },
+        {
+            "name": "Liliana's Mastery",
+            "cmc": 5,
+            "supertypes": [],
+            "subtypes": [],
+            "types": [
+                "enchantment"
+            ],
+            "colors": [
+                "Black"
+            ],
+            "rarity": "Rare",
+            "multiverseid": 131,
+            "text": "Zombies you control get +1/+1\nWhen Liliana's Mastery enters the battlefield, create two 2/2 black Zombie creature tokens"
+        },
+        {
+            "name": "Liliana, Death's Majesty",
+            "cmc": 5,
+            "supertypes": [],
+            "subtypes": [
+                "liliana"
+            ],
+            "types": [
+                "planeswalker"
+            ],
+            "colors": [
+                "Black"
+            ],
+            "rarity": "Mythic",
+            "multiverseid": 132,
+            "text": "5\n+1: Create a 2/2 black Zombie creature token. Put the top two cards of your library into your graveyard\n-3: Return target creature card from your graveyard to the battlefield. That creature is a black Zombie in addition to its other colors and types\n-7: Destroy all non-Zombie creatures"
+        },
+        {
+            "name": "Limits of Solidarity",
+            "cmc": 4,
+            "supertypes": [],
+            "subtypes": [],
+            "types": [
+                "sorcery"
+            ],
+            "colors": [
+                "Red"
+            ],
+            "rarity": "Uncommon",
+            "multiverseid": 133,
+            "text": "Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn\nCycling {2}"
+        },
+        {
+            "name": "Lord of the Accursed",
+            "cmc": 3,
+            "supertypes": [],
+            "subtypes": [
+                "zombie"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "Black"
+            ],
+            "rarity": "Uncommon",
+            "multiverseid": 134,
+            "power": "2",
+            "toughness": "3",
+            "text": "Other Zombies you control get +1/+1\n{1}{B}, {T}: All Zombies gain menace until end of turn"
+        },
+        {
+            "name": "Luxa River Shrine",
+            "cmc": 3,
+            "supertypes": [],
+            "subtypes": [],
+            "types": [
+                "artifact"
+            ],
+            "colors": null,
+            "rarity": "Common",
+            "multiverseid": 135,
+            "text": "{1}, {T}: You gain 1 life. Put a brick counter on Luxa River Shrine\n{T}: You gain 2 life. Activate this ability only if there are three or more brick counters on Luxa River Shrine"
+        },
+        {
+            "name": "Magma Spray",
+            "cmc": 1,
+            "supertypes": [],
+            "subtypes": [],
+            "types": [
+                "instant"
+            ],
+            "colors": [
+                "Red"
+            ],
+            "rarity": "Common",
+            "multiverseid": 136,
+            "text": "Magma Spray deals 2 damage to target creature. If that creature would die this turn, exile it instead"
+        },
+        {
+            "name": "Manglehorn",
+            "cmc": 3,
+            "supertypes": [],
+            "subtypes": [
+                "beast"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "Green"
+            ],
+            "rarity": "Uncommon",
+            "multiverseid": 137,
+            "power": "2",
+            "toughness": "2",
+            "text": "When Manglehorn enters the battlefield, you may destroy target artifact\nArtifacts your opponents control enter the battlefield tapped"
+        },
+        {
+            "name": "Manticore of the Gauntlet",
+            "cmc": 5,
+            "supertypes": [],
+            "subtypes": [
+                "manticore"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "Red"
+            ],
+            "rarity": "Common",
+            "multiverseid": 138,
+            "power": "5",
+            "toughness": "4",
+            "text": "When Manticore of the Gauntlet enters the battlefield, put a -1/-1 counter on target creature you control. Manticore of the Gauntlet deals 3 damage to target opponent"
+        },
+        {
+            "name": "Merciless Javelineer",
+            "cmc": 4,
+            "supertypes": [],
+            "subtypes": [
+                "minotaur",
+                "warrior"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "Black",
+                "Red"
+            ],
+            "rarity": "Uncommon",
+            "multiverseid": 139,
+            "power": "4",
+            "toughness": "2",
+            "text": "{2}, Discard a card: Put a -1/-1 counter on target creature. That creature can't block this turn"
+        },
+        {
+            "name": "Miasmic Mummy",
+            "cmc": 2,
+            "supertypes": [],
+            "subtypes": [
+                "zombie",
+                "jackal"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "Black"
+            ],
+            "rarity": "Common",
+            "multiverseid": 140,
+            "power": "2",
+            "toughness": "2",
+            "text": "When Miasmic Mummy enters the battlefield, each player discards a card"
+        },
+        {
+            "name": "Mighty Leap",
+            "cmc": 2,
+            "supertypes": [],
+            "subtypes": [],
+            "types": [
+                "instant"
+            ],
+            "colors": [
+                "White"
+            ],
+            "rarity": "Common",
+            "multiverseid": 141,
+            "text": "Target creature gets +2/+2 and gains flying until end of turn"
+        },
+        {
+            "name": "Minotaur Sureshot",
+            "cmc": 3,
+            "supertypes": [],
+            "subtypes": [
+                "minotaur",
+                "archer"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "Red"
+            ],
+            "rarity": "Common",
+            "multiverseid": 142,
+            "power": "2",
+            "toughness": "3",
+            "text": "Reach\n{1}{R}: Minotaur Sureshot gets +1/+0 until end of turn"
+        },
+        {
+            "name": "Mouth / Feed",
+            "cmc": 3,
+            "supertypes": [],
+            "subtypes": [],
+            "types": [
+                "sorcery"
+            ],
+            "colors": [
+                "Green"
+            ],
+            "rarity": "Rare",
+            "multiverseid": 143,
+            "text": "Create a 3/3 green Hippo creature token\n----\n3G\nSorcery\nAftermath\nDraw a card for each creature you control with power 3 or greater"
+        },
+        {
+            "name": "Naga Oracle",
+            "cmc": 4,
+            "supertypes": [],
+            "subtypes": [
+                "naga",
+                "cleric"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "Blue"
+            ],
+            "rarity": "Common",
+            "multiverseid": 144,
+            "power": "2",
+            "toughness": "4",
+            "text": "When Naga Oracle enters the battlefield, look at the top three cards of your library. Put any number of them into your graveyard and the rest back on top of your library in any order"
+        },
+        {
+            "name": "Naga Vitalist",
+            "cmc": 2,
+            "supertypes": [],
+            "subtypes": [
+                "naga",
+                "druid"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "Green"
+            ],
+            "rarity": "Common",
+            "multiverseid": 145,
+            "power": "1",
+            "toughness": "2",
+            "text": "{T}: Add to your mana pool one mana of any type that a land you control could produce"
+        },
+        {
+            "name": "Nef-Crop Entangler",
+            "cmc": 2,
+            "supertypes": [],
+            "subtypes": [
+                "human",
+                "warrior"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "Red"
+            ],
+            "rarity": "Common",
+            "multiverseid": 146,
+            "power": "2",
+            "toughness": "1",
+            "text": "Trample\nYou may exert Nef-Crop Entangler as it attacks. When you do, it gets +1/+2 until end of turn",
+            "attackingPower": "3",
+            "attackingToughness": "3"
+        },
+        {
+            "name": "Neheb, the Worthy",
+            "cmc": 3,
+            "supertypes": [
+                "legendary"
+            ],
+            "subtypes": [
+                "minotaur",
+                "warrior"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "Black",
+                "Red"
+            ],
+            "rarity": "Rare",
+            "multiverseid": 147,
+            "power": "2",
+            "toughness": "2",
+            "text": "First strike\nOther Minotaurs you control have first strike\nAs long as you have one or fewer cards in hand, Minotaurs you control get +2/+0\nWhenever Neheb, the Worthy deals combat damage to a player, each player discards a card"
+        },
+        {
+            "name": "Nest of Scarabs",
+            "cmc": 3,
+            "supertypes": [],
+            "subtypes": [],
+            "types": [
+                "enchantment"
+            ],
+            "colors": [
+                "Black"
+            ],
+            "rarity": "Uncommon",
+            "multiverseid": 148,
+            "text": "Whenever you put one or more -1/-1 counters on a creature, create that many 1/1 black Insect creature tokens"
+        },
+        {
+            "name": "Never / Return",
+            "cmc": 3,
+            "supertypes": [],
+            "subtypes": [],
+            "types": [
+                "sorcery"
+            ],
+            "colors": [
+                "Black"
+            ],
+            "rarity": "Rare",
+            "multiverseid": 149,
+            "text": "Destroy target creature or planeswalker\n----\n3B\nSorcery\nAftermath\nExile target card from a graveyard. Create a 2/2 black Zombie creature token"
+        },
+        {
+            "name": "New Perspectives",
+            "cmc": 6,
+            "supertypes": [],
+            "subtypes": [],
+            "types": [
+                "enchantment"
+            ],
+            "colors": [
+                "Blue"
+            ],
+            "rarity": "Rare",
+            "multiverseid": 150,
+            "text": "When New Perspectives enters the battlefield, draw three cards\nAs long as you have seven or more cards in hand, you may pay {0} rather than pay cycling costs"
+        },
+        {
+            "name": "Nimble-Blade Khenra",
+            "cmc": 2,
+            "supertypes": [],
+            "subtypes": [
+                "jackal",
+                "warrior"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "Red"
+            ],
+            "rarity": "Common",
+            "multiverseid": 151,
+            "power": "1",
+            "toughness": "3",
+            "text": "Prowess"
+        },
+        {
+            "name": "Nissa, Steward of Elements",
+            "cmc": 2,
+            "supertypes": [],
+            "subtypes": [
+                "nissa"
+            ],
+            "types": [
+                "planeswalker"
+            ],
+            "colors": [
+                "Green",
+                "Blue"
+            ],
+            "rarity": "Mythic",
+            "multiverseid": 152,
+            "text": "0\n+2: Scry 2\n0: Look at the top card of your library. If it's a land card or a creature card with converted mana cost less than or equal to the number of loyalty counters on Nissa, Steward of Elements, you may put that card onto the battlefield\n-6: Untap up to two target lands you control. They become 5/5 Elemental creatures with flying and haste until end of turn. They're still lands"
+        },
+        {
+            "name": "Oashra Cultivator",
+            "cmc": 1,
+            "supertypes": [],
+            "subtypes": [
+                "human",
+                "druid"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "Green"
+            ],
+            "rarity": "Common",
+            "multiverseid": 153,
+            "power": "0",
+            "toughness": "3",
+            "text": "{2}{G}, {T}, Sacrifice Oashra Cultivator: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library"
+        },
+        {
+            "name": "Oketra the True",
+            "cmc": 4,
+            "supertypes": [
+                "legendary"
+            ],
+            "subtypes": [
+                "god"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "White"
+            ],
+            "rarity": "Mythic",
+            "multiverseid": 154,
+            "power": "3",
+            "toughness": "6",
+            "text": "Double strike, indestructible\nOketra the True can't attack or block unless you control at least three other creatures\n{3}{W}: Create a 1/1 white Warrior creature token with vigilance"
+        },
+        {
+            "name": "Oketra's Attendant",
+            "cmc": 5,
+            "supertypes": [],
+            "subtypes": [
+                "bird",
+                "soldier"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "White"
+            ],
+            "rarity": "Uncommon",
+            "multiverseid": 155,
+            "power": "3",
+            "toughness": "3",
+            "text": "Flying\nCycling {2}\nEmbalm {3}{W}{W}"
+        },
+        {
+            "name": "Oketra's Monument",
+            "cmc": 3,
+            "supertypes": [
+                "legendary"
+            ],
+            "subtypes": [],
+            "types": [
+                "artifact"
+            ],
+            "colors": null,
+            "rarity": "Uncommon",
+            "multiverseid": 156,
+            "text": "White creature spells you cast cost {1} less to cast\nWhenever you cast a creature spell, create a 1/1 white Warrior creature token with vigilance"
+        },
+        {
+            "name": "Onward / Victory",
+            "cmc": 3,
+            "supertypes": [],
+            "subtypes": [],
+            "types": [
+                "instant"
+            ],
+            "colors": [
+                "Red",
+                "White"
+            ],
+            "rarity": "Uncommon",
+            "multiverseid": 157,
+            "text": "Target creature gets +X/+0 until end of turn, where X is its power\n----\n2W\nSorcery\nAftermath\nTarget creature gains double strike until end of turn"
+        },
+        {
+            "name": "Open into Wonder",
+            "cmc": 2,
+            "supertypes": [],
+            "subtypes": [],
+            "types": [
+                "sorcery"
+            ],
+            "colors": [
+                "Blue"
+            ],
+            "rarity": "Uncommon",
+            "multiverseid": 158,
+            "text": "X target creatures can't be blocked this turn. Until end of turn, those creatures gain"
+        },
+        {
+            "name": "Oracle's Vault",
+            "cmc": 4,
+            "supertypes": [],
+            "subtypes": [],
+            "types": [
+                "artifact"
+            ],
+            "colors": null,
+            "rarity": "Rare",
+            "multiverseid": 159,
+            "text": "{2}, {T}: Exile the top card of your library. Until end of turn, you may play that card. Put a brick counter on Oracle's Vault\n{T}: Exile the top card of your library. Until end of turn, you may play that card without paying its mana cost. Activate this ability only if there are three or more brick counters on Oracle's Vault"
+        },
+        {
+            "name": "Ornery Kudu",
+            "cmc": 3,
+            "supertypes": [],
+            "subtypes": [
+                "antelope"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "Green"
+            ],
+            "rarity": "Common",
+            "multiverseid": 160,
+            "power": "3",
+            "toughness": "4",
+            "text": "When Ornery Kudu enters the battlefield, put a -1/-1 counter on target creature you control"
+        },
+        {
+            "name": "Painful Lesson",
+            "cmc": 3,
+            "supertypes": [],
+            "subtypes": [],
+            "types": [
+                "sorcery"
+            ],
+            "colors": [
+                "Black"
+            ],
+            "rarity": "Common",
+            "multiverseid": 161,
+            "text": "Target player draws two cards and loses 2 life"
+        },
+        {
+            "name": "Painted Bluffs",
+            "cmc": 0,
+            "supertypes": [],
+            "subtypes": [
+                "desert"
+            ],
+            "types": [
+                "land"
+            ],
+            "colors": null,
+            "rarity": "Common",
+            "multiverseid": 162,
+            "text": "{T}: Add {C} to your mana pool\n{1}, {T}: Add one mana of any color to your mana pool"
+        },
+        {
+            "name": "Pathmaker Initiate",
+            "cmc": 2,
+            "supertypes": [],
+            "subtypes": [
+                "human",
+                "wizard"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "Red"
+            ],
+            "rarity": "Common",
+            "multiverseid": 163,
+            "power": "2",
+            "toughness": "1",
+            "text": "{T}: Target creature with power 2 or less can't be blocked this turn"
+        },
+        {
+            "name": "Pitiless Vizier",
+            "cmc": 4,
+            "supertypes": [],
+            "subtypes": [
+                "minotaur",
+                "cleric"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "Black"
+            ],
+            "rarity": "Common",
+            "multiverseid": 164,
+            "power": "4",
+            "toughness": "2",
+            "text": "Whenever you cycle or discard a card, Pitiless Vizier gains indestructible until end of turn"
+        },
+        {
+            "name": "Plague Belcher",
+            "cmc": 3,
+            "supertypes": [],
+            "subtypes": [
+                "zombie",
+                "beast"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "Black"
+            ],
+            "rarity": "Rare",
+            "multiverseid": 165,
+            "power": "5",
+            "toughness": "4",
+            "text": "Menace\nWhen Plague Belcher enters the battlefield, put two -1/-1 counters on target creature you control\nWhenever another Zombie you control dies, each opponent loses 1 life"
+        },
+        {
+            "name": "Pouncing Cheetah",
+            "cmc": 3,
+            "supertypes": [],
+            "subtypes": [
+                "cat"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "Green"
+            ],
+            "rarity": "Common",
+            "multiverseid": 166,
+            "power": "3",
+            "toughness": "2",
+            "text": "Flash"
+        },
+        {
+            "name": "Prepare / Fight",
+            "cmc": 2,
+            "supertypes": [],
+            "subtypes": [],
+            "types": [
+                "instant"
+            ],
+            "colors": [
+                "White",
+                "Green"
+            ],
+            "rarity": "Rare",
+            "multiverseid": 167,
+            "text": "Untap target creature. It gets +2/+2 and gains lifelink until end of turn\n----\n3G\nSorcery\nAftermath\nTarget creature you control fights target creature an opponent controls"
+        },
+        {
+            "name": "Protection of the Hekma",
+            "cmc": 5,
+            "supertypes": [],
+            "subtypes": [],
+            "types": [
+                "enchantment"
+            ],
+            "colors": [
+                "White"
+            ],
+            "rarity": "Uncommon",
+            "multiverseid": 168,
+            "text": "If a source an opponent controls would deal damage to you, prevent 1 of that damage"
+        },
+        {
+            "name": "Prowling Serpopard",
+            "cmc": 3,
+            "supertypes": [],
+            "subtypes": [
+                "cat",
+                "snake"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "Green"
+            ],
+            "rarity": "Rare",
+            "multiverseid": 169,
+            "power": "4",
+            "toughness": "3",
+            "text": "Prowling Serpopard can't be countered\nCreature spells you control can't be countered"
+        },
+        {
+            "name": "Pull from Tomorrow",
+            "cmc": 2,
+            "supertypes": [],
+            "subtypes": [],
+            "types": [
+                "instant"
+            ],
+            "colors": [
+                "Blue"
+            ],
+            "rarity": "Rare",
+            "multiverseid": 170,
+            "text": "Draw X cards, then discard a card"
+        },
+        {
+            "name": "Pursue Glory",
+            "cmc": 4,
+            "supertypes": [],
+            "subtypes": [],
+            "types": [
+                "instant"
+            ],
+            "colors": [
+                "Red"
+            ],
+            "rarity": "Common",
+            "multiverseid": 171,
+            "text": "Attacking creatures get +2/+0 until end of turn\nCycling {2}"
+        },
+        {
+            "name": "Pyramid of the Pantheon",
+            "cmc": 1,
+            "supertypes": [],
+            "subtypes": [],
+            "types": [
+                "artifact"
+            ],
+            "colors": null,
+            "rarity": "Rare",
+            "multiverseid": 172,
+            "text": "{2}, {T}: Add one mana of any color to your mana pool. Put a brick counter on Pyramid of the Pantheon\n{T}: Add three mana of any one color to your mana pool. Activate this ability only if there are three or more brick counters on Pyramid of the Pantheon"
+        },
+        {
+            "name": "Quarry Hauler",
+            "cmc": 4,
+            "supertypes": [],
+            "subtypes": [
+                "camel"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "Green"
+            ],
+            "rarity": "Common",
+            "multiverseid": 173,
+            "power": "4",
+            "toughness": "3",
+            "text": "When Quarry Hauler enters the battlefield, for each kind of counter on target permanent, put another counter of that kind on it or remove one from it"
+        },
+        {
+            "name": "Rags / Riches",
+            "cmc": 4,
+            "supertypes": [],
+            "subtypes": [],
+            "types": [
+                "sorcery"
+            ],
+            "colors": [
+                "Black",
+                "Blue"
+            ],
+            "rarity": "Rare",
+            "multiverseid": 174,
+            "text": "All creatures get -2/-2 until end of turn\n----\n5UU\nSorcery\nAftermath\nEach opponent chooses a creature he or she controls. You gain control of these creatures"
+        },
+        {
+            "name": "Reduce / Rubble",
+            "cmc": 3,
+            "supertypes": [],
+            "subtypes": [],
+            "types": [
+                "instant"
+            ],
+            "colors": [
+                "Blue",
+                "Red"
+            ],
+            "rarity": "Uncommon",
+            "multiverseid": 175,
+            "text": "Counter target spell unless its controller pays {3}\n----\n2R\nSorcery\nAftermath\nUp to three target lands don't untap during their controller's next untap step"
+        },
+        {
+            "name": "Regal Caracal",
+            "cmc": 5,
+            "supertypes": [],
+            "subtypes": [
+                "cat"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "White"
+            ],
+            "rarity": "Rare",
+            "multiverseid": 176,
+            "power": "3",
+            "toughness": "3",
+            "text": "Other Cats you control get +1/+1 and have lifelink\nWhen Regal Caracal enters the battlefield, create two 1/1 white Cat creature tokens with lifelink"
+        },
+        {
+            "name": "Renewed Faith",
+            "cmc": 3,
+            "supertypes": [],
+            "subtypes": [],
+            "types": [
+                "instant"
+            ],
+            "colors": [
+                "White"
+            ],
+            "rarity": "Uncommon",
+            "multiverseid": 177,
+            "text": "You gain 6 life\nCycling {1}{W}\nWhen you cycle Renewed Faith, you may gain 2 life"
+        },
+        {
+            "name": "Rhet-Crop Spearmaster",
+            "cmc": 3,
+            "supertypes": [],
+            "subtypes": [
+                "human",
+                "warrior"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "White"
+            ],
+            "rarity": "Common",
+            "multiverseid": 178,
+            "power": "3",
+            "toughness": "1",
+            "text": "You may exert Rhet-Crop Spearmaster as it attacks. When you do, it gets +1/+0 and gains first strike until end of turn",
+            "attackingPower": "4"
+        },
+        {
+            "name": "Rhonas the Indomitable",
+            "cmc": 3,
+            "supertypes": [
+                "legendary"
+            ],
+            "subtypes": [
+                "god"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "Green"
+            ],
+            "rarity": "Mythic",
+            "multiverseid": 179,
+            "power": "5",
+            "toughness": "5",
+            "text": "Deathtouch, indestructible\nRhonas the Indomitable can't attack or block unless you control another creature with power 4 or greater\n{2}{G}: Another target creature gets +2/+0 and gains trample until end of turn"
+        },
+        {
+            "name": "Rhonas's Monument",
+            "cmc": 3,
+            "supertypes": [
+                "legendary"
+            ],
+            "subtypes": [],
+            "types": [
+                "artifact"
+            ],
+            "colors": null,
+            "rarity": "Uncommon",
+            "multiverseid": 180,
+            "text": "Green creature spells you cast cost {1} less to cast\nWhenever you cast a creature spell, target creature you control gets +2/+2 and gains trample until end of turn"
+        },
+        {
+            "name": "River Serpent",
+            "cmc": 6,
+            "supertypes": [],
+            "subtypes": [
+                "serpent"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "Blue"
+            ],
+            "rarity": "Common",
+            "multiverseid": 181,
+            "power": "5",
+            "toughness": "5",
+            "text": "River Serpent can't attack unless there are five or more cards in your graveyard\nCycling {U}"
+        },
+        {
+            "name": "Ruthless Sniper",
+            "cmc": 1,
+            "supertypes": [],
+            "subtypes": [
+                "human",
+                "archer"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "Black"
+            ],
+            "rarity": "Uncommon",
+            "multiverseid": 182,
+            "power": "1",
+            "toughness": "2",
+            "text": "Whenever you cycle or discard a card, you may pay {1}. If you do, put a -1/-1 counter on target creature"
+        },
+        {
+            "name": "Sacred Cat",
+            "cmc": 1,
+            "supertypes": [],
+            "subtypes": [
+                "cat"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "White"
+            ],
+            "rarity": "Common",
+            "multiverseid": 183,
+            "power": "1",
+            "toughness": "1",
+            "text": "Lifelink\nEmbalm {W}"
+        },
+        {
+            "name": "Sacred Excavation",
+            "cmc": 4,
+            "supertypes": [],
+            "subtypes": [],
+            "types": [
+                "sorcery"
+            ],
+            "colors": [
+                "Blue"
+            ],
+            "rarity": "Uncommon",
+            "multiverseid": 184,
+            "text": "Return up to two cards with cycling from your graveyard to your hand"
+        },
+        {
+            "name": "Samut, Voice of Dissent",
+            "cmc": 5,
+            "supertypes": [
+                "legendary"
+            ],
+            "subtypes": [
+                "human",
+                "warrior"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "Red",
+                "Green"
+            ],
+            "rarity": "Mythic",
+            "multiverseid": 185,
+            "power": "3",
+            "toughness": "4",
+            "text": "Flash\nDouble strike, vigilance, haste\nOther creatures you control have haste\n{W}, {T}: Untap another target creature"
+        },
+        {
+            "name": "Sandwurm Convergence",
+            "cmc": 8,
+            "supertypes": [],
+            "subtypes": [],
+            "types": [
+                "enchantment"
+            ],
+            "colors": [
+                "Green"
+            ],
+            "rarity": "Rare",
+            "multiverseid": 186,
+            "text": "Creatures with flying can't attack you or planeswalkers you control\nAt the beginning of your end step, create a 5/5 green Wurm creature token"
+        },
+        {
+            "name": "Scaled Behemoth",
+            "cmc": 6,
+            "supertypes": [],
+            "subtypes": [
+                "crocodile"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "Green"
+            ],
+            "rarity": "Uncommon",
+            "multiverseid": 187,
+            "power": "6",
+            "toughness": "7",
+            "text": "Hexproof"
+        },
+        {
+            "name": "Scarab Feast",
+            "cmc": 1,
+            "supertypes": [],
+            "subtypes": [],
+            "types": [
+                "instant"
+            ],
+            "colors": [
+                "Black"
+            ],
+            "rarity": "Common",
+            "multiverseid": 188,
+            "text": "Exile up to three target cards from a single graveyard\nCydling {B}"
+        },
+        {
+            "name": "Scattered Groves",
+            "cmc": 0,
+            "supertypes": [],
+            "subtypes": [
+                "forest",
+                "plains"
+            ],
+            "types": [
+                "land"
+            ],
+            "colors": null,
+            "rarity": "Rare",
+            "multiverseid": 189,
+            "text": "Scattered Groves enters the battlefield tapped\nCycling {2}"
+        },
+        {
+            "name": "Scribe of the Mindful",
+            "cmc": 3,
+            "supertypes": [],
+            "subtypes": [
+                "human",
+                "cleric"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "Blue"
+            ],
+            "rarity": "Common",
+            "multiverseid": 190,
+            "power": "2",
+            "toughness": "2",
+            "text": "{1}, {T}, Sacrifice Scribe of the Mindful: Return target instant or sorcery card from your graveyard to your hand"
+        },
+        {
+            "name": "Seeker of Insight",
+            "cmc": 2,
+            "supertypes": [],
+            "subtypes": [
+                "human",
+                "wizard"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "Blue"
+            ],
+            "rarity": "Common",
+            "multiverseid": 191,
+            "power": "1",
+            "toughness": "3",
+            "text": "{T}: Draw a card, then discard a card. Activate this ability only if you've cast a noncreature spell this turn"
+        },
+        {
+            "name": "Seraph of the Suns",
+            "cmc": 7,
+            "supertypes": [],
+            "subtypes": [
+                "angel"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "White"
+            ],
+            "rarity": "Uncommon",
+            "multiverseid": 192,
+            "power": "4",
+            "toughness": "4",
+            "text": "Flying\nIndestructible"
+        },
+        {
+            "name": "Shadow of the Grave",
+            "cmc": 2,
+            "supertypes": [],
+            "subtypes": [],
+            "types": [
+                "instant"
+            ],
+            "colors": [
+                "Black"
+            ],
+            "rarity": "Rare",
+            "multiverseid": 193,
+            "text": "Return to your hand all cards in your graveyard that you cycled or discarded this turn"
+        },
+        {
+            "name": "Shadowstorm Vizier",
+            "cmc": 2,
+            "supertypes": [],
+            "subtypes": [
+                "human",
+                "cleric"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "Blue",
+                "Black"
+            ],
+            "rarity": "Uncommon",
+            "multiverseid": 194,
+            "power": "1",
+            "toughness": "3",
+            "text": "Flying\nWhenever you cycle or discard a card, Shadowstorm Vizier gets +1/+1 until end of turn"
+        },
+        {
+            "name": "Shed Weakness",
+            "cmc": 1,
+            "supertypes": [],
+            "subtypes": [],
+            "types": [
+                "instant"
+            ],
+            "colors": [
+                "Green"
+            ],
+            "rarity": "Common",
+            "multiverseid": 195,
+            "text": "Target creature gets +2/+2 until end of turn. You may remove a -1/-1 counter from it"
+        },
+        {
+            "name": "Shefet Monitor",
+            "cmc": 6,
+            "supertypes": [],
+            "subtypes": [
+                "lizard"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "Green"
+            ],
+            "rarity": "Uncommon",
+            "multiverseid": 196,
+            "power": "6",
+            "toughness": "5",
+            "text": "Cycling {3}{G}\nWhen you cycle Shefet Monitor, you may search your library for a basic land card or a Desert card, put it onto the battlefield, then shuffle your library"
+        },
+        {
+            "name": "Sheltered Thicket",
+            "cmc": 0,
+            "supertypes": [],
+            "subtypes": [
+                "mountain",
+                "forest"
+            ],
+            "types": [
+                "land"
+            ],
+            "colors": null,
+            "rarity": "Rare",
+            "multiverseid": 197,
+            "text": "Sheltered Thicket enters the battlefield tapped\nCycling {2}"
+        },
+        {
+            "name": "Shimmerscale Drake",
+            "cmc": 5,
+            "supertypes": [],
+            "subtypes": [
+                "drake"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "Blue"
+            ],
+            "rarity": "Common",
+            "multiverseid": 198,
+            "power": "3",
+            "toughness": "4",
+            "text": "Flying\nCycling {2}"
+        },
+        {
+            "name": "Sixth Sense",
+            "cmc": 1,
+            "supertypes": [],
+            "subtypes": [
+                "aura"
+            ],
+            "types": [
+                "enchantment"
+            ],
+            "colors": [
+                "Green"
+            ],
+            "rarity": "Uncommon",
+            "multiverseid": 199,
+            "text": "Enchant creature\nEnchanted creature has"
+        },
+        {
+            "name": "Slither Blade",
+            "cmc": 1,
+            "supertypes": [],
+            "subtypes": [
+                "naga",
+                "rogue"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "Blue"
+            ],
+            "rarity": "Common",
+            "multiverseid": 200,
+            "power": "1",
+            "toughness": "2",
+            "text": "Slither Blade can't be blocked"
+        },
+        {
+            "name": "Soul-Scar Mage",
+            "cmc": 1,
+            "supertypes": [],
+            "subtypes": [
+                "human",
+                "wizard"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "Red"
+            ],
+            "rarity": "Rare",
+            "multiverseid": 201,
+            "power": "1",
+            "toughness": "2",
+            "text": "Prowess\nIf a source you control would deal noncombat damage to a creature an opponent controls, put that many -1/-1 counters on that creature instead"
+        },
+        {
+            "name": "Soulstinger",
+            "cmc": 4,
+            "supertypes": [],
+            "subtypes": [
+                "scorpion",
+                "demon"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "Black"
+            ],
+            "rarity": "Common",
+            "multiverseid": 202,
+            "power": "4",
+            "toughness": "5",
+            "text": "When Soulstinger enters the battlefield, put two -1/-1 counters on target creature you control\nWhen Soulstinger dies, you may put a -1/-1 counter on target creature for each -1/-1 counter on Soulstinger"
+        },
+        {
+            "name": "Sparring Mummy",
+            "cmc": 4,
+            "supertypes": [],
+            "subtypes": [
+                "zombie"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "White"
+            ],
+            "rarity": "Common",
+            "multiverseid": 203,
+            "power": "3",
+            "toughness": "3",
+            "text": "When Sparring Mummy enters the battlefield, untap target creature"
+        },
+        {
+            "name": "Spidery Grasp",
+            "cmc": 3,
+            "supertypes": [],
+            "subtypes": [],
+            "types": [
+                "instant"
+            ],
+            "colors": [
+                "Green"
+            ],
+            "rarity": "Common",
+            "multiverseid": 204,
+            "text": "Untap target creature. It gets +2/+4 and gains reach until end of turn"
+        },
+        {
+            "name": "Splendid Agony",
+            "cmc": 3,
+            "supertypes": [],
+            "subtypes": [],
+            "types": [
+                "instant"
+            ],
+            "colors": [
+                "Black"
+            ],
+            "rarity": "Common",
+            "multiverseid": 205,
+            "text": "Distribute two -1/-1 counters among one or two target creatures"
+        },
+        {
+            "name": "Spring / Mind",
+            "cmc": 3,
+            "supertypes": [],
+            "subtypes": [],
+            "types": [
+                "sorcery"
+            ],
+            "colors": [
+                "Green",
+                "Blue"
+            ],
+            "rarity": "Uncommon",
+            "multiverseid": 206,
+            "text": "Search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library\n----\n4UU\nInstant\nAftermath\nDraw two cards"
+        },
+        {
+            "name": "Start / Finish",
+            "cmc": 3,
+            "supertypes": [],
+            "subtypes": [],
+            "types": [
+                "instant"
+            ],
+            "colors": [
+                "White",
+                "Black"
+            ],
+            "rarity": "Uncommon",
+            "multiverseid": 207,
+            "text": "Create two 1/1 white Warrior creature tokens with vigilance\n----\n2B\nSorcery\nAftermath\nAs an additional cost to cast Finish, sacrifice a creature\nDestroy target creature"
+        },
+        {
+            "name": "Stinging Shot",
+            "cmc": 1,
+            "supertypes": [],
+            "subtypes": [],
+            "types": [
+                "instant"
+            ],
+            "colors": [
+                "Green"
+            ],
+            "rarity": "Common",
+            "multiverseid": 208,
+            "text": "Put three -1/-1 counters on target creature with flying\nCycling {2}"
+        },
+        {
+            "name": "Stir the Sands",
+            "cmc": 6,
+            "supertypes": [],
+            "subtypes": [],
+            "types": [
+                "sorcery"
+            ],
+            "colors": [
+                "Black"
+            ],
+            "rarity": "Uncommon",
+            "multiverseid": 209,
+            "text": "Create three 2/2 black Zombie creature tokens\nCycling {3}{B}"
+        },
+        {
+            "name": "Sunscorched Desert",
+            "cmc": 0,
+            "supertypes": [],
+            "subtypes": [
+                "desert"
+            ],
+            "types": [
+                "land"
+            ],
+            "colors": null,
+            "rarity": "Common",
+            "multiverseid": 210,
+            "text": "When Sunscorched Desert enters the battlefield, it deals 1 damage to target player\n{T}: Add {C} to your mana pool"
+        },
+        {
+            "name": "Supernatural Stamina",
+            "cmc": 1,
+            "supertypes": [],
+            "subtypes": [],
+            "types": [
+                "instant"
+            ],
+            "colors": [
+                "Black"
+            ],
+            "rarity": "Common",
+            "multiverseid": 211,
+            "text": "Until end of turn, target creature gets +2/+0 and gains"
+        },
+        {
+            "name": "Supply Caravan",
+            "cmc": 5,
+            "supertypes": [],
+            "subtypes": [
+                "camel"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "White"
+            ],
+            "rarity": "Common",
+            "multiverseid": 212,
+            "power": "3",
+            "toughness": "5",
+            "text": "When Supply Caravan enters the battlefield, if you control a tapped creature, create a 1/1 white Warrior creature token with vigilance"
+        },
+        {
+            "name": "Sweltering Suns",
+            "cmc": 3,
+            "supertypes": [],
+            "subtypes": [],
+            "types": [
+                "sorcery"
+            ],
+            "colors": [
+                "Red"
+            ],
+            "rarity": "Rare",
+            "multiverseid": 213,
+            "text": "Sweltering Suns deals 3 damage to each creature\nCycling {3}"
+        },
+        {
+            "name": "Synchronized Strike",
+            "cmc": 3,
+            "supertypes": [],
+            "subtypes": [],
+            "types": [
+                "instant"
+            ],
+            "colors": [
+                "Green"
+            ],
+            "rarity": "Uncommon",
+            "multiverseid": 214,
+            "text": "Untap up to two target creatures. They each get +2/+2 until end of turn"
+        },
+        {
+            "name": "Tah-Crop Elite",
+            "cmc": 4,
+            "supertypes": [],
+            "subtypes": [
+                "bird",
+                "warrior"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "White"
+            ],
+            "rarity": "Common",
+            "multiverseid": 215,
+            "power": "2",
+            "toughness": "2",
+            "text": "Flying\nYou may exert Tah-Crop Elite as it attacks. When you do, creatures you control get +1/+1 until end of turn",
+            "attackingPower": "3",
+            "attackingToughness": "3"
+        },
+        {
+            "name": "Tah-Crop Skirmisher",
+            "cmc": 2,
+            "supertypes": [],
+            "subtypes": [
+                "naga",
+                "warrior"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "Blue"
+            ],
+            "rarity": "Common",
+            "multiverseid": 216,
+            "power": "2",
+            "toughness": "1",
+            "text": "Embalm {3}{U}"
+        },
+        {
+            "name": "Temmet, Vizier of Naktamun",
+            "cmc": 2,
+            "supertypes": [
+                "legendary"
+            ],
+            "subtypes": [
+                "human",
+                "cleric"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "White",
+                "Blue"
+            ],
+            "rarity": "Rare",
+            "multiverseid": 217,
+            "power": "2",
+            "toughness": "2",
+            "text": "At the beginning of combat on your turn, target creature token you control gets +1/+1 until end of turn and can't be blocked this turn\nEmbalm {3}{W}{U}"
+        },
+        {
+            "name": "Those Who Serve",
+            "cmc": 3,
+            "supertypes": [],
+            "subtypes": [
+                "zombie"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "White"
+            ],
+            "rarity": "Common",
+            "multiverseid": 218,
+            "power": "2",
+            "toughness": "4",
+            "text": ""
+        },
+        {
+            "name": "Thresher Lizard",
+            "cmc": 3,
+            "supertypes": [],
+            "subtypes": [
+                "lizard"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "Red"
+            ],
+            "rarity": "Common",
+            "multiverseid": 219,
+            "power": "3",
+            "toughness": "2",
+            "text": "Thresher Lizard gets +1/+2 as long as you have one or fewer cards in hand"
+        },
+        {
+            "name": "Throne of the God-Pharaoh",
+            "cmc": 2,
+            "supertypes": [
+                "legendary"
+            ],
+            "subtypes": [],
+            "types": [
+                "artifact"
+            ],
+            "colors": null,
+            "rarity": "Rare",
+            "multiverseid": 220,
+            "text": "At the beginning of your end step, each opponent loses life equal to the number of tapped creatures you control"
+        },
+        {
+            "name": "Time to Reflect",
+            "cmc": 1,
+            "supertypes": [],
+            "subtypes": [],
+            "types": [
+                "instant"
+            ],
+            "colors": [
+                "White"
+            ],
+            "rarity": "Uncommon",
+            "multiverseid": 221,
+            "text": "Exile target creature that blocked or was blocked by a Zombie this turn"
+        },
+        {
+            "name": "Tormenting Voice",
+            "cmc": 2,
+            "supertypes": [],
+            "subtypes": [],
+            "types": [
+                "sorcery"
+            ],
+            "colors": [
+                "Red"
+            ],
+            "rarity": "Common",
+            "multiverseid": 222,
+            "text": "As an additional cost to cast Tormenting Voice, discard a card\nDraw two cards"
+        },
+        {
+            "name": "Trespasser's Curse",
+            "cmc": 2,
+            "supertypes": [],
+            "subtypes": [
+                "aura",
+                "curse"
+            ],
+            "types": [
+                "enchantment"
+            ],
+            "colors": [
+                "Black"
+            ],
+            "rarity": "Common",
+            "multiverseid": 223,
+            "text": "Enchant player\nWhenever a creature enters the battlefield under enchanted player's control, that player loses 1 life and you gain 1 life"
+        },
+        {
+            "name": "Trial of Ambition",
+            "cmc": 2,
+            "supertypes": [],
+            "subtypes": [],
+            "types": [
+                "enchantment"
+            ],
+            "colors": [
+                "Black"
+            ],
+            "rarity": "Uncommon",
+            "multiverseid": 224,
+            "text": "When Trial of Ambition enters the battlefield, target opponent sacrifices a creature\nWhen a Cartouche enters the battlefield under your control, return Trial of Ambition to its owner's hand"
+        },
+        {
+            "name": "Trial of Knowledge",
+            "cmc": 4,
+            "supertypes": [],
+            "subtypes": [],
+            "types": [
+                "enchantment"
+            ],
+            "colors": [
+                "Blue"
+            ],
+            "rarity": "Uncommon",
+            "multiverseid": 225,
+            "text": "When Trial of Knowledge enters the battlefield, draw three cards, then discard a card\nWhen a Cartouche enters the battlefield under your control, return Trial of Knowledge to its owner's hand"
+        },
+        {
+            "name": "Trial of Solidarity",
+            "cmc": 3,
+            "supertypes": [],
+            "subtypes": [],
+            "types": [
+                "enchantment"
+            ],
+            "colors": [
+                "White"
+            ],
+            "rarity": "Uncommon",
+            "multiverseid": 226,
+            "text": "When Trial of Solidarity enters the battlefield, creatures you control get +2/+1 and gain vigilance until end of turn\nWhen a Cartouche enters the battlefield under your control, return Trial of Solidarity to its owner's hand"
+        },
+        {
+            "name": "Trial of Strength",
+            "cmc": 3,
+            "supertypes": [],
+            "subtypes": [],
+            "types": [
+                "enchantment"
+            ],
+            "colors": [
+                "Green"
+            ],
+            "rarity": "Uncommon",
+            "multiverseid": 227,
+            "text": "When Trial of Strength enters the battlefield, create a 4/2 green Beast creature token\nWhen a Cartouche enters the battlefield under your control, return Trial of Strength to its owner's hand"
+        },
+        {
+            "name": "Trial of Zeal",
+            "cmc": 3,
+            "supertypes": [],
+            "subtypes": [],
+            "types": [
+                "enchantment"
+            ],
+            "colors": [
+                "Red"
+            ],
+            "rarity": "Uncommon",
+            "multiverseid": 228,
+            "text": "When Trial of Zeal enters the battlefield, it deals 3 damage to target creature or player\nWhen a Cartouche enters the battlefield under your control, return Trial of Zeal to its owner's hand"
+        },
+        {
+            "name": "Trueheart Duelist",
+            "cmc": 2,
+            "supertypes": [],
+            "subtypes": [
+                "human",
+                "warrior"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "White"
+            ],
+            "rarity": "Uncommon",
+            "multiverseid": 229,
+            "power": "2",
+            "toughness": "2",
+            "text": "Trueheart Duelist can block an additional creature each combat\nEmbalm {2}{W}"
+        },
+        {
+            "name": "Trueheart Twins",
+            "cmc": 5,
+            "supertypes": [],
+            "subtypes": [
+                "jackal",
+                "warrior"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "Red"
+            ],
+            "rarity": "Uncommon",
+            "multiverseid": 230,
+            "power": "4",
+            "toughness": "4",
+            "text": "You may exert Trueheart Twins as it attacks\nWhenever you exert a creature, creatures you control get +1/+0 until end of turn",
+            "attackingPower": "5"
+        },
+        {
+            "name": "Unburden",
+            "cmc": 3,
+            "supertypes": [],
+            "subtypes": [],
+            "types": [
+                "sorcery"
+            ],
+            "colors": [
+                "Black"
+            ],
+            "rarity": "Common",
+            "multiverseid": 231,
+            "text": "Target player discards two cards\nCycling {2}"
+        },
+        {
+            "name": "Unwavering Initiate",
+            "cmc": 3,
+            "supertypes": [],
+            "subtypes": [
+                "human",
+                "warrior"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "White"
+            ],
+            "rarity": "Common",
+            "multiverseid": 232,
+            "power": "3",
+            "toughness": "2",
+            "text": "Vigilance\nEmbalm {4}{W}"
+        },
+        {
+            "name": "Violent Impact",
+            "cmc": 4,
+            "supertypes": [],
+            "subtypes": [],
+            "types": [
+                "sorcery"
+            ],
+            "colors": [
+                "Red"
+            ],
+            "rarity": "Common",
+            "multiverseid": 233,
+            "text": "Destroy target artifact or land\nCycling {2}"
+        },
+        {
+            "name": "Vizier of Deferment",
+            "cmc": 3,
+            "supertypes": [],
+            "subtypes": [
+                "human",
+                "cleric"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "White"
+            ],
+            "rarity": "Uncommon",
+            "multiverseid": 234,
+            "power": "2",
+            "toughness": "2",
+            "text": "Flash\nWhen Vizier of Deferment enters the battlefield, you may exile target creature if it attacked or blocked this turn. Return that card to the battlefield under its owner's control at the beginning of the next end step"
+        },
+        {
+            "name": "Vizier of Many Faces",
+            "cmc": 4,
+            "supertypes": [],
+            "subtypes": [
+                "shapeshifter",
+                "cleric"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "Blue"
+            ],
+            "rarity": "Rare",
+            "multiverseid": 235,
+            "power": "0",
+            "toughness": "0",
+            "text": "You may have Vizier of Many Faces enter the battlefield as a copy of any creature on the battlefield, except if Vizier of Many Faces was embalmed, the token has no mana cost, it's white, and it's a Zombie in addition to its other types\nEmbalm {3}{U}"
+        },
+        {
+            "name": "Vizier of Remedies",
+            "cmc": 2,
+            "supertypes": [],
+            "subtypes": [
+                "human",
+                "cleric"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "White"
+            ],
+            "rarity": "Uncommon",
+            "multiverseid": 236,
+            "power": "2",
+            "toughness": "1",
+            "text": "If one or more -1/-1 counters would be put on a creature you control, that many -1/-1 counters minus one are put on it instead"
+        },
+        {
+            "name": "Vizier of the Menagerie",
+            "cmc": 4,
+            "supertypes": [],
+            "subtypes": [
+                "naga",
+                "cleric"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "Green"
+            ],
+            "rarity": "Mythic",
+            "multiverseid": 237,
+            "power": "3",
+            "toughness": "4",
+            "text": "You may look at the top card of your library\nYou may cast the top card of your library if it's a creature card\nYou may spend mana as though it were mana of any type to cast creature spells"
+        },
+        {
+            "name": "Vizier of Tumbling Sands",
+            "cmc": 3,
+            "supertypes": [],
+            "subtypes": [
+                "human",
+                "cleric"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "Blue"
+            ],
+            "rarity": "Uncommon",
+            "multiverseid": 238,
+            "power": "1",
+            "toughness": "3",
+            "text": "{T}: Untap another target permanent\nCycling {1}{U}"
+        },
+        {
+            "name": "Wander in Death",
+            "cmc": 3,
+            "supertypes": [],
+            "subtypes": [],
+            "types": [
+                "sorcery"
+            ],
+            "colors": [
+                "Black"
+            ],
+            "rarity": "Common",
+            "multiverseid": 239,
+            "text": "Return up to two target creature cards from your graveyard to your hand\nCycling {2}"
+        },
+        {
+            "name": "Warfire Javelineer",
+            "cmc": 4,
+            "supertypes": [],
+            "subtypes": [
+                "minotaur",
+                "warrior"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "Red"
+            ],
+            "rarity": "Uncommon",
+            "multiverseid": 240,
+            "power": "2",
+            "toughness": "3",
+            "text": "When Warfire Javelineer enters the battlefield, it deals X damage to target creature an opponent controls, where X is the number of instant and sorcery cards in your graveyard"
+        },
+        {
+            "name": "Wasteland Scorpion",
+            "cmc": 3,
+            "supertypes": [],
+            "subtypes": [
+                "scorpion",
+                "demon"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "Black"
+            ],
+            "rarity": "Common",
+            "multiverseid": 241,
+            "power": "2",
+            "toughness": "2",
+            "text": "Deathtouch\nCycling {2}"
+        },
+        {
+            "name": "Watchers of the Dead",
+            "cmc": 2,
+            "supertypes": [],
+            "subtypes": [
+                "cat"
+            ],
+            "types": [
+                "artifact",
+                "creature"
+            ],
+            "colors": null,
+            "rarity": "Uncommon",
+            "multiverseid": 242,
+            "power": "2",
+            "toughness": "2",
+            "text": "Exile Watchers of the Dead: Each opponent chooses two cards in his or her graveyard and exiles the rest"
+        },
+        {
+            "name": "Watchful Naga",
+            "cmc": 3,
+            "supertypes": [],
+            "subtypes": [
+                "naga",
+                "wizard"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "Green"
+            ],
+            "rarity": "Uncommon",
+            "multiverseid": 243,
+            "power": "2",
+            "toughness": "2",
+            "text": "You may exert Watchful Naga as it attacks. When you do, draw a card"
+        },
+        {
+            "name": "Wayward Servant",
+            "cmc": 2,
+            "supertypes": [],
+            "subtypes": [
+                "zombie"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "White",
+                "Black"
+            ],
+            "rarity": "Uncommon",
+            "multiverseid": 244,
+            "power": "2",
+            "toughness": "2",
+            "text": "Whenever another Zombie enters the battlefield under your control, each opponent loses 1 life and you gain 1 life"
+        },
+        {
+            "name": "Weaver of Currents",
+            "cmc": 3,
+            "supertypes": [],
+            "subtypes": [
+                "naga",
+                "druid"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "Green",
+                "Blue"
+            ],
+            "rarity": "Uncommon",
+            "multiverseid": 245,
+            "power": "2",
+            "toughness": "2",
+            "text": "{T}: Add {C}{C} to your mana pool"
+        },
+        {
+            "name": "Winds of Rebuke",
+            "cmc": 2,
+            "supertypes": [],
+            "subtypes": [],
+            "types": [
+                "instant"
+            ],
+            "colors": [
+                "Blue"
+            ],
+            "rarity": "Common",
+            "multiverseid": 246,
+            "text": "Return target nonland permanent to its owner's hand. Each player puts the top two cards of his or her library into his or her graveyard"
+        },
+        {
+            "name": "Winged Shepherd",
+            "cmc": 6,
+            "supertypes": [],
+            "subtypes": [
+                "angel"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "White"
+            ],
+            "rarity": "Common",
+            "multiverseid": 247,
+            "power": "3",
+            "toughness": "3",
+            "text": "Flying, vigilance\nCycling {W}"
+        },
+        {
+            "name": "Zenith Seeker",
+            "cmc": 4,
+            "supertypes": [],
+            "subtypes": [
+                "bird",
+                "wizard"
+            ],
+            "types": [
+                "creature"
+            ],
+            "colors": [
+                "Blue"
+            ],
+            "rarity": "Uncommon",
+            "multiverseid": 248,
+            "power": "2",
+            "toughness": "2",
+            "text": "Flying\nWhenever you cycle or discard a card, target creature gains flying until end of turn"
+        }
+    ]
+}
