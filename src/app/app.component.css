@@ -39,3 +39,8 @@ tr.last > td {
     padding-bottom: 10px;
     border-bottom: 1px solid black;
 }
+
+a {
+    margin-top: 10px;
+    float: right;
+}
