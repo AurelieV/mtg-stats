@@ -40,9 +40,8 @@ async function createIndex() {
                 block: { type: "keyword" },
                 multiverseid: { type: "integer" },
                 multicolore: { type: "boolean" },
-                cost: { type: "keyword" },
-                attackingPower: { type: "integer" },
-                attackingToughness: { type: "integer" }
+                manaCost: { type: "keyword" },
+                tags: { type: "keyword" }
             }
         }
         }}
@@ -70,7 +69,8 @@ async function insertExtension(extension) {
             extension: extension.code,
             extensionDate: extension.releaseDate,
             block: extension.block,
-            multiverseid: card.multiverseid
+            multiverseid: card.multiverseid,
+            manaCost: card.manaCost
         };
         if (power !== NaN) {
             esCard.power = power;

@@ -18,7 +18,8 @@
                 "White"
             ],
             "rarity": "Uncommon",
-            "multiverseid": 0,
+            "multiverseid": 1,
+            "manaCost": "{2}{G}{W}",
             "power": "4",
             "toughness": "4",
             "text": "You may exert Ahn-Crop Champion as it attacks. When you do, untap all other creatures you control"
@@ -38,7 +39,8 @@
                 "Red"
             ],
             "rarity": "Uncommon",
-            "multiverseid": 1,
+            "multiverseid": 2,
+            "manaCost": "{2}{R}",
             "power": "3",
             "toughness": "2",
             "text": "Haste\nYou may exert Ahn-Crop Crasher as it attacks. When you do, target creature can't block this turn"
@@ -57,7 +59,8 @@
                 "Blue"
             ],
             "rarity": "Common",
-            "multiverseid": 2,
+            "multiverseid": 3,
+            "manaCost": "{1}{U}{U}",
             "power": "1",
             "toughness": "5",
             "text": ""
@@ -76,7 +79,8 @@
                 "White"
             ],
             "rarity": "Mythic",
-            "multiverseid": 3,
+            "multiverseid": 4,
+            "manaCost": "{3}{W}{W}",
             "power": "3",
             "toughness": "4",
             "text": "Flying\nWhen Angel of Sanctions enters the battlefield, you may exile target nonland permanent an opponent controls until Angel of Sanctions leaves the battlefield\nEmbalm {5}{W}"
@@ -95,7 +99,8 @@
                 "Blue"
             ],
             "rarity": "Uncommon",
-            "multiverseid": 4,
+            "multiverseid": 5,
+            "manaCost": "{4}{U}{U}",
             "power": "4",
             "toughness": "4",
             "text": "Flying\nWhen Angler Drake enters the battlefield, you may return target creature to its owner's hand"
@@ -112,7 +117,8 @@
                 "White"
             ],
             "rarity": "Rare",
-            "multiverseid": 5,
+            "multiverseid": 6,
+            "manaCost": "{3}{W}",
             "text": "If an effect would create one or more tokens under your control, it creates twice that many of those tokens instead"
         },
         {
@@ -130,7 +136,8 @@
                 "White"
             ],
             "rarity": "Common",
-            "multiverseid": 6,
+            "multiverseid": 7,
+            "manaCost": "{1}{W}",
             "power": "1",
             "toughness": "3",
             "text": "Whenever a creature token enters the battlefield under your control, you gain 1 life\nEmbalm {3}{W}"
@@ -147,7 +154,8 @@
                 "White"
             ],
             "rarity": "Rare",
-            "multiverseid": 7,
+            "multiverseid": 8,
+            "manaCost": "{6}{W}",
             "text": "If Approach of the Second Sun was cast from your hand and you've cast another spell named Approach of the Second Sun this game, you win the game. Otherwise, put Approach of the Second Sun into its owner's library seventh from the top and you gain 7 life"
         },
         {
@@ -164,7 +172,8 @@
                 "Black"
             ],
             "rarity": "Rare",
-            "multiverseid": 8,
+            "multiverseid": 9,
+            "manaCost": "{3}{B}{B}",
             "power": "5",
             "toughness": "4",
             "text": "Flying\nWhenever you cycle or discard another card, put a -1/-1 counter on each creature your opponents control\nCycling {2}"
@@ -181,7 +190,8 @@
                 "Blue"
             ],
             "rarity": "Mythic",
-            "multiverseid": 9,
+            "multiverseid": 10,
+            "manaCost": "{2}{U}",
             "text": "At the beginning of your upkeep, put a time counter on As Foretold\nOnce each turn, you may pay {0} rather than pay the mana cost for a spell you cast with converted mana cost X or less, where X is the number of time counters on As Foretold"
         },
         {
@@ -199,7 +209,8 @@
                 "Blue"
             ],
             "rarity": "Common",
-            "multiverseid": 10,
+            "multiverseid": 11,
+            "manaCost": "{3}{U}",
             "power": "3",
             "toughness": "2",
             "text": "Flying\nEmbalm {6}{U}"
@@ -219,7 +230,8 @@
                 "White"
             ],
             "rarity": "Rare",
-            "multiverseid": 11,
+            "multiverseid": 12,
+            "manaCost": "{2}{W}",
             "power": "2",
             "toughness": "1",
             "text": "Flash\nFlying\nIf an opponent would search a library, that player searches the top four cards of that library instead"
@@ -240,7 +252,8 @@
                 "Blue"
             ],
             "rarity": "Uncommon",
-            "multiverseid": 12,
+            "multiverseid": 13,
+            "manaCost": "{2}{W}{U}",
             "power": "2",
             "toughness": "3",
             "text": "Flying, vigilance\nCreature tokens you control have flying and vigilance\nEmbalm {4}{W}{U}"
@@ -260,7 +273,8 @@
                 "Black"
             ],
             "rarity": "Uncommon",
-            "multiverseid": 13,
+            "multiverseid": 14,
+            "manaCost": "{2}{B}",
             "power": "4",
             "toughness": "3",
             "text": "Lifelink\nWhen Baleful Ammit enters the battlefield, put a -1/-1 counter on target creature you control"
@@ -280,7 +294,8 @@
                 "Red"
             ],
             "rarity": "Uncommon",
-            "multiverseid": 14,
+            "multiverseid": 15,
+            "manaCost": "{1}{R}",
             "power": "2",
             "toughness": "2",
             "text": "You may exert Battlefield Scavenger as it attacks\nWhenever you exert a creature, you may discard a card. If you do, draw a card"
@@ -297,7 +312,8 @@
                 "Green"
             ],
             "rarity": "Common",
-            "multiverseid": 15,
+            "multiverseid": 16,
+            "manaCost": "{2}{G}",
             "text": "Reveal the top five cards of your library. You may put a creature card and/or an enchantment card from among them into your hand. Put the rest into your graveyard"
         },
         {
@@ -314,7 +330,8 @@
                 "White"
             ],
             "rarity": "Common",
-            "multiverseid": 16,
+            "multiverseid": 17,
+            "manaCost": "{1}{W}",
             "power": "2",
             "toughness": "2",
             "text": "Whenever another Zombie enters the battlefield under your control, you may tap target artifact or creature"
@@ -334,11 +351,11 @@
                 "Green"
             ],
             "rarity": "Common",
-            "multiverseid": 17,
+            "multiverseid": 18,
+            "manaCost": "{1}{G}",
             "power": "2",
             "toughness": "2",
-            "text": "You may exert Bitterblade Warrior as it attacks. When you do, it gains +1/+0 and gains deathtouch until end of turn",
-            "attackingPower": "3"
+            "text": "You may exert Bitterblade Warrior as it attacks. When you do, it gains +1/+0 and gains deathtouch until end of turn"
         },
         {
             "name": "Blazing Volley",
@@ -352,7 +369,8 @@
                 "Red"
             ],
             "rarity": "Common",
-            "multiverseid": 18,
+            "multiverseid": 19,
+            "manaCost": "{R}",
             "text": "Blazing Volley deals 1 damage to each creature your opponents control"
         },
         {
@@ -370,7 +388,8 @@
                 "Black"
             ],
             "rarity": "Common",
-            "multiverseid": 19,
+            "multiverseid": 20,
+            "manaCost": "{2}{B}",
             "power": "2",
             "toughness": "1",
             "text": "Flying\n{1}: Blighted Bat gains haste until end of turn"
@@ -390,7 +409,8 @@
                 "Red"
             ],
             "rarity": "Common",
-            "multiverseid": 20,
+            "multiverseid": 21,
+            "manaCost": "{R}",
             "power": "1",
             "toughness": "1",
             "text": "{T}: Target creature gains haste until end of turn"
@@ -410,7 +430,8 @@
                 "Red"
             ],
             "rarity": "Uncommon",
-            "multiverseid": 21,
+            "multiverseid": 22,
+            "manaCost": "{1}{R}",
             "power": "4",
             "toughness": "3",
             "text": "When Bloodrage Brawler enters the battlefield, discard a card"
@@ -429,7 +450,8 @@
                 "Black"
             ],
             "rarity": "Uncommon",
-            "multiverseid": 22,
+            "multiverseid": 23,
+            "manaCost": "{3}{B}",
             "power": "3",
             "toughness": "2",
             "text": "Bone Picker costs {3} less to cast if a creature died this turn\nFlying, deathtouch"
@@ -450,7 +472,8 @@
                 "Black"
             ],
             "rarity": "Mythic",
-            "multiverseid": 23,
+            "multiverseid": 24,
+            "manaCost": "{2}{B}",
             "power": "4",
             "toughness": "6",
             "text": "Menace, indestructible\nBontu the Glorified can't attack or block unless a creature died under your control this turn\n{1}{B}, Sacrifice another creature: Scry 1. Each opponent loses 1 life and you gain 1 life"
@@ -467,7 +490,8 @@
             ],
             "colors": null,
             "rarity": "Uncommon",
-            "multiverseid": 24,
+            "multiverseid": 25,
+            "manaCost": "{3}",
             "text": "Black creature spells you cast cost {1} less to cast\nWhenever you cast a creature spell, each opponent loses 1 life and you gain 1 life"
         },
         {
@@ -483,7 +507,8 @@
                 "Blue"
             ],
             "rarity": "Rare",
-            "multiverseid": 25,
+            "multiverseid": 26,
+            "manaCost": "{2}{G}{U}",
             "text": "At the beginning of your precombat main phase, remove all flood counters from Bounty of the Luxa. If no counters were removed this way, put a flood counter on Bounty of the Luxa and draw a card. Otherwise, add {C}{G}{U} to your mana pool"
         },
         {
@@ -498,7 +523,8 @@
                 "Red"
             ],
             "rarity": "Common",
-            "multiverseid": 26,
+            "multiverseid": 27,
+            "manaCost": "{1}{R}",
             "text": "Target creature gets +3/+1 and gains trample until end of turn"
         },
         {
@@ -513,7 +539,8 @@
                 "Red"
             ],
             "rarity": "Uncommon",
-            "multiverseid": 27,
+            "multiverseid": 28,
+            "manaCost": "{X}{R}",
             "text": "Destroy X target artifacts"
         },
         {
@@ -528,7 +555,8 @@
                 "Blue"
             ],
             "rarity": "Common",
-            "multiverseid": 28,
+            "multiverseid": 29,
+            "manaCost": "{1}{U}{U}",
             "text": "Counter target spell"
         },
         {
@@ -544,7 +572,8 @@
             ],
             "colors": null,
             "rarity": "Rare",
-            "multiverseid": 29,
+            "multiverseid": 30,
+            "manaCost": "",
             "text": "Canyon Slough enters the battlefield tapped\nCycling {2}"
         },
         {
@@ -562,7 +591,8 @@
                 "Black"
             ],
             "rarity": "Common",
-            "multiverseid": 30,
+            "multiverseid": 31,
+            "manaCost": "{2}{B}",
             "text": "Enchant creature you control\nWhen Cartouche of Ambition enters the battlefield, you may put a -1/-1 counter on target creature\nEnchanted creature gets +1/+1 and has lifelink"
         },
         {
@@ -580,7 +610,8 @@
                 "Blue"
             ],
             "rarity": "Common",
-            "multiverseid": 31,
+            "multiverseid": 32,
+            "manaCost": "{1}{U}",
             "text": "Enchant creature you control\nWhen Cartouche of Knowledge enters the battlefield, draw a card\nEnchanted creature gets +1/+1 and flying"
         },
         {
@@ -598,7 +629,8 @@
                 "White"
             ],
             "rarity": "Common",
-            "multiverseid": 32,
+            "multiverseid": 33,
+            "manaCost": "{W}",
             "text": "Enchant creature you control\nWhen Cartouche of Solidarity enters the battlefield, create a 1/1 white Warrior creature token with vigilance\nEnchanted creature gets +1/+1 and has first strike"
         },
         {
@@ -616,7 +648,8 @@
                 "Green"
             ],
             "rarity": "Common",
-            "multiverseid": 33,
+            "multiverseid": 34,
+            "manaCost": "{2}{G}",
             "text": "Enchant creature you control\nWhen Cartouche of Strength enters the battlefield, you may have enchanted creature fight target creature an opponent controls\nEnchanted creature gets +1/+1 and has trample"
         },
         {
@@ -634,7 +667,8 @@
                 "Red"
             ],
             "rarity": "Common",
-            "multiverseid": 34,
+            "multiverseid": 35,
+            "manaCost": "{R}",
             "text": "Enchant creature you control\nWhen Cartouche of Zeal enters the battlefield, target creature can't block this turn\nEnchanted creature gets +1/+1 and has haste"
         },
         {
@@ -647,7 +681,8 @@
             ],
             "colors": null,
             "rarity": "Rare",
-            "multiverseid": 35,
+            "multiverseid": 36,
+            "manaCost": "",
             "text": "Indestructible\n{T}: Add {C} to your mana pool\n{5}, {T}: Add five mana in any combination of colors to your mana pool"
         },
         {
@@ -662,7 +697,8 @@
                 "White"
             ],
             "rarity": "Uncommon",
-            "multiverseid": 36,
+            "multiverseid": 37,
+            "manaCost": "{3}{W}",
             "text": "Flash\nWhen Cast Out enters the battlefield, exile target nonland permanent an opponent controls until Cast Out leaves the battlefield\nCycling {W}"
         },
         {
@@ -677,7 +713,8 @@
                 "Blue"
             ],
             "rarity": "Uncommon",
-            "multiverseid": 37,
+            "multiverseid": 38,
+            "manaCost": "{1}{U}",
             "text": "Counter target spell unless its controller pays {1}\nCycling {U}"
         },
         {
@@ -695,7 +732,8 @@
                 "Green"
             ],
             "rarity": "Rare",
-            "multiverseid": 38,
+            "multiverseid": 39,
+            "manaCost": "{3}{G}",
             "power": "3",
             "toughness": "3",
             "text": "You may exert Champion of Rhonas as it attacks. When you do, you may put a creature card from your hand onto the battlefield"
@@ -715,7 +753,8 @@
                 "Green"
             ],
             "rarity": "Rare",
-            "multiverseid": 39,
+            "multiverseid": 40,
+            "manaCost": "{1}{G}",
             "power": "3",
             "toughness": "4",
             "text": "When Channeler Initiate enters the battlefield, put three -1/-1 counters on target creature you control\n{T}, Remove a -1/-1 counter from Channeler Initiate: Add one mana of any color to your mana pool"
@@ -734,7 +773,8 @@
                 "Green"
             ],
             "rarity": "Common",
-            "multiverseid": 40,
+            "multiverseid": 41,
+            "manaCost": "{4}{G}",
             "power": "5",
             "toughness": "5",
             "text": ""
@@ -754,7 +794,8 @@
                 "Red"
             ],
             "rarity": "Mythic",
-            "multiverseid": 41,
+            "multiverseid": 42,
+            "manaCost": "{2}{R}",
             "power": "4",
             "toughness": "1",
             "text": "If Combat Celebrant hasn't been exerted this turn, you may exert it as it attacks. When you do, untap all other creatures you control and after this phase, there is an additional combat phase"
@@ -771,7 +812,8 @@
                 "Blue"
             ],
             "rarity": "Rare",
-            "multiverseid": 42,
+            "multiverseid": 43,
+            "manaCost": "{3}{U}",
             "text": "Put target spell or non land permanent into its owner's library second from the top\n----\n4UU\nSorcery\nAftermath\nEach player shuffles his or her hand and graveyard into his or her library, then draws seven cards"
         },
         {
@@ -786,7 +828,8 @@
                 "Blue"
             ],
             "rarity": "Common",
-            "multiverseid": 43,
+            "multiverseid": 44,
+            "manaCost": "{1}{U}",
             "text": "Target player puts the top five cards of his or her library into his or her graveyard\nCycling {U}"
         },
         {
@@ -803,7 +846,8 @@
                 "White"
             ],
             "rarity": "Common",
-            "multiverseid": 44,
+            "multiverseid": 45,
+            "manaCost": "{1}{W}",
             "text": "Enchant creature\nEnchanted creature can't attack or block\nEnchanted creature has"
         },
         {
@@ -820,7 +864,8 @@
                 "Red"
             ],
             "rarity": "Uncommon",
-            "multiverseid": 45,
+            "multiverseid": 46,
+            "manaCost": "{R}",
             "text": "Enchant creature\nEnchanted creature gets +3/+3 and has"
         },
         {
@@ -835,7 +880,8 @@
             ],
             "colors": null,
             "rarity": "Common",
-            "multiverseid": 46,
+            "multiverseid": 47,
+            "manaCost": "",
             "text": "{T}: Add {C} to your mana pool\n{3}, {T}, Sacrifice Cradle of the Accursed: Create a 2/2 black Zombie creature token. Activate this ability only any time you could cast a sorcery"
         },
         {
@@ -852,7 +898,8 @@
                 "Green"
             ],
             "rarity": "Uncommon",
-            "multiverseid": 47,
+            "multiverseid": 48,
+            "manaCost": "{3}{G}",
             "power": "5",
             "toughness": "4",
             "text": "Haste\nWhen Crocodile of the Crossing enters the battlefield, put a -1/-1 counter on target creature you control"
@@ -872,7 +919,8 @@
                 "Black"
             ],
             "rarity": "Mythic",
-            "multiverseid": 48,
+            "multiverseid": 49,
+            "manaCost": "{5}{B}{B}",
             "text": "Enchant player\nAt the beginning of enchanted player's upkeep, that player sacrifices a creature or planeswalker. If the player can't, he or she loses 5 life"
         },
         {
@@ -889,7 +937,8 @@
                 "Blue"
             ],
             "rarity": "Uncommon",
-            "multiverseid": 49,
+            "multiverseid": 50,
+            "manaCost": "{5}{U}{U}",
             "power": "6",
             "toughness": "5",
             "text": "Cryptic Serpent costs {1} less to cast for each instant and sorcery card in your graveyard"
@@ -908,7 +957,8 @@
                 "Blue"
             ],
             "rarity": "Rare",
-            "multiverseid": 50,
+            "multiverseid": 51,
+            "manaCost": "{2}{U}{U}",
             "power": "0",
             "toughness": "0",
             "text": "Flying\nWhenever you cycle or discard another card, scry 1\nCycling {U}"
@@ -928,7 +978,8 @@
                 "Black"
             ],
             "rarity": "Common",
-            "multiverseid": 51,
+            "multiverseid": 52,
+            "manaCost": "{2}{B}",
             "power": "3",
             "toughness": "2",
             "text": "Menace"
@@ -946,7 +997,8 @@
                 "Black"
             ],
             "rarity": "Rare",
-            "multiverseid": 52,
+            "multiverseid": 53,
+            "manaCost": "{1}{R}",
             "text": "Cut deals 4 damage to target creature\n----\nXBB\nSorcery\nAftermath\nEach opponent loses X life"
         },
         {
@@ -964,7 +1016,8 @@
                 "Green"
             ],
             "rarity": "Uncommon",
-            "multiverseid": 53,
+            "multiverseid": 54,
+            "manaCost": "{3}{B}{G}",
             "power": "4",
             "toughness": "5",
             "text": "When Decimator Beetle enters the battlefield, put a -1/-1 counter on target creature you control\nWhenever Decimator Beetle attacks, remove a -1/-1 counter from target creature you control and put a -1/-1 counter on up to one target creature defending player controls"
@@ -981,7 +1034,8 @@
                 "Blue"
             ],
             "rarity": "Common",
-            "multiverseid": 54,
+            "multiverseid": 55,
+            "manaCost": "{3}{U}",
             "text": "Tap up to two target creatures. Those creatures don't untap during their controller's next untap step"
         },
         {
@@ -996,7 +1050,8 @@
                 "Red"
             ],
             "rarity": "Uncommon",
-            "multiverseid": 55,
+            "multiverseid": 56,
+            "manaCost": "{4}{R}",
             "text": "Deem Worthy deals 7 damage to target creature\nCycling {3}{R}\nWhen you cycle Deem Worthy, you may have it deal 2 damage to target creature"
         },
         {
@@ -1013,7 +1068,8 @@
                 "Green"
             ],
             "rarity": "Uncommon",
-            "multiverseid": 56,
+            "multiverseid": 57,
+            "manaCost": "{2}{G}",
             "power": "4",
             "toughness": "5",
             "text": "When Defiant Greatmaw enters the battlefield, put two -1/-1 counters on target creature you control\nWhenever you put one or more -1/-1 counters on Defiant Greatmaw, remove a -1/-1 counter from another creature you control"
@@ -1032,7 +1088,8 @@
                 "Red"
             ],
             "rarity": "Common",
-            "multiverseid": 57,
+            "multiverseid": 58,
+            "manaCost": "{5}{R}",
             "power": "6",
             "toughness": "4",
             "text": "Cycling {R}"
@@ -1050,7 +1107,8 @@
                 "Green"
             ],
             "rarity": "Uncommon",
-            "multiverseid": 58,
+            "multiverseid": 59,
+            "manaCost": "{1}{B}",
             "text": "Target creature gets +1/+0 and gains indestructible until end of turn\n----\n3G\nSorcery\nAftermath\nAll creatures able to block target creature this turn must do so"
         },
         {
@@ -1068,7 +1126,8 @@
                 "White"
             ],
             "rarity": "Uncommon",
-            "multiverseid": 59,
+            "multiverseid": 60,
+            "manaCost": "{2}{W}",
             "power": "3",
             "toughness": "2",
             "text": "You may exert Devoted Crop-Mate as it attacks. When you do, return target creature card with converted mana cost 2 or less from your graveyard to the battlefield"
@@ -1085,7 +1144,8 @@
                 "Black"
             ],
             "rarity": "Rare",
-            "multiverseid": 60,
+            "multiverseid": 61,
+            "manaCost": "{2}{B}",
             "text": "Choose an artifact card name. Search target opponent's graveyard, hand, and library for any number of cards with the chosen name and exile them. Then that player shuffles his or her library"
         },
         {
@@ -1100,7 +1160,8 @@
                 "Green"
             ],
             "rarity": "Common",
-            "multiverseid": 61,
+            "multiverseid": 62,
+            "manaCost": "{1}{G}",
             "text": "Destroy target artifact\nCycling {G}"
         },
         {
@@ -1115,7 +1176,8 @@
                 "White"
             ],
             "rarity": "Common",
-            "multiverseid": 62,
+            "multiverseid": 63,
+            "manaCost": "{W}",
             "text": "Untap target creature. Prevent all damage that would be dealt to it this turn\nCycling {2}"
         },
         {
@@ -1132,7 +1194,8 @@
                 "Black"
             ],
             "rarity": "Common",
-            "multiverseid": 63,
+            "multiverseid": 64,
+            "manaCost": "{1}{B}",
             "power": "1",
             "toughness": "1",
             "text": "When Doomed Dissenter dies, create a 2/2 black Zombie creature token"
@@ -1149,7 +1212,8 @@
                 "Blue"
             ],
             "rarity": "Rare",
-            "multiverseid": 64,
+            "multiverseid": 65,
+            "manaCost": "{2}{U}",
             "text": "Whenever you cycle or discard a card, you may pay {1}. If you do, create a 2/2 blue Drake creature token with flying"
         },
         {
@@ -1167,7 +1231,8 @@
                 "Black"
             ],
             "rarity": "Rare",
-            "multiverseid": 65,
+            "multiverseid": 66,
+            "manaCost": "{B}",
             "power": "2",
             "toughness": "1",
             "text": "Dread Wanderer enters the battlefield tapped\n{2}{B}: Return Dread Wanderer from your graveyard to the battlefield. Activate this ability only any time you could cast a sorcery and only if you have one of fewer cards in hand"
@@ -1186,7 +1251,8 @@
                 "Black"
             ],
             "rarity": "Common",
-            "multiverseid": 66,
+            "multiverseid": 67,
+            "manaCost": "{1}{B}",
             "power": "1",
             "toughness": "4",
             "text": ""
@@ -1203,7 +1269,8 @@
                 "White"
             ],
             "rarity": "Rare",
-            "multiverseid": 67,
+            "multiverseid": 68,
+            "manaCost": "{2}{W}{W}",
             "text": "Destroy all creatures with power 3 or greater\n----\n3WW\nSorcery\nAftermath\nReturn all creature cards with power 2 or less from your graveyard to your hand"
         },
         {
@@ -1216,7 +1283,8 @@
             ],
             "colors": null,
             "rarity": "Uncommon",
-            "multiverseid": 68,
+            "multiverseid": 69,
+            "manaCost": "{3}",
             "text": "{1}, {T}: Target creature can't attack this turn. Put a brick counter on Edifice of Authority\n{1}, {T}: Until your next turn, target creature can't attack or block and its activated abilities can't be activated. Activate this ability only if there are three or more brick counters on Edifice of Authority"
         },
         {
@@ -1231,7 +1299,8 @@
                 "Red"
             ],
             "rarity": "Common",
-            "multiverseid": 69,
+            "multiverseid": 70,
+            "manaCost": "{3}{R}",
             "text": "Electrify deals 4 damage to target creature"
         },
         {
@@ -1244,7 +1313,8 @@
             ],
             "colors": null,
             "rarity": "Uncommon",
-            "multiverseid": 70,
+            "multiverseid": 71,
+            "manaCost": "{2}",
             "text": "Activated abilities of creature cards in your graveyard cost {1} less to activate\nTap an untapped Zombie you control: Target player puts the top card of his or her library into his or her graveyard"
         },
         {
@@ -1262,12 +1332,11 @@
                 "Red"
             ],
             "rarity": "Common",
-            "multiverseid": 71,
+            "multiverseid": 72,
+            "manaCost": "{3}{R}",
             "power": "4",
             "toughness": "3",
-            "text": "You may exert Emberhorn Minotaur as it attacks. When you do, it gets +1/+1 and gains menace until end of turn",
-            "attackingPower": "5",
-            "attackingToughness": "4"
+            "text": "You may exert Emberhorn Minotaur as it attacks. When you do, it gets +1/+1 and gains menace until end of turn"
         },
         {
             "name": "Enigma Drake",
@@ -1284,7 +1353,8 @@
                 "Red"
             ],
             "rarity": "Uncommon",
-            "multiverseid": 72,
+            "multiverseid": 73,
+            "manaCost": "{1}{U}{R}",
             "power": "*",
             "toughness": "4",
             "text": "Flying\nEnigma Drake's power is equal to the number of instant and sorcery cards in your graveyard"
@@ -1301,7 +1371,8 @@
                 "Blue"
             ],
             "rarity": "Common",
-            "multiverseid": 73,
+            "multiverseid": 74,
+            "manaCost": "{1}{U}",
             "text": "Counter target creature spell"
         },
         {
@@ -1314,7 +1385,8 @@
             ],
             "colors": null,
             "rarity": "Common",
-            "multiverseid": 74,
+            "multiverseid": 75,
+            "manaCost": "",
             "text": "{T}, Sacrifice Evolving Wilds: Search your library for a basic land card and put it onto the battlefield tapped. Then shuffle your library"
         },
         {
@@ -1332,7 +1404,8 @@
                 "Green"
             ],
             "rarity": "Uncommon",
-            "multiverseid": 75,
+            "multiverseid": 76,
+            "manaCost": "{1}{G}",
             "power": "4",
             "toughness": "4",
             "text": "When Exemplar of Strength enters the battlefield, put three -1/-1 counters on target creature you control\nWhenever Exemplar of Strength attacks, remove a -1/-1 counter from it. If you do, you gain 1 life"
@@ -1350,7 +1423,8 @@
                 "White"
             ],
             "rarity": "Rare",
-            "multiverseid": 76,
+            "multiverseid": 77,
+            "manaCost": "{1}{U}",
             "text": "Return target spell to its owner's hand\n----\nW\nSorcery\nAftermath\nChoose a card name. Until your next turn, your opponents can't cast spells with the chosen name"
         },
         {
@@ -1365,7 +1439,8 @@
                 "Black"
             ],
             "rarity": "Uncommon",
-            "multiverseid": 77,
+            "multiverseid": 78,
+            "manaCost": "{2}{B}",
             "text": "Whenever you cycle or discard a card, you may pay {1}. If you do each opponent loses 2 life and you gain 2 life"
         },
         {
@@ -1382,7 +1457,8 @@
                 "White"
             ],
             "rarity": "Common",
-            "multiverseid": 78,
+            "multiverseid": 79,
+            "manaCost": "{W}",
             "power": "1",
             "toughness": "2",
             "text": "{2}, {T}: Tap target creature"
@@ -1401,7 +1477,8 @@
                 "Black"
             ],
             "rarity": "Common",
-            "multiverseid": 79,
+            "multiverseid": 80,
+            "manaCost": "{B}",
             "power": "1",
             "toughness": "1",
             "text": "When Festering Mummy dies, you may put a -1/-1 counter on target creature"
@@ -1419,7 +1496,8 @@
             ],
             "colors": null,
             "rarity": "Rare",
-            "multiverseid": 80,
+            "multiverseid": 81,
+            "manaCost": "",
             "text": "Fetid Pool enters the battlefield tapped\nCycling {2}"
         },
         {
@@ -1434,7 +1512,8 @@
                 "Black"
             ],
             "rarity": "Common",
-            "multiverseid": 81,
+            "multiverseid": 82,
+            "manaCost": "{4}{B}",
             "text": "Exile target creature"
         },
         {
@@ -1452,7 +1531,8 @@
                 "Red"
             ],
             "rarity": "Uncommon",
-            "multiverseid": 82,
+            "multiverseid": 83,
+            "manaCost": "{R}",
             "power": "1",
             "toughness": "2",
             "text": "Menace\nWhenever you cycle or discard a card, Flameblade Adept gets +1/+0 until end of turn"
@@ -1469,7 +1549,8 @@
                 "Red"
             ],
             "rarity": "Common",
-            "multiverseid": 83,
+            "multiverseid": 84,
+            "manaCost": "{1}{R}",
             "text": "As an additional cost to cast Fling, sacrifice a creature\nFling deals damage equal to the sacrificed creature's power to target creature or player"
         },
         {
@@ -1484,7 +1565,8 @@
                 "Blue"
             ],
             "rarity": "Common",
-            "multiverseid": 84,
+            "multiverseid": 85,
+            "manaCost": "{4}{U}{U}",
             "text": "Return up to two target creatures to their owners' hands\nCycling {2}"
         },
         {
@@ -1499,7 +1581,8 @@
                 "White"
             ],
             "rarity": "Common",
-            "multiverseid": 85,
+            "multiverseid": 86,
+            "manaCost": "{2}{W}",
             "text": "Exile target artifact or enchantment\nCycling {2}"
         },
         {
@@ -1514,7 +1597,8 @@
                 "Blue"
             ],
             "rarity": "Uncommon",
-            "multiverseid": 86,
+            "multiverseid": 87,
+            "manaCost": "{2}{U}",
             "text": "Return target tapped creature to its owner's hand\nDraw a card"
         },
         {
@@ -1527,7 +1611,8 @@
             ],
             "colors": null,
             "rarity": "Uncommon",
-            "multiverseid": 87,
+            "multiverseid": 88,
+            "manaCost": "{3}",
             "text": "Whenever a nontoken creature you control dies, you gain 1 life. Then you may draw a card. If you do, discard a card\n{2}, {T}, Sacrifice Gate to the Afterlife: Search your graveyard, hand, and/or library for a card named God-Pharaoh's Gift and put it onto the battlefield. If you search your library this way, shuffle it\nActivate this ability only if there are six or more creature cards in your graveyard"
         },
         {
@@ -1544,7 +1629,8 @@
                 "Green"
             ],
             "rarity": "Common",
-            "multiverseid": 88,
+            "multiverseid": 89,
+            "manaCost": "{3}{G}",
             "power": "2",
             "toughness": "4",
             "text": "Reach"
@@ -1563,7 +1649,8 @@
                 "White"
             ],
             "rarity": "Mythic",
-            "multiverseid": 89,
+            "multiverseid": 90,
+            "manaCost": "{1}{W}{W}",
             "text": "3\n+1: Until your next turn, prevent all damage target permanent would deal\n0: Until end of turn, Gideon of the Trials becomes a 4/4 Human Soldier creature with indestructible that's still a planeswalker. Prevent all damage that would be dealt to him this turn\n0: You get an emblem with"
         },
         {
@@ -1578,7 +1665,8 @@
                 "White"
             ],
             "rarity": "Rare",
-            "multiverseid": 90,
+            "multiverseid": 91,
+            "manaCost": "{2}{W}{W}",
             "text": "As Gideon's Intervention enters the battlefield, choose a card name\nYour opponents can't cast spells with the chosen name\nPrevent all damage that would be dealt to you and permanents you control by sources with the chosen name"
         },
         {
@@ -1595,7 +1683,8 @@
                 "Green"
             ],
             "rarity": "Common",
-            "multiverseid": 91,
+            "multiverseid": 92,
+            "manaCost": "{2}{G}",
             "text": "Enchant land\nWhen Gift of Paradise enters the battlefield, you gain 3 life\nEnchanted land has"
         },
         {
@@ -1610,7 +1699,8 @@
                 "Red"
             ],
             "rarity": "Mythic",
-            "multiverseid": 92,
+            "multiverseid": 93,
+            "manaCost": "{2}{R}",
             "text": "End the turn\nAt the beginning of your next end step, you lose the game"
         },
         {
@@ -1628,12 +1718,11 @@
                 "White"
             ],
             "rarity": "Rare",
-            "multiverseid": 93,
+            "multiverseid": 94,
+            "manaCost": "{1}{W}",
             "power": "3",
             "toughness": "1",
-            "text": "You may exert Glory-Bound Initiate as it attacks. When you do, it gets +1/+3 and gains lifelink until end of turn",
-            "attackingPower": "4",
-            "attackingToughness": "4"
+            "text": "You may exert Glory-Bound Initiate as it attacks. When you do, it gets +1/+3 and gains lifelink until end of turn"
         },
         {
             "name": "Glorybringer",
@@ -1649,7 +1738,8 @@
                 "Red"
             ],
             "rarity": "Rare",
-            "multiverseid": 94,
+            "multiverseid": 95,
+            "manaCost": "{3}{R}{R}",
             "power": "4",
             "toughness": "4",
             "text": "Flying, haste\nYou may exert Glorybringer as it attacks. When you do, it deals 4 damage to target non-Dragon creature an opponent controls"
@@ -1668,7 +1758,8 @@
                 "Blue"
             ],
             "rarity": "Rare",
-            "multiverseid": 95,
+            "multiverseid": 96,
+            "manaCost": "{3}{U}{U}",
             "power": "5",
             "toughness": "3",
             "text": "Flying\nWhenever Glyph Keeper becomes the target of a spell or ability for the first time each turn, counter that spell or ability\nEmbalm {5}{U}{U}"
@@ -1685,7 +1776,8 @@
             ],
             "colors": null,
             "rarity": "Uncommon",
-            "multiverseid": 96,
+            "multiverseid": 97,
+            "manaCost": "",
             "text": "{T}: Add {C} to your mana pool\n{1}, {T}, Sacrifice Grasping Dunes: Put a -1/-1 counter target creature. Activate this ability only any time you could cast a sorcery"
         },
         {
@@ -1702,7 +1794,8 @@
                 "Black"
             ],
             "rarity": "Uncommon",
-            "multiverseid": 97,
+            "multiverseid": 98,
+            "manaCost": "{3}{B}",
             "power": "2",
             "toughness": "2",
             "text": "When Gravedigger enters the battlefield, you may return target creature card from your graveyard to your hand"
@@ -1721,7 +1814,8 @@
                 "Green"
             ],
             "rarity": "Common",
-            "multiverseid": 98,
+            "multiverseid": 99,
+            "manaCost": "{5}{G}{G}",
             "power": "7",
             "toughness": "7",
             "text": "Greater Sandwurm can't be blocked by creatures with power 2 or less\nCycling {2}"
@@ -1740,7 +1834,8 @@
                 "Black"
             ],
             "rarity": "Uncommon",
-            "multiverseid": 99,
+            "multiverseid": 100,
+            "manaCost": "{3}{B}",
             "power": "6",
             "toughness": "6",
             "text": "Grim Strider gets -1/-1 for each card in your hand"
@@ -1760,12 +1855,11 @@
                 "White"
             ],
             "rarity": "Common",
-            "multiverseid": 100,
+            "multiverseid": 101,
+            "manaCost": "{1}{W}",
             "power": "2",
             "toughness": "2",
-            "text": "You may exert Gust Walker as it attacks. When you do, it gets +1/+1 and gains flying until end of turn",
-            "attackingPower": "3",
-            "attackingToughness": "3"
+            "text": "You may exert Gust Walker as it attacks. When you do, it gets +1/+1 and gains flying until end of turn"
         },
         {
             "name": "Hapatra's Mark",
@@ -1779,7 +1873,8 @@
                 "Green"
             ],
             "rarity": "Uncommon",
-            "multiverseid": 101,
+            "multiverseid": 102,
+            "manaCost": "{G}",
             "text": "Target creature you control gains hexproof until end of turn. Remove all -1/-1 counters from it"
         },
         {
@@ -1800,7 +1895,8 @@
                 "Green"
             ],
             "rarity": "Rare",
-            "multiverseid": 102,
+            "multiverseid": 103,
+            "manaCost": "{B}{G}",
             "power": "2",
             "toughness": "2",
             "text": "Whenever Hapatra, Vizier of Poisons deals combat damage to a player, you may put a -1/-1 counter on target creature\nWhenever you put one or more -1/-1 counters on a creature, create a 1/1 green Snake creature token with deathtouch"
@@ -1820,7 +1916,8 @@
                 "Red"
             ],
             "rarity": "Rare",
-            "multiverseid": 103,
+            "multiverseid": 104,
+            "manaCost": "{1}{R}",
             "power": "2",
             "toughness": "2",
             "text": "Whenever an opponent activates an ability of an artifact, creature, or land on the battlefield, if it isn't a mana ability, Harsh Mentor deals 2 damage to that player"
@@ -1837,7 +1934,8 @@
                 "Green"
             ],
             "rarity": "Rare",
-            "multiverseid": 104,
+            "multiverseid": 105,
+            "manaCost": "{2}{G}",
             "text": "Search your library for up to X basic land cards, where X is the number of tapped creatures you control, and put those cards onto the battlefield tapped. Then shuffle your library"
         },
         {
@@ -1852,7 +1950,8 @@
                 "Green"
             ],
             "rarity": "Common",
-            "multiverseid": 105,
+            "multiverseid": 106,
+            "manaCost": "{1}{G}",
             "text": "Prevent all combat damage that would be dealt this turn\nCycling {3}"
         },
         {
@@ -1871,7 +1970,8 @@
                 "Red"
             ],
             "rarity": "Mythic",
-            "multiverseid": 106,
+            "multiverseid": 107,
+            "manaCost": "{3}{R}",
             "power": "5",
             "toughness": "4",
             "text": "Indestructible, haste\nHazoret the Fervent can't attack or block unless you have one or fewer cards in hand\n{2}{R}, Discard a card: Hazoret deals 2 damage to each opponent"
@@ -1888,7 +1988,8 @@
                 "Red"
             ],
             "rarity": "Rare",
-            "multiverseid": 107,
+            "multiverseid": 108,
+            "manaCost": "{2}{R}",
             "text": "At the beginning of combat on your turn, you may have target creature you control get +2/+0 and gain haste until end of turn. If you do, sacrifice it at the beginning of the next end step"
         },
         {
@@ -1903,7 +2004,8 @@
             ],
             "colors": null,
             "rarity": "Uncommon",
-            "multiverseid": 108,
+            "multiverseid": 109,
+            "manaCost": "{3}",
             "text": "Red creature spells you cast cost {1} less to cast\nWhenever you cast a creature spell, you may discard a card. If you do, draw a card"
         },
         {
@@ -1920,7 +2022,8 @@
                 "Red"
             ],
             "rarity": "Rare",
-            "multiverseid": 109,
+            "multiverseid": 110,
+            "manaCost": "{2}{R}{R}",
             "power": "4",
             "toughness": "3",
             "text": "When Heart-Piercer Manticore enters the battlefield, you may sacrifice another creature. When you do, Heart-Piercer Manticore deals damage equal to that creature's power to target creature or player\nEmbalm {5}{R}"
@@ -1938,7 +2041,8 @@
                 "Red"
             ],
             "rarity": "Rare",
-            "multiverseid": 110,
+            "multiverseid": 111,
+            "manaCost": "{X}{G}",
             "text": "Heaven deals X damage to each creature with flying\n----\nXRR\nSorcery\nAftermath\nEarth deals X damage to each creature without flying"
         },
         {
@@ -1956,7 +2060,8 @@
                 "Blue"
             ],
             "rarity": "Common",
-            "multiverseid": 111,
+            "multiverseid": 112,
+            "manaCost": "{2}{U}",
             "power": "2",
             "toughness": "3",
             "text": "Whenever you cycle or discard a card, Hekma Sentinels gets +1/+1 until end of turn"
@@ -1973,7 +2078,8 @@
                 "Blue"
             ],
             "rarity": "Common",
-            "multiverseid": 112,
+            "multiverseid": 113,
+            "manaCost": "{3}{U}",
             "text": "Draw two cards\nCycling {U}"
         },
         {
@@ -1988,7 +2094,8 @@
             ],
             "colors": null,
             "rarity": "Common",
-            "multiverseid": 113,
+            "multiverseid": 114,
+            "manaCost": "{1}",
             "text": "Equipped creature gets +1/+1\nEquip {1}"
         },
         {
@@ -2007,7 +2114,8 @@
                 "White"
             ],
             "rarity": "Uncommon",
-            "multiverseid": 114,
+            "multiverseid": 115,
+            "manaCost": "{R}{W}",
             "power": "3",
             "toughness": "2",
             "text": "Whenever Honored Crop-Champion attacks, other attacking creatures get +1/+0 until end of turn"
@@ -2027,7 +2135,8 @@
                 "Green"
             ],
             "rarity": "Rare",
-            "multiverseid": 115,
+            "multiverseid": 116,
+            "manaCost": "{5}{G}",
             "power": "6",
             "toughness": "6",
             "text": "Trample\nEmbalm {3}{G}"
@@ -2047,12 +2156,11 @@
                 "Green"
             ],
             "rarity": "Common",
-            "multiverseid": 116,
+            "multiverseid": 117,
+            "manaCost": "{2}{G}",
             "power": "3",
             "toughness": "2",
-            "text": "You may exert Hooded Brawler as it attacks. When you do, it gains +2/+2 until end of turn",
-            "attackingPower": "5",
-            "attackingToughness": "4"
+            "text": "You may exert Hooded Brawler as it attacks. When you do, it gains +2/+2 until end of turn"
         },
         {
             "name": "Horror of the Broken Lands",
@@ -2068,7 +2176,8 @@
                 "Black"
             ],
             "rarity": "Common",
-            "multiverseid": 117,
+            "multiverseid": 118,
+            "manaCost": "{4}{B}",
             "power": "4",
             "toughness": "4",
             "text": "Whenever you cycle or discard another card, Horror of the Broken Lands gets +2/+1 until end of turn\nCycling {B}"
@@ -2087,7 +2196,8 @@
                 "Red"
             ],
             "rarity": "Common",
-            "multiverseid": 118,
+            "multiverseid": 119,
+            "manaCost": "{2}{R}{R}",
             "power": "3",
             "toughness": "4",
             "text": ""
@@ -2106,7 +2216,8 @@
                 "Blue"
             ],
             "rarity": "Common",
-            "multiverseid": 119,
+            "multiverseid": 120,
+            "manaCost": "{2}{U}",
             "text": "Enchant creature\nEnchanted creature has base power and toughness 0/2"
         },
         {
@@ -2121,7 +2232,8 @@
                 "White"
             ],
             "rarity": "Common",
-            "multiverseid": 120,
+            "multiverseid": 121,
+            "manaCost": "{1}{W}",
             "text": "Impeccable Timing deals 3 damage to target attacking or blocking creature"
         },
         {
@@ -2136,7 +2248,8 @@
                 "White"
             ],
             "rarity": "Common",
-            "multiverseid": 121,
+            "multiverseid": 122,
+            "manaCost": "{1}{W}",
             "text": "Zombies you control get +2/+1 until end of turn. Other creatures you control get +1/+1 until end of turn"
         },
         {
@@ -2153,7 +2266,8 @@
                 "Green"
             ],
             "rarity": "Common",
-            "multiverseid": 122,
+            "multiverseid": 123,
+            "manaCost": "{1}{G}",
             "power": "3",
             "toughness": "1",
             "text": "Whenever Initiate's Companion deals combat damage to a player, untap target creature or land"
@@ -2170,7 +2284,8 @@
                 "Red"
             ],
             "rarity": "Rare",
-            "multiverseid": 123,
+            "multiverseid": 124,
+            "manaCost": "{2}{R}",
             "text": "Damage can't be prevented this turn. If a source you control would deal damage this turn, it deals double that damage instead\n----\n2R\nSorcery\nAftermath\nInjury deals 2 damage to target creature and 2 damage to target player"
         },
         {
@@ -2186,7 +2301,8 @@
             ],
             "colors": null,
             "rarity": "Rare",
-            "multiverseid": 124,
+            "multiverseid": 125,
+            "manaCost": "",
             "text": "Irrigated Farmland enters the battlefield tapped\nCycling {2}"
         },
         {
@@ -2205,7 +2321,8 @@
                 "Blue"
             ],
             "rarity": "Mythic",
-            "multiverseid": 125,
+            "multiverseid": 126,
+            "manaCost": "{2}{U}",
             "power": "5",
             "toughness": "5",
             "text": "Flying, indestructible\nKefnet the Mindful can't attack or block unless you have seven or more cards in hand\n{3}{U}: Draw a card, then you may return a land you control to its owner's hand"
@@ -2222,7 +2339,8 @@
             ],
             "colors": null,
             "rarity": "Uncommon",
-            "multiverseid": 126,
+            "multiverseid": 127,
+            "manaCost": "{3}",
             "text": "Blue creature spells you cast cost {1} less to cast\nWhenever you cast a creature spell, target creature an opponent controls doesn't untap during its controller's next untap step"
         },
         {
@@ -2241,7 +2359,8 @@
                 "Green"
             ],
             "rarity": "Uncommon",
-            "multiverseid": 127,
+            "multiverseid": 128,
+            "manaCost": "{1}{R}{G}",
             "power": "3",
             "toughness": "3",
             "text": "Trample\nOther creatures you control have trample"
@@ -2261,7 +2380,8 @@
                 "Blue"
             ],
             "rarity": "Uncommon",
-            "multiverseid": 128,
+            "multiverseid": 129,
+            "manaCost": "{1}{U}",
             "power": "2",
             "toughness": "3",
             "text": "When Labyrinth Guardian becomes the target of a spell, sacrifice it\nEmbalm {3}{U}"
@@ -2278,7 +2398,8 @@
                 "Black"
             ],
             "rarity": "Uncommon",
-            "multiverseid": 129,
+            "multiverseid": 130,
+            "manaCost": "{1}{B}",
             "text": "Target opponent reveals his or her hand. You choose a nonlegendary, nonland card from it. That player discards that card"
         },
         {
@@ -2295,7 +2416,8 @@
                 "Blue"
             ],
             "rarity": "Uncommon",
-            "multiverseid": 130,
+            "multiverseid": 131,
+            "manaCost": "{5}{U}{U}",
             "text": "Enchant permanent\nYou control enchanted permanent\nCycling {2}"
         },
         {
@@ -2310,7 +2432,8 @@
                 "Black"
             ],
             "rarity": "Rare",
-            "multiverseid": 131,
+            "multiverseid": 132,
+            "manaCost": "{3}{B}{B}",
             "text": "Zombies you control get +1/+1\nWhen Liliana's Mastery enters the battlefield, create two 2/2 black Zombie creature tokens"
         },
         {
@@ -2327,7 +2450,8 @@
                 "Black"
             ],
             "rarity": "Mythic",
-            "multiverseid": 132,
+            "multiverseid": 133,
+            "manaCost": "{3}{B}{B}",
             "text": "5\n+1: Create a 2/2 black Zombie creature token. Put the top two cards of your library into your graveyard\n-3: Return target creature card from your graveyard to the battlefield. That creature is a black Zombie in addition to its other colors and types\n-7: Destroy all non-Zombie creatures"
         },
         {
@@ -2342,7 +2466,8 @@
                 "Red"
             ],
             "rarity": "Uncommon",
-            "multiverseid": 133,
+            "multiverseid": 134,
+            "manaCost": "{3}{R}",
             "text": "Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn\nCycling {2}"
         },
         {
@@ -2359,7 +2484,8 @@
                 "Black"
             ],
             "rarity": "Uncommon",
-            "multiverseid": 134,
+            "multiverseid": 135,
+            "manaCost": "{2}{B}",
             "power": "2",
             "toughness": "3",
             "text": "Other Zombies you control get +1/+1\n{1}{B}, {T}: All Zombies gain menace until end of turn"
@@ -2374,7 +2500,8 @@
             ],
             "colors": null,
             "rarity": "Common",
-            "multiverseid": 135,
+            "multiverseid": 136,
+            "manaCost": "{3}",
             "text": "{1}, {T}: You gain 1 life. Put a brick counter on Luxa River Shrine\n{T}: You gain 2 life. Activate this ability only if there are three or more brick counters on Luxa River Shrine"
         },
         {
@@ -2389,7 +2516,8 @@
                 "Red"
             ],
             "rarity": "Common",
-            "multiverseid": 136,
+            "multiverseid": 137,
+            "manaCost": "{R}",
             "text": "Magma Spray deals 2 damage to target creature. If that creature would die this turn, exile it instead"
         },
         {
@@ -2406,7 +2534,8 @@
                 "Green"
             ],
             "rarity": "Uncommon",
-            "multiverseid": 137,
+            "multiverseid": 138,
+            "manaCost": "{2}{G}",
             "power": "2",
             "toughness": "2",
             "text": "When Manglehorn enters the battlefield, you may destroy target artifact\nArtifacts your opponents control enter the battlefield tapped"
@@ -2425,7 +2554,8 @@
                 "Red"
             ],
             "rarity": "Common",
-            "multiverseid": 138,
+            "multiverseid": 139,
+            "manaCost": "{4}{R}",
             "power": "5",
             "toughness": "4",
             "text": "When Manticore of the Gauntlet enters the battlefield, put a -1/-1 counter on target creature you control. Manticore of the Gauntlet deals 3 damage to target opponent"
@@ -2446,7 +2576,8 @@
                 "Red"
             ],
             "rarity": "Uncommon",
-            "multiverseid": 139,
+            "multiverseid": 140,
+            "manaCost": "{2}{B}{R}",
             "power": "4",
             "toughness": "2",
             "text": "{2}, Discard a card: Put a -1/-1 counter on target creature. That creature can't block this turn"
@@ -2466,7 +2597,8 @@
                 "Black"
             ],
             "rarity": "Common",
-            "multiverseid": 140,
+            "multiverseid": 141,
+            "manaCost": "{1}{B}",
             "power": "2",
             "toughness": "2",
             "text": "When Miasmic Mummy enters the battlefield, each player discards a card"
@@ -2483,7 +2615,8 @@
                 "White"
             ],
             "rarity": "Common",
-            "multiverseid": 141,
+            "multiverseid": 142,
+            "manaCost": "{1}{W}",
             "text": "Target creature gets +2/+2 and gains flying until end of turn"
         },
         {
@@ -2501,7 +2634,8 @@
                 "Red"
             ],
             "rarity": "Common",
-            "multiverseid": 142,
+            "multiverseid": 143,
+            "manaCost": "{2}{R}",
             "power": "2",
             "toughness": "3",
             "text": "Reach\n{1}{R}: Minotaur Sureshot gets +1/+0 until end of turn"
@@ -2518,7 +2652,8 @@
                 "Green"
             ],
             "rarity": "Rare",
-            "multiverseid": 143,
+            "multiverseid": 144,
+            "manaCost": "{2}{G}",
             "text": "Create a 3/3 green Hippo creature token\n----\n3G\nSorcery\nAftermath\nDraw a card for each creature you control with power 3 or greater"
         },
         {
@@ -2536,7 +2671,8 @@
                 "Blue"
             ],
             "rarity": "Common",
-            "multiverseid": 144,
+            "multiverseid": 145,
+            "manaCost": "{3}{U}",
             "power": "2",
             "toughness": "4",
             "text": "When Naga Oracle enters the battlefield, look at the top three cards of your library. Put any number of them into your graveyard and the rest back on top of your library in any order"
@@ -2556,7 +2692,8 @@
                 "Green"
             ],
             "rarity": "Common",
-            "multiverseid": 145,
+            "multiverseid": 146,
+            "manaCost": "{1}{G}",
             "power": "1",
             "toughness": "2",
             "text": "{T}: Add to your mana pool one mana of any type that a land you control could produce"
@@ -2576,12 +2713,11 @@
                 "Red"
             ],
             "rarity": "Common",
-            "multiverseid": 146,
+            "multiverseid": 147,
+            "manaCost": "{1}{R}",
             "power": "2",
             "toughness": "1",
-            "text": "Trample\nYou may exert Nef-Crop Entangler as it attacks. When you do, it gets +1/+2 until end of turn",
-            "attackingPower": "3",
-            "attackingToughness": "3"
+            "text": "Trample\nYou may exert Nef-Crop Entangler as it attacks. When you do, it gets +1/+2 until end of turn"
         },
         {
             "name": "Neheb, the Worthy",
@@ -2601,7 +2737,8 @@
                 "Red"
             ],
             "rarity": "Rare",
-            "multiverseid": 147,
+            "multiverseid": 148,
+            "manaCost": "{1}{B}{R}",
             "power": "2",
             "toughness": "2",
             "text": "First strike\nOther Minotaurs you control have first strike\nAs long as you have one or fewer cards in hand, Minotaurs you control get +2/+0\nWhenever Neheb, the Worthy deals combat damage to a player, each player discards a card"
@@ -2618,7 +2755,8 @@
                 "Black"
             ],
             "rarity": "Uncommon",
-            "multiverseid": 148,
+            "multiverseid": 149,
+            "manaCost": "{2}{B}",
             "text": "Whenever you put one or more -1/-1 counters on a creature, create that many 1/1 black Insect creature tokens"
         },
         {
@@ -2633,7 +2771,8 @@
                 "Black"
             ],
             "rarity": "Rare",
-            "multiverseid": 149,
+            "multiverseid": 150,
+            "manaCost": "{1}{B}{B}",
             "text": "Destroy target creature or planeswalker\n----\n3B\nSorcery\nAftermath\nExile target card from a graveyard. Create a 2/2 black Zombie creature token"
         },
         {
@@ -2648,7 +2787,8 @@
                 "Blue"
             ],
             "rarity": "Rare",
-            "multiverseid": 150,
+            "multiverseid": 151,
+            "manaCost": "{5}{U}",
             "text": "When New Perspectives enters the battlefield, draw three cards\nAs long as you have seven or more cards in hand, you may pay {0} rather than pay cycling costs"
         },
         {
@@ -2666,7 +2806,8 @@
                 "Red"
             ],
             "rarity": "Common",
-            "multiverseid": 151,
+            "multiverseid": 152,
+            "manaCost": "{1}{R}",
             "power": "1",
             "toughness": "3",
             "text": "Prowess"
@@ -2686,7 +2827,8 @@
                 "Blue"
             ],
             "rarity": "Mythic",
-            "multiverseid": 152,
+            "multiverseid": 153,
+            "manaCost": "{X}{G}{U}",
             "text": "0\n+2: Scry 2\n0: Look at the top card of your library. If it's a land card or a creature card with converted mana cost less than or equal to the number of loyalty counters on Nissa, Steward of Elements, you may put that card onto the battlefield\n-6: Untap up to two target lands you control. They become 5/5 Elemental creatures with flying and haste until end of turn. They're still lands"
         },
         {
@@ -2704,7 +2846,8 @@
                 "Green"
             ],
             "rarity": "Common",
-            "multiverseid": 153,
+            "multiverseid": 154,
+            "manaCost": "{G}",
             "power": "0",
             "toughness": "3",
             "text": "{2}{G}, {T}, Sacrifice Oashra Cultivator: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library"
@@ -2725,7 +2868,8 @@
                 "White"
             ],
             "rarity": "Mythic",
-            "multiverseid": 154,
+            "multiverseid": 155,
+            "manaCost": "{3}{W}",
             "power": "3",
             "toughness": "6",
             "text": "Double strike, indestructible\nOketra the True can't attack or block unless you control at least three other creatures\n{3}{W}: Create a 1/1 white Warrior creature token with vigilance"
@@ -2745,7 +2889,8 @@
                 "White"
             ],
             "rarity": "Uncommon",
-            "multiverseid": 155,
+            "multiverseid": 156,
+            "manaCost": "{3}{W}{W}",
             "power": "3",
             "toughness": "3",
             "text": "Flying\nCycling {2}\nEmbalm {3}{W}{W}"
@@ -2762,7 +2907,8 @@
             ],
             "colors": null,
             "rarity": "Uncommon",
-            "multiverseid": 156,
+            "multiverseid": 157,
+            "manaCost": "{3}",
             "text": "White creature spells you cast cost {1} less to cast\nWhenever you cast a creature spell, create a 1/1 white Warrior creature token with vigilance"
         },
         {
@@ -2778,7 +2924,8 @@
                 "White"
             ],
             "rarity": "Uncommon",
-            "multiverseid": 157,
+            "multiverseid": 158,
+            "manaCost": "{2}{R}",
             "text": "Target creature gets +X/+0 until end of turn, where X is its power\n----\n2W\nSorcery\nAftermath\nTarget creature gains double strike until end of turn"
         },
         {
@@ -2793,7 +2940,8 @@
                 "Blue"
             ],
             "rarity": "Uncommon",
-            "multiverseid": 158,
+            "multiverseid": 159,
+            "manaCost": "{X}{U}{U}",
             "text": "X target creatures can't be blocked this turn. Until end of turn, those creatures gain"
         },
         {
@@ -2806,7 +2954,8 @@
             ],
             "colors": null,
             "rarity": "Rare",
-            "multiverseid": 159,
+            "multiverseid": 160,
+            "manaCost": "{4}",
             "text": "{2}, {T}: Exile the top card of your library. Until end of turn, you may play that card. Put a brick counter on Oracle's Vault\n{T}: Exile the top card of your library. Until end of turn, you may play that card without paying its mana cost. Activate this ability only if there are three or more brick counters on Oracle's Vault"
         },
         {
@@ -2823,7 +2972,8 @@
                 "Green"
             ],
             "rarity": "Common",
-            "multiverseid": 160,
+            "multiverseid": 161,
+            "manaCost": "{2}{G}",
             "power": "3",
             "toughness": "4",
             "text": "When Ornery Kudu enters the battlefield, put a -1/-1 counter on target creature you control"
@@ -2840,7 +2990,8 @@
                 "Black"
             ],
             "rarity": "Common",
-            "multiverseid": 161,
+            "multiverseid": 162,
+            "manaCost": "{2}{B}",
             "text": "Target player draws two cards and loses 2 life"
         },
         {
@@ -2855,7 +3006,8 @@
             ],
             "colors": null,
             "rarity": "Common",
-            "multiverseid": 162,
+            "multiverseid": 163,
+            "manaCost": "",
             "text": "{T}: Add {C} to your mana pool\n{1}, {T}: Add one mana of any color to your mana pool"
         },
         {
@@ -2873,7 +3025,8 @@
                 "Red"
             ],
             "rarity": "Common",
-            "multiverseid": 163,
+            "multiverseid": 164,
+            "manaCost": "{1}{R}",
             "power": "2",
             "toughness": "1",
             "text": "{T}: Target creature with power 2 or less can't be blocked this turn"
@@ -2893,7 +3046,8 @@
                 "Black"
             ],
             "rarity": "Common",
-            "multiverseid": 164,
+            "multiverseid": 165,
+            "manaCost": "{3}{B}",
             "power": "4",
             "toughness": "2",
             "text": "Whenever you cycle or discard a card, Pitiless Vizier gains indestructible until end of turn"
@@ -2913,7 +3067,8 @@
                 "Black"
             ],
             "rarity": "Rare",
-            "multiverseid": 165,
+            "multiverseid": 166,
+            "manaCost": "{2}{B}",
             "power": "5",
             "toughness": "4",
             "text": "Menace\nWhen Plague Belcher enters the battlefield, put two -1/-1 counters on target creature you control\nWhenever another Zombie you control dies, each opponent loses 1 life"
@@ -2932,7 +3087,8 @@
                 "Green"
             ],
             "rarity": "Common",
-            "multiverseid": 166,
+            "multiverseid": 167,
+            "manaCost": "{2}{G}",
             "power": "3",
             "toughness": "2",
             "text": "Flash"
@@ -2950,7 +3106,8 @@
                 "Green"
             ],
             "rarity": "Rare",
-            "multiverseid": 167,
+            "multiverseid": 168,
+            "manaCost": "{1}{W}",
             "text": "Untap target creature. It gets +2/+2 and gains lifelink until end of turn\n----\n3G\nSorcery\nAftermath\nTarget creature you control fights target creature an opponent controls"
         },
         {
@@ -2965,7 +3122,8 @@
                 "White"
             ],
             "rarity": "Uncommon",
-            "multiverseid": 168,
+            "multiverseid": 169,
+            "manaCost": "{4}{W}",
             "text": "If a source an opponent controls would deal damage to you, prevent 1 of that damage"
         },
         {
@@ -2983,7 +3141,8 @@
                 "Green"
             ],
             "rarity": "Rare",
-            "multiverseid": 169,
+            "multiverseid": 170,
+            "manaCost": "{1}{G}{G}",
             "power": "4",
             "toughness": "3",
             "text": "Prowling Serpopard can't be countered\nCreature spells you control can't be countered"
@@ -3000,7 +3159,8 @@
                 "Blue"
             ],
             "rarity": "Rare",
-            "multiverseid": 170,
+            "multiverseid": 171,
+            "manaCost": "{X}{U}{U}",
             "text": "Draw X cards, then discard a card"
         },
         {
@@ -3015,7 +3175,8 @@
                 "Red"
             ],
             "rarity": "Common",
-            "multiverseid": 171,
+            "multiverseid": 172,
+            "manaCost": "{3}{R}",
             "text": "Attacking creatures get +2/+0 until end of turn\nCycling {2}"
         },
         {
@@ -3028,7 +3189,8 @@
             ],
             "colors": null,
             "rarity": "Rare",
-            "multiverseid": 172,
+            "multiverseid": 173,
+            "manaCost": "{1}",
             "text": "{2}, {T}: Add one mana of any color to your mana pool. Put a brick counter on Pyramid of the Pantheon\n{T}: Add three mana of any one color to your mana pool. Activate this ability only if there are three or more brick counters on Pyramid of the Pantheon"
         },
         {
@@ -3045,7 +3207,8 @@
                 "Green"
             ],
             "rarity": "Common",
-            "multiverseid": 173,
+            "multiverseid": 174,
+            "manaCost": "{3}{G}",
             "power": "4",
             "toughness": "3",
             "text": "When Quarry Hauler enters the battlefield, for each kind of counter on target permanent, put another counter of that kind on it or remove one from it"
@@ -3063,7 +3226,8 @@
                 "Blue"
             ],
             "rarity": "Rare",
-            "multiverseid": 174,
+            "multiverseid": 175,
+            "manaCost": "{2}{B}{B}",
             "text": "All creatures get -2/-2 until end of turn\n----\n5UU\nSorcery\nAftermath\nEach opponent chooses a creature he or she controls. You gain control of these creatures"
         },
         {
@@ -3079,7 +3243,8 @@
                 "Red"
             ],
             "rarity": "Uncommon",
-            "multiverseid": 175,
+            "multiverseid": 176,
+            "manaCost": "{2}{U}",
             "text": "Counter target spell unless its controller pays {3}\n----\n2R\nSorcery\nAftermath\nUp to three target lands don't untap during their controller's next untap step"
         },
         {
@@ -3096,7 +3261,8 @@
                 "White"
             ],
             "rarity": "Rare",
-            "multiverseid": 176,
+            "multiverseid": 177,
+            "manaCost": "{3}{W}{W}",
             "power": "3",
             "toughness": "3",
             "text": "Other Cats you control get +1/+1 and have lifelink\nWhen Regal Caracal enters the battlefield, create two 1/1 white Cat creature tokens with lifelink"
@@ -3113,7 +3279,8 @@
                 "White"
             ],
             "rarity": "Uncommon",
-            "multiverseid": 177,
+            "multiverseid": 178,
+            "manaCost": "{2}{W}",
             "text": "You gain 6 life\nCycling {1}{W}\nWhen you cycle Renewed Faith, you may gain 2 life"
         },
         {
@@ -3131,11 +3298,11 @@
                 "White"
             ],
             "rarity": "Common",
-            "multiverseid": 178,
+            "multiverseid": 179,
+            "manaCost": "{2}{W}",
             "power": "3",
             "toughness": "1",
-            "text": "You may exert Rhet-Crop Spearmaster as it attacks. When you do, it gets +1/+0 and gains first strike until end of turn",
-            "attackingPower": "4"
+            "text": "You may exert Rhet-Crop Spearmaster as it attacks. When you do, it gets +1/+0 and gains first strike until end of turn"
         },
         {
             "name": "Rhonas the Indomitable",
@@ -3153,7 +3320,8 @@
                 "Green"
             ],
             "rarity": "Mythic",
-            "multiverseid": 179,
+            "multiverseid": 180,
+            "manaCost": "{2}{G}",
             "power": "5",
             "toughness": "5",
             "text": "Deathtouch, indestructible\nRhonas the Indomitable can't attack or block unless you control another creature with power 4 or greater\n{2}{G}: Another target creature gets +2/+0 and gains trample until end of turn"
@@ -3170,7 +3338,8 @@
             ],
             "colors": null,
             "rarity": "Uncommon",
-            "multiverseid": 180,
+            "multiverseid": 181,
+            "manaCost": "{3}",
             "text": "Green creature spells you cast cost {1} less to cast\nWhenever you cast a creature spell, target creature you control gets +2/+2 and gains trample until end of turn"
         },
         {
@@ -3187,7 +3356,8 @@
                 "Blue"
             ],
             "rarity": "Common",
-            "multiverseid": 181,
+            "multiverseid": 182,
+            "manaCost": "{5}{U}",
             "power": "5",
             "toughness": "5",
             "text": "River Serpent can't attack unless there are five or more cards in your graveyard\nCycling {U}"
@@ -3207,7 +3377,8 @@
                 "Black"
             ],
             "rarity": "Uncommon",
-            "multiverseid": 182,
+            "multiverseid": 183,
+            "manaCost": "{B}",
             "power": "1",
             "toughness": "2",
             "text": "Whenever you cycle or discard a card, you may pay {1}. If you do, put a -1/-1 counter on target creature"
@@ -3226,7 +3397,8 @@
                 "White"
             ],
             "rarity": "Common",
-            "multiverseid": 183,
+            "multiverseid": 184,
+            "manaCost": "{W}",
             "power": "1",
             "toughness": "1",
             "text": "Lifelink\nEmbalm {W}"
@@ -3243,7 +3415,8 @@
                 "Blue"
             ],
             "rarity": "Uncommon",
-            "multiverseid": 184,
+            "multiverseid": 185,
+            "manaCost": "{3}{U}",
             "text": "Return up to two cards with cycling from your graveyard to your hand"
         },
         {
@@ -3264,7 +3437,8 @@
                 "Green"
             ],
             "rarity": "Mythic",
-            "multiverseid": 185,
+            "multiverseid": 186,
+            "manaCost": "{3}{R}{G}",
             "power": "3",
             "toughness": "4",
             "text": "Flash\nDouble strike, vigilance, haste\nOther creatures you control have haste\n{W}, {T}: Untap another target creature"
@@ -3281,7 +3455,8 @@
                 "Green"
             ],
             "rarity": "Rare",
-            "multiverseid": 186,
+            "multiverseid": 187,
+            "manaCost": "{6}{G}{G}",
             "text": "Creatures with flying can't attack you or planeswalkers you control\nAt the beginning of your end step, create a 5/5 green Wurm creature token"
         },
         {
@@ -3298,7 +3473,8 @@
                 "Green"
             ],
             "rarity": "Uncommon",
-            "multiverseid": 187,
+            "multiverseid": 188,
+            "manaCost": "{4}{G}{G}",
             "power": "6",
             "toughness": "7",
             "text": "Hexproof"
@@ -3315,7 +3491,8 @@
                 "Black"
             ],
             "rarity": "Common",
-            "multiverseid": 188,
+            "multiverseid": 189,
+            "manaCost": "{B}",
             "text": "Exile up to three target cards from a single graveyard\nCydling {B}"
         },
         {
@@ -3331,7 +3508,8 @@
             ],
             "colors": null,
             "rarity": "Rare",
-            "multiverseid": 189,
+            "multiverseid": 190,
+            "manaCost": "",
             "text": "Scattered Groves enters the battlefield tapped\nCycling {2}"
         },
         {
@@ -3349,7 +3527,8 @@
                 "Blue"
             ],
             "rarity": "Common",
-            "multiverseid": 190,
+            "multiverseid": 191,
+            "manaCost": "{2}{U}",
             "power": "2",
             "toughness": "2",
             "text": "{1}, {T}, Sacrifice Scribe of the Mindful: Return target instant or sorcery card from your graveyard to your hand"
@@ -3369,7 +3548,8 @@
                 "Blue"
             ],
             "rarity": "Common",
-            "multiverseid": 191,
+            "multiverseid": 192,
+            "manaCost": "{1}{U}",
             "power": "1",
             "toughness": "3",
             "text": "{T}: Draw a card, then discard a card. Activate this ability only if you've cast a noncreature spell this turn"
@@ -3388,7 +3568,8 @@
                 "White"
             ],
             "rarity": "Uncommon",
-            "multiverseid": 192,
+            "multiverseid": 193,
+            "manaCost": "{5}{W}{W}",
             "power": "4",
             "toughness": "4",
             "text": "Flying\nIndestructible"
@@ -3405,7 +3586,8 @@
                 "Black"
             ],
             "rarity": "Rare",
-            "multiverseid": 193,
+            "multiverseid": 194,
+            "manaCost": "{1}{B}",
             "text": "Return to your hand all cards in your graveyard that you cycled or discarded this turn"
         },
         {
@@ -3424,7 +3606,8 @@
                 "Black"
             ],
             "rarity": "Uncommon",
-            "multiverseid": 194,
+            "multiverseid": 195,
+            "manaCost": "{U}{B}",
             "power": "1",
             "toughness": "3",
             "text": "Flying\nWhenever you cycle or discard a card, Shadowstorm Vizier gets +1/+1 until end of turn"
@@ -3441,7 +3624,8 @@
                 "Green"
             ],
             "rarity": "Common",
-            "multiverseid": 195,
+            "multiverseid": 196,
+            "manaCost": "{G}",
             "text": "Target creature gets +2/+2 until end of turn. You may remove a -1/-1 counter from it"
         },
         {
@@ -3458,7 +3642,8 @@
                 "Green"
             ],
             "rarity": "Uncommon",
-            "multiverseid": 196,
+            "multiverseid": 197,
+            "manaCost": "{5}{G}",
             "power": "6",
             "toughness": "5",
             "text": "Cycling {3}{G}\nWhen you cycle Shefet Monitor, you may search your library for a basic land card or a Desert card, put it onto the battlefield, then shuffle your library"
@@ -3476,7 +3661,8 @@
             ],
             "colors": null,
             "rarity": "Rare",
-            "multiverseid": 197,
+            "multiverseid": 198,
+            "manaCost": "",
             "text": "Sheltered Thicket enters the battlefield tapped\nCycling {2}"
         },
         {
@@ -3493,7 +3679,8 @@
                 "Blue"
             ],
             "rarity": "Common",
-            "multiverseid": 198,
+            "multiverseid": 199,
+            "manaCost": "{4}{U}",
             "power": "3",
             "toughness": "4",
             "text": "Flying\nCycling {2}"
@@ -3512,7 +3699,8 @@
                 "Green"
             ],
             "rarity": "Uncommon",
-            "multiverseid": 199,
+            "multiverseid": 200,
+            "manaCost": "{G}",
             "text": "Enchant creature\nEnchanted creature has"
         },
         {
@@ -3530,7 +3718,8 @@
                 "Blue"
             ],
             "rarity": "Common",
-            "multiverseid": 200,
+            "multiverseid": 201,
+            "manaCost": "{U}",
             "power": "1",
             "toughness": "2",
             "text": "Slither Blade can't be blocked"
@@ -3550,7 +3739,8 @@
                 "Red"
             ],
             "rarity": "Rare",
-            "multiverseid": 201,
+            "multiverseid": 202,
+            "manaCost": "{R}",
             "power": "1",
             "toughness": "2",
             "text": "Prowess\nIf a source you control would deal noncombat damage to a creature an opponent controls, put that many -1/-1 counters on that creature instead"
@@ -3570,7 +3760,8 @@
                 "Black"
             ],
             "rarity": "Common",
-            "multiverseid": 202,
+            "multiverseid": 203,
+            "manaCost": "{3}{B}",
             "power": "4",
             "toughness": "5",
             "text": "When Soulstinger enters the battlefield, put two -1/-1 counters on target creature you control\nWhen Soulstinger dies, you may put a -1/-1 counter on target creature for each -1/-1 counter on Soulstinger"
@@ -3589,7 +3780,8 @@
                 "White"
             ],
             "rarity": "Common",
-            "multiverseid": 203,
+            "multiverseid": 204,
+            "manaCost": "{3}{W}",
             "power": "3",
             "toughness": "3",
             "text": "When Sparring Mummy enters the battlefield, untap target creature"
@@ -3606,7 +3798,8 @@
                 "Green"
             ],
             "rarity": "Common",
-            "multiverseid": 204,
+            "multiverseid": 205,
+            "manaCost": "{2}{G}",
             "text": "Untap target creature. It gets +2/+4 and gains reach until end of turn"
         },
         {
@@ -3621,7 +3814,8 @@
                 "Black"
             ],
             "rarity": "Common",
-            "multiverseid": 205,
+            "multiverseid": 206,
+            "manaCost": "{2}{B}",
             "text": "Distribute two -1/-1 counters among one or two target creatures"
         },
         {
@@ -3637,7 +3831,8 @@
                 "Blue"
             ],
             "rarity": "Uncommon",
-            "multiverseid": 206,
+            "multiverseid": 207,
+            "manaCost": "{2}{G}",
             "text": "Search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library\n----\n4UU\nInstant\nAftermath\nDraw two cards"
         },
         {
@@ -3653,7 +3848,8 @@
                 "Black"
             ],
             "rarity": "Uncommon",
-            "multiverseid": 207,
+            "multiverseid": 208,
+            "manaCost": "{2}{W}",
             "text": "Create two 1/1 white Warrior creature tokens with vigilance\n----\n2B\nSorcery\nAftermath\nAs an additional cost to cast Finish, sacrifice a creature\nDestroy target creature"
         },
         {
@@ -3668,7 +3864,8 @@
                 "Green"
             ],
             "rarity": "Common",
-            "multiverseid": 208,
+            "multiverseid": 209,
+            "manaCost": "{G}",
             "text": "Put three -1/-1 counters on target creature with flying\nCycling {2}"
         },
         {
@@ -3683,7 +3880,8 @@
                 "Black"
             ],
             "rarity": "Uncommon",
-            "multiverseid": 209,
+            "multiverseid": 210,
+            "manaCost": "{4}{B}{B}",
             "text": "Create three 2/2 black Zombie creature tokens\nCycling {3}{B}"
         },
         {
@@ -3698,7 +3896,8 @@
             ],
             "colors": null,
             "rarity": "Common",
-            "multiverseid": 210,
+            "multiverseid": 211,
+            "manaCost": "",
             "text": "When Sunscorched Desert enters the battlefield, it deals 1 damage to target player\n{T}: Add {C} to your mana pool"
         },
         {
@@ -3713,7 +3912,8 @@
                 "Black"
             ],
             "rarity": "Common",
-            "multiverseid": 211,
+            "multiverseid": 212,
+            "manaCost": "{B}",
             "text": "Until end of turn, target creature gets +2/+0 and gains"
         },
         {
@@ -3730,7 +3930,8 @@
                 "White"
             ],
             "rarity": "Common",
-            "multiverseid": 212,
+            "multiverseid": 213,
+            "manaCost": "{4}{W}",
             "power": "3",
             "toughness": "5",
             "text": "When Supply Caravan enters the battlefield, if you control a tapped creature, create a 1/1 white Warrior creature token with vigilance"
@@ -3747,7 +3948,8 @@
                 "Red"
             ],
             "rarity": "Rare",
-            "multiverseid": 213,
+            "multiverseid": 214,
+            "manaCost": "{1}{R}{R}",
             "text": "Sweltering Suns deals 3 damage to each creature\nCycling {3}"
         },
         {
@@ -3762,7 +3964,8 @@
                 "Green"
             ],
             "rarity": "Uncommon",
-            "multiverseid": 214,
+            "multiverseid": 215,
+            "manaCost": "{2}{G}",
             "text": "Untap up to two target creatures. They each get +2/+2 until end of turn"
         },
         {
@@ -3780,12 +3983,11 @@
                 "White"
             ],
             "rarity": "Common",
-            "multiverseid": 215,
+            "multiverseid": 216,
+            "manaCost": "{3}{W}",
             "power": "2",
             "toughness": "2",
-            "text": "Flying\nYou may exert Tah-Crop Elite as it attacks. When you do, creatures you control get +1/+1 until end of turn",
-            "attackingPower": "3",
-            "attackingToughness": "3"
+            "text": "Flying\nYou may exert Tah-Crop Elite as it attacks. When you do, creatures you control get +1/+1 until end of turn"
         },
         {
             "name": "Tah-Crop Skirmisher",
@@ -3802,7 +4004,8 @@
                 "Blue"
             ],
             "rarity": "Common",
-            "multiverseid": 216,
+            "multiverseid": 217,
+            "manaCost": "{1}{U}",
             "power": "2",
             "toughness": "1",
             "text": "Embalm {3}{U}"
@@ -3825,7 +4028,8 @@
                 "Blue"
             ],
             "rarity": "Rare",
-            "multiverseid": 217,
+            "multiverseid": 218,
+            "manaCost": "{W}{U}",
             "power": "2",
             "toughness": "2",
             "text": "At the beginning of combat on your turn, target creature token you control gets +1/+1 until end of turn and can't be blocked this turn\nEmbalm {3}{W}{U}"
@@ -3844,7 +4048,8 @@
                 "White"
             ],
             "rarity": "Common",
-            "multiverseid": 218,
+            "multiverseid": 219,
+            "manaCost": "{2}{W}",
             "power": "2",
             "toughness": "4",
             "text": ""
@@ -3863,7 +4068,8 @@
                 "Red"
             ],
             "rarity": "Common",
-            "multiverseid": 219,
+            "multiverseid": 220,
+            "manaCost": "{2}{R}",
             "power": "3",
             "toughness": "2",
             "text": "Thresher Lizard gets +1/+2 as long as you have one or fewer cards in hand"
@@ -3880,7 +4086,8 @@
             ],
             "colors": null,
             "rarity": "Rare",
-            "multiverseid": 220,
+            "multiverseid": 221,
+            "manaCost": "{2}",
             "text": "At the beginning of your end step, each opponent loses life equal to the number of tapped creatures you control"
         },
         {
@@ -3895,7 +4102,8 @@
                 "White"
             ],
             "rarity": "Uncommon",
-            "multiverseid": 221,
+            "multiverseid": 222,
+            "manaCost": "{W}",
             "text": "Exile target creature that blocked or was blocked by a Zombie this turn"
         },
         {
@@ -3910,7 +4118,8 @@
                 "Red"
             ],
             "rarity": "Common",
-            "multiverseid": 222,
+            "multiverseid": 223,
+            "manaCost": "{1}{R}",
             "text": "As an additional cost to cast Tormenting Voice, discard a card\nDraw two cards"
         },
         {
@@ -3928,7 +4137,8 @@
                 "Black"
             ],
             "rarity": "Common",
-            "multiverseid": 223,
+            "multiverseid": 224,
+            "manaCost": "{1}{B}",
             "text": "Enchant player\nWhenever a creature enters the battlefield under enchanted player's control, that player loses 1 life and you gain 1 life"
         },
         {
@@ -3943,7 +4153,8 @@
                 "Black"
             ],
             "rarity": "Uncommon",
-            "multiverseid": 224,
+            "multiverseid": 225,
+            "manaCost": "{1}{B}",
             "text": "When Trial of Ambition enters the battlefield, target opponent sacrifices a creature\nWhen a Cartouche enters the battlefield under your control, return Trial of Ambition to its owner's hand"
         },
         {
@@ -3958,7 +4169,8 @@
                 "Blue"
             ],
             "rarity": "Uncommon",
-            "multiverseid": 225,
+            "multiverseid": 226,
+            "manaCost": "{3}{U}",
             "text": "When Trial of Knowledge enters the battlefield, draw three cards, then discard a card\nWhen a Cartouche enters the battlefield under your control, return Trial of Knowledge to its owner's hand"
         },
         {
@@ -3973,7 +4185,8 @@
                 "White"
             ],
             "rarity": "Uncommon",
-            "multiverseid": 226,
+            "multiverseid": 227,
+            "manaCost": "{2}{W}",
             "text": "When Trial of Solidarity enters the battlefield, creatures you control get +2/+1 and gain vigilance until end of turn\nWhen a Cartouche enters the battlefield under your control, return Trial of Solidarity to its owner's hand"
         },
         {
@@ -3988,7 +4201,8 @@
                 "Green"
             ],
             "rarity": "Uncommon",
-            "multiverseid": 227,
+            "multiverseid": 228,
+            "manaCost": "{2}{G}",
             "text": "When Trial of Strength enters the battlefield, create a 4/2 green Beast creature token\nWhen a Cartouche enters the battlefield under your control, return Trial of Strength to its owner's hand"
         },
         {
@@ -4003,7 +4217,8 @@
                 "Red"
             ],
             "rarity": "Uncommon",
-            "multiverseid": 228,
+            "multiverseid": 229,
+            "manaCost": "{2}{R}",
             "text": "When Trial of Zeal enters the battlefield, it deals 3 damage to target creature or player\nWhen a Cartouche enters the battlefield under your control, return Trial of Zeal to its owner's hand"
         },
         {
@@ -4021,7 +4236,8 @@
                 "White"
             ],
             "rarity": "Uncommon",
-            "multiverseid": 229,
+            "multiverseid": 230,
+            "manaCost": "{1}{W}",
             "power": "2",
             "toughness": "2",
             "text": "Trueheart Duelist can block an additional creature each combat\nEmbalm {2}{W}"
@@ -4041,11 +4257,11 @@
                 "Red"
             ],
             "rarity": "Uncommon",
-            "multiverseid": 230,
+            "multiverseid": 231,
+            "manaCost": "{4}{R}",
             "power": "4",
             "toughness": "4",
-            "text": "You may exert Trueheart Twins as it attacks\nWhenever you exert a creature, creatures you control get +1/+0 until end of turn",
-            "attackingPower": "5"
+            "text": "You may exert Trueheart Twins as it attacks\nWhenever you exert a creature, creatures you control get +1/+0 until end of turn"
         },
         {
             "name": "Unburden",
@@ -4059,7 +4275,8 @@
                 "Black"
             ],
             "rarity": "Common",
-            "multiverseid": 231,
+            "multiverseid": 232,
+            "manaCost": "{1}{B}{B}",
             "text": "Target player discards two cards\nCycling {2}"
         },
         {
@@ -4077,7 +4294,8 @@
                 "White"
             ],
             "rarity": "Common",
-            "multiverseid": 232,
+            "multiverseid": 233,
+            "manaCost": "{2}{W}",
             "power": "3",
             "toughness": "2",
             "text": "Vigilance\nEmbalm {4}{W}"
@@ -4094,7 +4312,8 @@
                 "Red"
             ],
             "rarity": "Common",
-            "multiverseid": 233,
+            "multiverseid": 234,
+            "manaCost": "{3}{R}",
             "text": "Destroy target artifact or land\nCycling {2}"
         },
         {
@@ -4112,7 +4331,8 @@
                 "White"
             ],
             "rarity": "Uncommon",
-            "multiverseid": 234,
+            "multiverseid": 235,
+            "manaCost": "{2}{W}",
             "power": "2",
             "toughness": "2",
             "text": "Flash\nWhen Vizier of Deferment enters the battlefield, you may exile target creature if it attacked or blocked this turn. Return that card to the battlefield under its owner's control at the beginning of the next end step"
@@ -4132,7 +4352,8 @@
                 "Blue"
             ],
             "rarity": "Rare",
-            "multiverseid": 235,
+            "multiverseid": 236,
+            "manaCost": "{2}{U}{U}",
             "power": "0",
             "toughness": "0",
             "text": "You may have Vizier of Many Faces enter the battlefield as a copy of any creature on the battlefield, except if Vizier of Many Faces was embalmed, the token has no mana cost, it's white, and it's a Zombie in addition to its other types\nEmbalm {3}{U}"
@@ -4152,7 +4373,8 @@
                 "White"
             ],
             "rarity": "Uncommon",
-            "multiverseid": 236,
+            "multiverseid": 237,
+            "manaCost": "{1}{W}",
             "power": "2",
             "toughness": "1",
             "text": "If one or more -1/-1 counters would be put on a creature you control, that many -1/-1 counters minus one are put on it instead"
@@ -4172,7 +4394,8 @@
                 "Green"
             ],
             "rarity": "Mythic",
-            "multiverseid": 237,
+            "multiverseid": 238,
+            "manaCost": "{3}{G}",
             "power": "3",
             "toughness": "4",
             "text": "You may look at the top card of your library\nYou may cast the top card of your library if it's a creature card\nYou may spend mana as though it were mana of any type to cast creature spells"
@@ -4192,7 +4415,8 @@
                 "Blue"
             ],
             "rarity": "Uncommon",
-            "multiverseid": 238,
+            "multiverseid": 239,
+            "manaCost": "{2}{U}",
             "power": "1",
             "toughness": "3",
             "text": "{T}: Untap another target permanent\nCycling {1}{U}"
@@ -4209,7 +4433,8 @@
                 "Black"
             ],
             "rarity": "Common",
-            "multiverseid": 239,
+            "multiverseid": 240,
+            "manaCost": "{2}{B}",
             "text": "Return up to two target creature cards from your graveyard to your hand\nCycling {2}"
         },
         {
@@ -4227,7 +4452,8 @@
                 "Red"
             ],
             "rarity": "Uncommon",
-            "multiverseid": 240,
+            "multiverseid": 241,
+            "manaCost": "{3}{R}",
             "power": "2",
             "toughness": "3",
             "text": "When Warfire Javelineer enters the battlefield, it deals X damage to target creature an opponent controls, where X is the number of instant and sorcery cards in your graveyard"
@@ -4247,7 +4473,8 @@
                 "Black"
             ],
             "rarity": "Common",
-            "multiverseid": 241,
+            "multiverseid": 242,
+            "manaCost": "{2}{B}",
             "power": "2",
             "toughness": "2",
             "text": "Deathtouch\nCycling {2}"
@@ -4265,7 +4492,8 @@
             ],
             "colors": null,
             "rarity": "Uncommon",
-            "multiverseid": 242,
+            "multiverseid": 243,
+            "manaCost": "{2}",
             "power": "2",
             "toughness": "2",
             "text": "Exile Watchers of the Dead: Each opponent chooses two cards in his or her graveyard and exiles the rest"
@@ -4285,7 +4513,8 @@
                 "Green"
             ],
             "rarity": "Uncommon",
-            "multiverseid": 243,
+            "multiverseid": 244,
+            "manaCost": "{2}{G}",
             "power": "2",
             "toughness": "2",
             "text": "You may exert Watchful Naga as it attacks. When you do, draw a card"
@@ -4305,7 +4534,8 @@
                 "Black"
             ],
             "rarity": "Uncommon",
-            "multiverseid": 244,
+            "multiverseid": 245,
+            "manaCost": "{W}{B}",
             "power": "2",
             "toughness": "2",
             "text": "Whenever another Zombie enters the battlefield under your control, each opponent loses 1 life and you gain 1 life"
@@ -4326,7 +4556,8 @@
                 "Blue"
             ],
             "rarity": "Uncommon",
-            "multiverseid": 245,
+            "multiverseid": 246,
+            "manaCost": "{1}{G}{U}",
             "power": "2",
             "toughness": "2",
             "text": "{T}: Add {C}{C} to your mana pool"
@@ -4343,7 +4574,8 @@
                 "Blue"
             ],
             "rarity": "Common",
-            "multiverseid": 246,
+            "multiverseid": 247,
+            "manaCost": "{1}{U}",
             "text": "Return target nonland permanent to its owner's hand. Each player puts the top two cards of his or her library into his or her graveyard"
         },
         {
@@ -4360,7 +4592,8 @@
                 "White"
             ],
             "rarity": "Common",
-            "multiverseid": 247,
+            "multiverseid": 248,
+            "manaCost": "{5}{W}",
             "power": "3",
             "toughness": "3",
             "text": "Flying, vigilance\nCycling {W}"
@@ -4380,7 +4613,8 @@
                 "Blue"
             ],
             "rarity": "Uncommon",
-            "multiverseid": 248,
+            "multiverseid": 249,
+            "manaCost": "{3}{U}",
             "power": "2",
             "toughness": "2",
             "text": "Flying\nWhenever you cycle or discard a card, target creature gains flying until end of turn"

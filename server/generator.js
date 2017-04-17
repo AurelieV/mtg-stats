@@ -12,7 +12,8 @@ const rarity = {
     U: "Uncommon",
     C: "Common",
     R: "Rare",
-    M: "Mythic"
+    M: "Mythic",
+    L: "Basic Land"
 };
 const cards = tmp.map((c, i) => {
     const card = {
@@ -23,7 +24,8 @@ const cards = tmp.map((c, i) => {
         types: c.Types.split(" "),
         colors: c.Color !== "X" ? Array.from(c.Color).map(c => colors[c]) : null,
         rarity: rarity[c.Rarity],
-        multiverseid: i
+        multiverseid: i + 1,
+        manaCost: Array.from('' + c.Cost).reduce((cost, c) => cost + `{${c}}`, '')
     }
     if (card.types.indexOf("creature") > -1) {
         const [power, toughness] = c.Text.split("\n")[0].split("/");
@@ -42,4 +44,4 @@ const AKH = {
     cards
 };
 
-fs.writeFileSync("./tmp.json", JSON.stringify(AKH, null, 4));
+fs.writeFileSync("./extensions/AKH.json", JSON.stringify(AKH, null, 4));
