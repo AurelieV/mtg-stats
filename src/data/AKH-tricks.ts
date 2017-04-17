@@ -288,5 +288,47 @@ export const tricks: Card[] = [
     "cmc": 4,
     "name": "Commit / Memory",
     "colors": "Blue"
+  },
+  {
+    "manaCost": "{4}{U}{U}",
+    "cmc": 6,
+    "name": "Spring / Mind",
+    "colors": "Blue",
+    "effect": "Aftermath"
+  },
+  {
+    "manaCost": "{3}{G}",
+    "cmc": 4,
+    "name": "Shefet Monitor",
+    "colors": "Green",
+    "effect": "Cycle"
+  },
+  {
+    "manaCost": "{1}{W}",
+    "cmc": 2,
+    "name": "Renewed Faith",
+    "colors": "White",
+    "effect": "Cycle"
+  },
+  {
+    "manaCost": "{3}{R}",
+    "cmc": 4,
+    "name": "Deem Worthy",
+    "colors": "Red",
+    "effect": "Cycle"
+  },
+  {
+    "manaCost": "{3}{B}",
+    "cmc": 4,
+    "name": "Stir the sands",
+    "colors": "Black",
+    "effect": "Cycle"
+  },
+  {
+    "manaCost": "{1}{U}",
+    "cmc": 2,
+    "name": "Vizier of Tumbling Sands",
+    "colors": "Blue",
+    "effect": "Cycle"
   }
 ]

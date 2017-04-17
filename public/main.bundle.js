@@ -21,7 +21,7 @@ module.exports = module.exports.toString();
 /***/ 137:
 /***/ (function(module, exports) {
 
-module.exports = "<h1>All instants, flash creatures and cycling with effects in AKH</h1>\n<table class=\"cards\">\n  <thead>\n    <tr>\n      <th>CCM</th>\n      <th colspan=\"2\" class=\"white\">White</th>\n      <th colspan=\"2\" class=\"blue\">Blue</th>\n      <th colspan=\"2\" class=\"black\">Black</th>\n      <th colspan=\"2\" class=\"red\">Red</th>\n      <th colspan=\"2\" class=\"green\">Green</th>\n      <th colspan=\"2\" class=\"multi\">Multi</th>\n    </tr>\n  </thead>\n  <tbody>\n    <ng-template ngFor [ngForOf]=\"data\" let-d>\n      <tr>\n        <td [attr.rowspan]=\"d.max.length + 1\" class=\"cmc\">{{d.cmc}}</td>\n      </tr>\n      <tr *ngFor=\"let i of d.max;let l = last\" [class.border-top]=\"i === 0\" [class.last]=\"l\">\n        <td class=\"cost\" >\n          <span *ngIf=\"d.colors.White && d.colors.White[i]\">\n              <i *ngFor=\"let cost of d.colors.White[i].costs\" [ngClass]=\"cost\"></i>\n          </span>\n        </td>\n        <td class=\"white name\">\n            <span *ngIf=\"d.colors.White && d.colors.White[i]\" >{{d.colors.White[i].name}}</span>\n        </td>\n        <td class=\"cost\">\n          <span *ngIf=\"d.colors.Blue && d.colors.Blue[i]\">\n            <i *ngFor=\"let cost of d.colors.Blue[i].costs\" [ngClass]=\"cost\"></i>\n          </span>\n        </td>\n        <td class=\"blue name\">\n          <span  *ngIf=\"d.colors.Blue && d.colors.Blue[i]\">{{d.colors.Blue[i].name}}</span>\n        </td>\n        <td class=\"cost\">\n           <span *ngIf=\"d.colors.Black && d.colors.Black[i]\">\n              <i *ngFor=\"let cost of d.colors.Black[i].costs\" [ngClass]=\"cost\"></i>\n            </span>\n        </td>\n        <td class=\"black name\">\n          <span *ngIf=\"d.colors.Black && d.colors.Black[i]\">{{d.colors.Black[i].name}}</span>\n        </td>\n        <td class=\"cost\">\n          <span *ngIf=\"d.colors.Red && d.colors.Red[i]\">\n              <i *ngFor=\"let cost of d.colors.Red[i].costs\" [ngClass]=\"cost\"></i>\n            </span>\n        </td>\n        <td class=\"red name\">\n          <span *ngIf=\"d.colors.Red && d.colors.Red[i]\" >{{d.colors.Red[i].name}}</span>\n        </td>\n        <td class=\"cost\">\n          <span *ngIf=\"d.colors.Green && d.colors.Green[i]\">\n              <i *ngFor=\"let cost of d.colors.Green[i].costs\" [ngClass]=\"cost\"></i>\n            </span>\n        </td>\n        <td class=\"green name\">\n          <span *ngIf=\"d.colors.Green && d.colors.Green[i]\" >{{d.colors.Green[i].name}}</span>\n        </td>\n        <td class=\"cost\">\n          <span *ngIf=\"d.colors.Multicolore && d.colors.Multicolore[i]\">\n              <i *ngFor=\"let cost of d.colors.Multicolore[i].costs\" [ngClass]=\"cost\"></i>\n            </span>\n        </td>\n        <td class=\"multi name\">\n          <span *ngIf=\"d.colors.Multicolore && d.colors.Multicolore[i]\" >{{d.colors.Multicolore[i].name}}</span>\n        </td>\n      </tr>\n    </ng-template>\n  </tbody>\n</table>\n<a [href]=\"dashboardLink\">Link to stats</a>"
+module.exports = "<h1>All instants, flash creatures and cycling with effects in AKH</h1>\n<table class=\"cards\">\n  <thead>\n    <tr>\n      <th>CCM</th>\n      <th colspan=\"2\" class=\"white\">White</th>\n      <th colspan=\"2\" class=\"blue\">Blue</th>\n      <th colspan=\"2\" class=\"black\">Black</th>\n      <th colspan=\"2\" class=\"red\">Red</th>\n      <th colspan=\"2\" class=\"green\">Green</th>\n      <th colspan=\"2\" class=\"multi\">Multi</th>\n    </tr>\n  </thead>\n  <tbody>\n    <ng-template ngFor [ngForOf]=\"data\" let-d>\n      <tr>\n        <td [attr.rowspan]=\"d.max.length + 1\" class=\"cmc\">{{d.cmc}}</td>\n      </tr>\n      <tr *ngFor=\"let i of d.max;let l = last\" [class.border-top]=\"i === 0\" [class.last]=\"l\">\n        <td class=\"cost\">\n          <span *ngIf=\"d.colors.White && d.colors.White[i]\">\n              <i *ngFor=\"let cost of d.colors.White[i].costs\" [ngClass]=\"cost\"></i>\n          </span>\n        </td>\n        <td class=\"white name\">\n            <span *ngIf=\"d.colors.White && d.colors.White[i]\" >{{d.colors.White[i].name}}</span>\n            <br/><i *ngIf=\"d.colors.White && d.colors.White[i] && d.colors.White[i].effect\">({{d.colors.White[i].effect}})</i>\n        </td>\n        <td class=\"cost\">\n          <span *ngIf=\"d.colors.Blue && d.colors.Blue[i]\">\n            <i *ngFor=\"let cost of d.colors.Blue[i].costs\" [ngClass]=\"cost\"></i>\n          </span>\n        </td>\n        <td class=\"blue name\">\n          <span  *ngIf=\"d.colors.Blue && d.colors.Blue[i]\">{{d.colors.Blue[i].name}}</span>\n          <br><i *ngIf=\"d.colors.Blue && d.colors.Blue[i] && d.colors.Blue[i].effect\">({{d.colors.Blue[i].effect}})</i>\n        </td>\n        <td class=\"cost\">\n           <span *ngIf=\"d.colors.Black && d.colors.Black[i]\">\n              <i *ngFor=\"let cost of d.colors.Black[i].costs\" [ngClass]=\"cost\"></i>\n            </span>\n        </td>\n        <td class=\"black name\">\n          <span *ngIf=\"d.colors.Black && d.colors.Black[i]\">{{d.colors.Black[i].name}}</span>\n          <br><i *ngIf=\"d.colors.Black && d.colors.Black[i] && d.colors.Black[i].effect\">({{d.colors.Black[i].effect}})</i>\n        </td>\n        <td class=\"cost\">\n          <span *ngIf=\"d.colors.Red && d.colors.Red[i]\">\n              <i *ngFor=\"let cost of d.colors.Red[i].costs\" [ngClass]=\"cost\"></i>\n            </span>\n        </td>\n        <td class=\"red name\">\n          <span *ngIf=\"d.colors.Red && d.colors.Red[i]\" >{{d.colors.Red[i].name}}</span>\n          <br><i *ngIf=\"d.colors.Red && d.colors.Red[i] && d.colors.Red[i].effect\">({{d.colors.Red[i].effect}})</i>\n        </td>\n        <td class=\"cost\">\n          <span *ngIf=\"d.colors.Green && d.colors.Green[i]\">\n              <i *ngFor=\"let cost of d.colors.Green[i].costs\" [ngClass]=\"cost\"></i>\n            </span>\n        </td>\n        <td class=\"green name\">\n          <span *ngIf=\"d.colors.Green && d.colors.Green[i]\" >{{d.colors.Green[i].name}}</span>\n          <br><i *ngIf=\"d.colors.Green && d.colors.Green[i] && d.colors.Green[i].effect\">({{d.colors.Green[i].effect}})</i>\n        </td>\n        <td class=\"cost\">\n          <span *ngIf=\"d.colors.Multicolore && d.colors.Multicolore[i]\">\n              <i *ngFor=\"let cost of d.colors.Multicolore[i].costs\" [ngClass]=\"cost\"></i>\n            </span>\n        </td>\n        <td class=\"multi name\">\n          <span *ngIf=\"d.colors.Multicolore && d.colors.Multicolore[i]\" >{{d.colors.Multicolore[i].name}}</span>\n          <br><i *ngIf=\"d.colors.Multicolore && d.colors.Multicolore[i] && d.colors.Multicolore[i].effect\">({{d.colors.Multicolore[i].effect}})</i>\n        </td>\n      </tr>\n    </ng-template>\n  </tbody>\n</table>\n<a [href]=\"dashboardLink\">Link to stats</a>"
 
 /***/ }),
 
@@ -476,6 +476,48 @@ var tricks = [
         "cmc": 4,
         "name": "Commit / Memory",
         "colors": "Blue"
+    },
+    {
+        "manaCost": "{4}{U}{U}",
+        "cmc": 6,
+        "name": "Spring / Mind",
+        "colors": "Blue",
+        "effect": "Aftermath"
+    },
+    {
+        "manaCost": "{3}{G}",
+        "cmc": 4,
+        "name": "Shefet Monitor",
+        "colors": "Green",
+        "effect": "Cycle"
+    },
+    {
+        "manaCost": "{1}{W}",
+        "cmc": 2,
+        "name": "Renewed Faith",
+        "colors": "White",
+        "effect": "Cycle"
+    },
+    {
+        "manaCost": "{3}{R}",
+        "cmc": 4,
+        "name": "Deem Worthy",
+        "colors": "Red",
+        "effect": "Cycle"
+    },
+    {
+        "manaCost": "{3}{B}",
+        "cmc": 4,
+        "name": "Stir the sands",
+        "colors": "Black",
+        "effect": "Cycle"
+    },
+    {
+        "manaCost": "{1}{U}",
+        "cmc": 2,
+        "name": "Vizier of Tumbling Sands",
+        "colors": "Blue",
+        "effect": "Cycle"
     }
 ];
 //# sourceMappingURL=AKH-tricks.js.map
