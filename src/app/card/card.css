@@ -1,0 +1,14 @@
+:host {
+    position: relative;
+    cursor: pointer;
+}
+
+:host > img {
+    display: none;
+}
+
+:host:hover > img {
+  display: block;
+  position: absolute;
+  z-index: 10;
+}

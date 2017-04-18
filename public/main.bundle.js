@@ -1,9 +1,9 @@
 webpackJsonp([1,4],{
 
-/***/ 134:
+/***/ 135:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(44)();
+exports = module.exports = __webpack_require__(27)();
 // imports
 
 
@@ -18,182 +18,51 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 137:
-/***/ (function(module, exports) {
-
-module.exports = "<h1>All instants, flash creatures and cycling with effects in AKH</h1>\n<table class=\"cards\">\n  <thead>\n    <tr>\n      <th>CCM</th>\n      <th colspan=\"2\" class=\"white\">White</th>\n      <th colspan=\"2\" class=\"blue\">Blue</th>\n      <th colspan=\"2\" class=\"black\">Black</th>\n      <th colspan=\"2\" class=\"red\">Red</th>\n      <th colspan=\"2\" class=\"green\">Green</th>\n      <th colspan=\"2\" class=\"multi\">Multi</th>\n    </tr>\n  </thead>\n  <tbody>\n    <ng-template ngFor [ngForOf]=\"data\" let-d>\n      <tr>\n        <td [attr.rowspan]=\"d.max.length + 1\" class=\"cmc\">{{d.cmc}}</td>\n      </tr>\n      <tr *ngFor=\"let i of d.max;let l = last\" [class.border-top]=\"i === 0\" [class.last]=\"l\">\n        <td class=\"cost\">\n          <span *ngIf=\"d.colors.White && d.colors.White[i]\">\n              <i *ngFor=\"let cost of d.colors.White[i].costs\" [ngClass]=\"cost\"></i>\n          </span>\n        </td>\n        <td class=\"white name\">\n            <span *ngIf=\"d.colors.White && d.colors.White[i]\" >{{d.colors.White[i].name}}</span>\n            <br/><i *ngIf=\"d.colors.White && d.colors.White[i] && d.colors.White[i].effect\">({{d.colors.White[i].effect}})</i>\n        </td>\n        <td class=\"cost\">\n          <span *ngIf=\"d.colors.Blue && d.colors.Blue[i]\">\n            <i *ngFor=\"let cost of d.colors.Blue[i].costs\" [ngClass]=\"cost\"></i>\n          </span>\n        </td>\n        <td class=\"blue name\">\n          <span  *ngIf=\"d.colors.Blue && d.colors.Blue[i]\">{{d.colors.Blue[i].name}}</span>\n          <br><i *ngIf=\"d.colors.Blue && d.colors.Blue[i] && d.colors.Blue[i].effect\">({{d.colors.Blue[i].effect}})</i>\n        </td>\n        <td class=\"cost\">\n           <span *ngIf=\"d.colors.Black && d.colors.Black[i]\">\n              <i *ngFor=\"let cost of d.colors.Black[i].costs\" [ngClass]=\"cost\"></i>\n            </span>\n        </td>\n        <td class=\"black name\">\n          <span *ngIf=\"d.colors.Black && d.colors.Black[i]\">{{d.colors.Black[i].name}}</span>\n          <br><i *ngIf=\"d.colors.Black && d.colors.Black[i] && d.colors.Black[i].effect\">({{d.colors.Black[i].effect}})</i>\n        </td>\n        <td class=\"cost\">\n          <span *ngIf=\"d.colors.Red && d.colors.Red[i]\">\n              <i *ngFor=\"let cost of d.colors.Red[i].costs\" [ngClass]=\"cost\"></i>\n            </span>\n        </td>\n        <td class=\"red name\">\n          <span *ngIf=\"d.colors.Red && d.colors.Red[i]\" >{{d.colors.Red[i].name}}</span>\n          <br><i *ngIf=\"d.colors.Red && d.colors.Red[i] && d.colors.Red[i].effect\">({{d.colors.Red[i].effect}})</i>\n        </td>\n        <td class=\"cost\">\n          <span *ngIf=\"d.colors.Green && d.colors.Green[i]\">\n              <i *ngFor=\"let cost of d.colors.Green[i].costs\" [ngClass]=\"cost\"></i>\n            </span>\n        </td>\n        <td class=\"green name\">\n          <span *ngIf=\"d.colors.Green && d.colors.Green[i]\" >{{d.colors.Green[i].name}}</span>\n          <br><i *ngIf=\"d.colors.Green && d.colors.Green[i] && d.colors.Green[i].effect\">({{d.colors.Green[i].effect}})</i>\n        </td>\n        <td class=\"cost\">\n          <span *ngIf=\"d.colors.Multicolore && d.colors.Multicolore[i]\">\n              <i *ngFor=\"let cost of d.colors.Multicolore[i].costs\" [ngClass]=\"cost\"></i>\n            </span>\n        </td>\n        <td class=\"multi name\">\n          <span *ngIf=\"d.colors.Multicolore && d.colors.Multicolore[i]\" >{{d.colors.Multicolore[i].name}}</span>\n          <br><i *ngIf=\"d.colors.Multicolore && d.colors.Multicolore[i] && d.colors.Multicolore[i].effect\">({{d.colors.Multicolore[i].effect}})</i>\n        </td>\n      </tr>\n    </ng-template>\n  </tbody>\n</table>\n<a [href]=\"dashboardLink\">Link to stats</a>"
-
-/***/ }),
-
-/***/ 163:
+/***/ 136:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(70);
+exports = module.exports = __webpack_require__(27)();
+// imports
 
+
+// module
+exports.push([module.i, ":host {\n    position: relative;\n    cursor: pointer;\n}\n\n:host > img {\n    display: none;\n}\n\n:host:hover > img {\n  display: block;\n  position: absolute;\n  z-index: 10;\n}", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 69:
+/***/ 139:
 /***/ (function(module, exports) {
 
-function webpackEmptyContext(req) {
-	throw new Error("Cannot find module '" + req + "'.");
-}
-webpackEmptyContext.keys = function() { return []; };
-webpackEmptyContext.resolve = webpackEmptyContext;
-module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 69;
+module.exports = "<h1>All instants, flash creatures and cycling with effects in AKH</h1>\n<table class=\"cards\">\n  <thead>\n    <tr>\n      <th>CCM</th>\n      <th colspan=\"2\" class=\"white\">White</th>\n      <th colspan=\"2\" class=\"blue\">Blue</th>\n      <th colspan=\"2\" class=\"black\">Black</th>\n      <th colspan=\"2\" class=\"red\">Red</th>\n      <th colspan=\"2\" class=\"green\">Green</th>\n      <th colspan=\"2\" class=\"multi\">Multi</th>\n    </tr>\n  </thead>\n  <tbody>\n    <ng-template ngFor [ngForOf]=\"data\" let-d>\n      <tr>\n        <td [attr.rowspan]=\"d.max.length + 1\" class=\"cmc\">{{d.cmc}}</td>\n      </tr>\n      <tr *ngFor=\"let i of d.max;let l = last\" [class.border-top]=\"i === 0\" [class.last]=\"l\">\n        <td class=\"cost\">\n          <span *ngIf=\"d.colors.White && d.colors.White[i]\">\n              <i *ngFor=\"let cost of d.colors.White[i].costs\" [ngClass]=\"cost\"></i>\n          </span>\n        </td>\n        <td class=\"white name\">\n            <card [card]=\"d.colors.White[i]\" *ngIf=\"d.colors.White && d.colors.White[i]\"></card>\n            <br/><i *ngIf=\"d.colors.White && d.colors.White[i] && d.colors.White[i].effect\">({{d.colors.White[i].effect}})</i>\n        </td>\n        <td class=\"cost\">\n          <span *ngIf=\"d.colors.Blue && d.colors.Blue[i]\">\n            <i *ngFor=\"let cost of d.colors.Blue[i].costs\" [ngClass]=\"cost\"></i>\n          </span>\n        </td>\n        <td class=\"blue name\">\n          <card [card]=\"d.colors.Blue[i]\" *ngIf=\"d.colors.Blue && d.colors.Blue[i]\"></card>\n          <br><i *ngIf=\"d.colors.Blue && d.colors.Blue[i] && d.colors.Blue[i].effect\">({{d.colors.Blue[i].effect}})</i>\n        </td>\n        <td class=\"cost\">\n           <span *ngIf=\"d.colors.Black && d.colors.Black[i]\">\n              <i *ngFor=\"let cost of d.colors.Black[i].costs\" [ngClass]=\"cost\"></i>\n            </span>\n        </td>\n        <td class=\"black name\">\n          <card [card]=\"d.colors.Black[i]\" *ngIf=\"d.colors.Black && d.colors.Black[i]\"></card>\n          <br><i *ngIf=\"d.colors.Black && d.colors.Black[i] && d.colors.Black[i].effect\">({{d.colors.Black[i].effect}})</i>\n        </td>\n        <td class=\"cost\">\n          <span *ngIf=\"d.colors.Red && d.colors.Red[i]\">\n              <i *ngFor=\"let cost of d.colors.Red[i].costs\" [ngClass]=\"cost\"></i>\n            </span>\n        </td>\n        <td class=\"red name\">\n          <card [card]=\"d.colors.Red[i]\" *ngIf=\"d.colors.Red && d.colors.Red[i]\"></card>\n          <br><i *ngIf=\"d.colors.Red && d.colors.Red[i] && d.colors.Red[i].effect\">({{d.colors.Red[i].effect}})</i>\n        </td>\n        <td class=\"cost\">\n          <span *ngIf=\"d.colors.Green && d.colors.Green[i]\">\n              <i *ngFor=\"let cost of d.colors.Green[i].costs\" [ngClass]=\"cost\"></i>\n            </span>\n        </td>\n        <td class=\"green name\">\n          <card [card]=\"d.colors.Green[i]\" *ngIf=\"d.colors.Green && d.colors.Green[i]\"></card>\n          <br><i *ngIf=\"d.colors.Green && d.colors.Green[i] && d.colors.Green[i].effect\">({{d.colors.Green[i].effect}})</i>\n        </td>\n        <td class=\"cost\">\n          <span *ngIf=\"d.colors.Multicolore && d.colors.Multicolore[i]\">\n              <i *ngFor=\"let cost of d.colors.Multicolore[i].costs\" [ngClass]=\"cost\"></i>\n            </span>\n        </td>\n        <td class=\"multi name\">\n          <card [card]=\"d.colors.Multicolore[i]\" *ngIf=\"d.colors.Multicolore && d.colors.Multicolore[i]\"></card>\n          <br><i *ngIf=\"d.colors.Multicolore && d.colors.Multicolore[i] && d.colors.Multicolore[i].effect\">({{d.colors.Multicolore[i].effect}})</i>\n        </td>\n      </tr>\n    </ng-template>\n  </tbody>\n</table>\n<a [href]=\"dashboardLink\">Link to stats</a>"
+
+/***/ }),
+
+/***/ 140:
+/***/ (function(module, exports) {
+
+module.exports = "<span>{{card.name}}</span>\n<img [src]=\"'assets/img/AKH/' + card.name.replace(' / ', '') + '.full.jpg'\">"
+
+/***/ }),
+
+/***/ 166:
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(71);
 
 
 /***/ }),
 
-/***/ 70:
+/***/ 48:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dynamic__ = __webpack_require__(76);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_app_module__ = __webpack_require__(78);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__environments_environment__ = __webpack_require__(80);
-
-
-
-
-if (__WEBPACK_IMPORTED_MODULE_3__environments_environment__["a" /* environment */].production) {
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["a" /* enableProdMode */])();
-}
-__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_2__app_app_module__["a" /* AppModule */]);
-//# sourceMappingURL=main.js.map
-
-/***/ }),
-
-/***/ 77:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_lodash__ = __webpack_require__(135);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_lodash___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_lodash__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__data_AKH_tricks__ = __webpack_require__(79);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppComponent; });
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-var AppComponent = (function () {
-    function AppComponent() {
-        var _this = this;
-        this.dashboardLink = "http://mtg-stats.purple-fox.fr/app/kibana#/dashboard/0f1b4b30-2204-11e7-a4a7-a3aa983ebfc9";
-        this.data = [];
-        var costRegexp = new RegExp(/\{(.)\}/g);
-        var cards = __WEBPACK_IMPORTED_MODULE_2__data_AKH_tricks__["a" /* tricks */].map(function (c) {
-            var costs = [];
-            var cost = costRegexp.exec(c.manaCost);
-            while (cost !== null) {
-                costs.push("ms-" + cost[1].toLowerCase() + " ms ms-cost");
-                cost = costRegexp.exec(c.manaCost);
-            }
-            return {
-                name: c.name,
-                cmc: c.cmc,
-                manaCost: c.manaCost,
-                colors: c.colors,
-                effect: c.effect,
-                costs: costs
-            };
-        });
-        var costs = __WEBPACK_IMPORTED_MODULE_1_lodash__["groupBy"](cards, "cmc");
-        Object.keys(costs).forEach(function (cmc) {
-            _this.data.push({
-                cmc: cmc,
-                colors: __WEBPACK_IMPORTED_MODULE_1_lodash__["groupBy"](costs[cmc], function (card) {
-                    var colors = card.colors.split(",");
-                    if (colors.length > 1)
-                        return "Multicolore";
-                    else
-                        return card.colors;
-                })
-            });
-        });
-        console.log("data", this.data);
-        this.data.forEach(function (d) {
-            d.max = __WEBPACK_IMPORTED_MODULE_1_lodash__["range"](Math.max((d.colors.White || []).length, (d.colors.Black || []).length, (d.colors.Green || []).length, (d.colors.Blue || []).length, (d.colors.Multicolore || []).length, (d.colors.Red || []).length));
-        });
-    }
-    return AppComponent;
-}());
-AppComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_3" /* Component */])({
-        selector: 'app-root',
-        template: __webpack_require__(137),
-        styles: [__webpack_require__(134)]
-    }),
-    __metadata("design:paramtypes", [])
-], AppComponent);
-
-//# sourceMappingURL=app.component.js.map
-
-/***/ }),
-
-/***/ 78:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(21);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(74);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_http__ = __webpack_require__(75);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__app_component__ = __webpack_require__(77);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-
-
-
-
-
-var AppModule = (function () {
-    function AppModule() {
-    }
-    return AppModule;
-}());
-AppModule = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_core__["b" /* NgModule */])({
-        declarations: [
-            __WEBPACK_IMPORTED_MODULE_4__app_component__["a" /* AppComponent */]
-        ],
-        imports: [
-            __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
-            __WEBPACK_IMPORTED_MODULE_2__angular_forms__["a" /* FormsModule */],
-            __WEBPACK_IMPORTED_MODULE_3__angular_http__["a" /* HttpModule */]
-        ],
-        providers: [],
-        bootstrap: [__WEBPACK_IMPORTED_MODULE_4__app_component__["a" /* AppComponent */]]
-    })
-], AppModule);
-
-//# sourceMappingURL=app.module.js.map
-
-/***/ }),
-
-/***/ 79:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return tricks; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return tricks; });
 var tricks = [
     {
         "manaCost": "{2}{W}",
@@ -524,7 +393,206 @@ var tricks = [
 
 /***/ }),
 
+/***/ 70:
+/***/ (function(module, exports) {
+
+function webpackEmptyContext(req) {
+	throw new Error("Cannot find module '" + req + "'.");
+}
+webpackEmptyContext.keys = function() { return []; };
+webpackEmptyContext.resolve = webpackEmptyContext;
+module.exports = webpackEmptyContext;
+webpackEmptyContext.id = 70;
+
+
+/***/ }),
+
+/***/ 71:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dynamic__ = __webpack_require__(77);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_app_module__ = __webpack_require__(79);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__environments_environment__ = __webpack_require__(81);
+
+
+
+
+if (__WEBPACK_IMPORTED_MODULE_3__environments_environment__["a" /* environment */].production) {
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["a" /* enableProdMode */])();
+}
+__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_2__app_app_module__["a" /* AppModule */]);
+//# sourceMappingURL=main.js.map
+
+/***/ }),
+
+/***/ 78:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_lodash__ = __webpack_require__(137);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_lodash___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_lodash__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__data_AKH_tricks__ = __webpack_require__(48);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppComponent; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var AppComponent = (function () {
+    function AppComponent() {
+        var _this = this;
+        this.dashboardLink = "http://mtg-stats.purple-fox.fr/app/kibana#/dashboard/0f1b4b30-2204-11e7-a4a7-a3aa983ebfc9";
+        this.data = [];
+        var costRegexp = new RegExp(/\{(.)\}/g);
+        var cards = __WEBPACK_IMPORTED_MODULE_2__data_AKH_tricks__["b" /* tricks */].map(function (c) {
+            var costs = [];
+            var cost = costRegexp.exec(c.manaCost);
+            while (cost !== null) {
+                costs.push("ms-" + cost[1].toLowerCase() + " ms ms-cost");
+                cost = costRegexp.exec(c.manaCost);
+            }
+            return {
+                name: c.name,
+                cmc: c.cmc,
+                manaCost: c.manaCost,
+                colors: c.colors,
+                effect: c.effect,
+                costs: costs
+            };
+        });
+        var costs = __WEBPACK_IMPORTED_MODULE_1_lodash__["groupBy"](cards, "cmc");
+        Object.keys(costs).forEach(function (cmc) {
+            _this.data.push({
+                cmc: cmc,
+                colors: __WEBPACK_IMPORTED_MODULE_1_lodash__["groupBy"](costs[cmc], function (card) {
+                    var colors = card.colors.split(",");
+                    if (colors.length > 1)
+                        return "Multicolore";
+                    else
+                        return card.colors;
+                })
+            });
+        });
+        console.log("data", this.data);
+        this.data.forEach(function (d) {
+            d.max = __WEBPACK_IMPORTED_MODULE_1_lodash__["range"](Math.max((d.colors.White || []).length, (d.colors.Black || []).length, (d.colors.Green || []).length, (d.colors.Blue || []).length, (d.colors.Multicolore || []).length, (d.colors.Red || []).length));
+        });
+    }
+    return AppComponent;
+}());
+AppComponent = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_3" /* Component */])({
+        selector: 'app-root',
+        template: __webpack_require__(139),
+        styles: [__webpack_require__(135)]
+    }),
+    __metadata("design:paramtypes", [])
+], AppComponent);
+
+//# sourceMappingURL=app.component.js.map
+
+/***/ }),
+
+/***/ 79:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(21);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(75);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_http__ = __webpack_require__(76);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__app_component__ = __webpack_require__(78);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__card__ = __webpack_require__(80);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+var AppModule = (function () {
+    function AppModule() {
+    }
+    return AppModule;
+}());
+AppModule = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_core__["b" /* NgModule */])({
+        declarations: [
+            __WEBPACK_IMPORTED_MODULE_4__app_component__["a" /* AppComponent */],
+            __WEBPACK_IMPORTED_MODULE_5__card__["a" /* CardComponent */]
+        ],
+        imports: [
+            __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
+            __WEBPACK_IMPORTED_MODULE_2__angular_forms__["a" /* FormsModule */],
+            __WEBPACK_IMPORTED_MODULE_3__angular_http__["a" /* HttpModule */]
+        ],
+        providers: [],
+        bootstrap: [__WEBPACK_IMPORTED_MODULE_4__app_component__["a" /* AppComponent */]]
+    })
+], AppModule);
+
+//# sourceMappingURL=app.module.js.map
+
+/***/ }),
+
 /***/ 80:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__data_AKH_tricks__ = __webpack_require__(48);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CardComponent; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var CardComponent = (function () {
+    function CardComponent() {
+    }
+    return CardComponent;
+}());
+__decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* Input */])(),
+    __metadata("design:type", typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__data_AKH_tricks__["Card"] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__data_AKH_tricks__["Card"]) === "function" && _a || Object)
+], CardComponent.prototype, "card", void 0);
+CardComponent = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_3" /* Component */])({
+        selector: "card",
+        template: __webpack_require__(140),
+        styles: [__webpack_require__(136)]
+    })
+], CardComponent);
+
+var _a;
+//# sourceMappingURL=index.js.map
+
+/***/ }),
+
+/***/ 81:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -541,5 +609,5 @@ var environment = {
 
 /***/ })
 
-},[163]);
+},[166]);
 //# sourceMappingURL=main.bundle.js.map
