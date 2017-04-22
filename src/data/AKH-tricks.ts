@@ -372,7 +372,7 @@ export const tricks: Card[] = [
   {
     "manaCost": "{3}{B}",
     "cmc": 4,
-    "name": "Stir the sands",
+    "name": "Stir the Sands",
     "colors": "Black",
     "effect": "Cycle",
     "rarity": "Uncommon"
