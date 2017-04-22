@@ -24,7 +24,7 @@
         </td>
         <td class="white name">
             <card [card]="d.colors.White[i]" *ngIf="d.colors.White && d.colors.White[i]"></card>
-            <br/><i *ngIf="d.colors.White && d.colors.White[i] && d.colors.White[i].effect">({{d.colors.White[i].effect}})</i>
+            <i *ngIf="d.colors.White && d.colors.White[i] && d.colors.White[i].effect">({{d.colors.White[i].effect}})</i>
         </td>
         <td class="cost">
           <span *ngIf="d.colors.Blue && d.colors.Blue[i]">
@@ -33,7 +33,7 @@
         </td>
         <td class="blue name">
           <card [card]="d.colors.Blue[i]" *ngIf="d.colors.Blue && d.colors.Blue[i]"></card>
-          <br><i *ngIf="d.colors.Blue && d.colors.Blue[i] && d.colors.Blue[i].effect">({{d.colors.Blue[i].effect}})</i>
+          <i *ngIf="d.colors.Blue && d.colors.Blue[i] && d.colors.Blue[i].effect">({{d.colors.Blue[i].effect}})</i>
         </td>
         <td class="cost">
            <span *ngIf="d.colors.Black && d.colors.Black[i]">
@@ -42,7 +42,7 @@
         </td>
         <td class="black name">
           <card [card]="d.colors.Black[i]" *ngIf="d.colors.Black && d.colors.Black[i]"></card>
-          <br><i *ngIf="d.colors.Black && d.colors.Black[i] && d.colors.Black[i].effect">({{d.colors.Black[i].effect}})</i>
+          <i *ngIf="d.colors.Black && d.colors.Black[i] && d.colors.Black[i].effect">({{d.colors.Black[i].effect}})</i>
         </td>
         <td class="cost">
           <span *ngIf="d.colors.Red && d.colors.Red[i]">
@@ -51,7 +51,7 @@
         </td>
         <td class="red name">
           <card [card]="d.colors.Red[i]" *ngIf="d.colors.Red && d.colors.Red[i]"></card>
-          <br><i *ngIf="d.colors.Red && d.colors.Red[i] && d.colors.Red[i].effect">({{d.colors.Red[i].effect}})</i>
+          <i *ngIf="d.colors.Red && d.colors.Red[i] && d.colors.Red[i].effect">({{d.colors.Red[i].effect}})</i>
         </td>
         <td class="cost">
           <span *ngIf="d.colors.Green && d.colors.Green[i]">
@@ -60,7 +60,7 @@
         </td>
         <td class="green name">
           <card [card]="d.colors.Green[i]" *ngIf="d.colors.Green && d.colors.Green[i]"></card>
-          <br><i *ngIf="d.colors.Green && d.colors.Green[i] && d.colors.Green[i].effect">({{d.colors.Green[i].effect}})</i>
+          <i *ngIf="d.colors.Green && d.colors.Green[i] && d.colors.Green[i].effect">({{d.colors.Green[i].effect}})</i>
         </td>
         <td class="cost">
           <span *ngIf="d.colors.Multicolore && d.colors.Multicolore[i]">
@@ -69,7 +69,7 @@
         </td>
         <td class="multi name">
           <card [card]="d.colors.Multicolore[i]" *ngIf="d.colors.Multicolore && d.colors.Multicolore[i]"></card>
-          <br><i *ngIf="d.colors.Multicolore && d.colors.Multicolore[i] && d.colors.Multicolore[i].effect">({{d.colors.Multicolore[i].effect}})</i>
+          <i *ngIf="d.colors.Multicolore && d.colors.Multicolore[i] && d.colors.Multicolore[i].effect">({{d.colors.Multicolore[i].effect}})</i>
         </td>
       </tr>
     </ng-template>

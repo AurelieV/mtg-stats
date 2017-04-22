@@ -26,7 +26,7 @@ exports = module.exports = __webpack_require__(27)();
 
 
 // module
-exports.push([module.i, ":host {\n    position: relative;\n    cursor: pointer;\n}\n\n:host > img {\n    display: none;\n}\n\n:host:hover > img {\n  display: block;\n  position: absolute;\n  z-index: 10;\n}", ""]);
+exports.push([module.i, ":host {\n    position: relative;\n    cursor: pointer;\n}\n\n:host > img {\n    display: none;\n}\n\n:host:hover > img {\n  display: block;\n  position: absolute;\n  z-index: 10;\n}\n\n.name {\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-align: center;\n        -ms-flex-align: center;\n            align-items: center;\n}\n\n.rarity {\n    border-radius: 10px;\n    width: 10px;\n    height: 10px;\n    margin-right: 2px;\n}\n.uncommon {\n    background-color: grey;\n}\n.common {\n    background-color: black;\n}\n.rare {\n    background-color: yellow;\n}\n.mythic {\n    background-color: orangered;\n}", ""]);
 
 // exports
 
@@ -39,14 +39,14 @@ module.exports = module.exports.toString();
 /***/ 139:
 /***/ (function(module, exports) {
 
-module.exports = "<h1>All instants, flash creatures and cycling with effects in AKH</h1>\n<table class=\"cards\">\n  <thead>\n    <tr>\n      <th>CCM</th>\n      <th colspan=\"2\" class=\"white\">White</th>\n      <th colspan=\"2\" class=\"blue\">Blue</th>\n      <th colspan=\"2\" class=\"black\">Black</th>\n      <th colspan=\"2\" class=\"red\">Red</th>\n      <th colspan=\"2\" class=\"green\">Green</th>\n      <th colspan=\"2\" class=\"multi\">Multi</th>\n    </tr>\n  </thead>\n  <tbody>\n    <ng-template ngFor [ngForOf]=\"data\" let-d>\n      <tr>\n        <td [attr.rowspan]=\"d.max.length + 1\" class=\"cmc\">{{d.cmc}}</td>\n      </tr>\n      <tr *ngFor=\"let i of d.max;let l = last\" [class.border-top]=\"i === 0\" [class.last]=\"l\">\n        <td class=\"cost\">\n          <span *ngIf=\"d.colors.White && d.colors.White[i]\">\n              <i *ngFor=\"let cost of d.colors.White[i].costs\" [ngClass]=\"cost\"></i>\n          </span>\n        </td>\n        <td class=\"white name\">\n            <card [card]=\"d.colors.White[i]\" *ngIf=\"d.colors.White && d.colors.White[i]\"></card>\n            <br/><i *ngIf=\"d.colors.White && d.colors.White[i] && d.colors.White[i].effect\">({{d.colors.White[i].effect}})</i>\n        </td>\n        <td class=\"cost\">\n          <span *ngIf=\"d.colors.Blue && d.colors.Blue[i]\">\n            <i *ngFor=\"let cost of d.colors.Blue[i].costs\" [ngClass]=\"cost\"></i>\n          </span>\n        </td>\n        <td class=\"blue name\">\n          <card [card]=\"d.colors.Blue[i]\" *ngIf=\"d.colors.Blue && d.colors.Blue[i]\"></card>\n          <br><i *ngIf=\"d.colors.Blue && d.colors.Blue[i] && d.colors.Blue[i].effect\">({{d.colors.Blue[i].effect}})</i>\n        </td>\n        <td class=\"cost\">\n           <span *ngIf=\"d.colors.Black && d.colors.Black[i]\">\n              <i *ngFor=\"let cost of d.colors.Black[i].costs\" [ngClass]=\"cost\"></i>\n            </span>\n        </td>\n        <td class=\"black name\">\n          <card [card]=\"d.colors.Black[i]\" *ngIf=\"d.colors.Black && d.colors.Black[i]\"></card>\n          <br><i *ngIf=\"d.colors.Black && d.colors.Black[i] && d.colors.Black[i].effect\">({{d.colors.Black[i].effect}})</i>\n        </td>\n        <td class=\"cost\">\n          <span *ngIf=\"d.colors.Red && d.colors.Red[i]\">\n              <i *ngFor=\"let cost of d.colors.Red[i].costs\" [ngClass]=\"cost\"></i>\n            </span>\n        </td>\n        <td class=\"red name\">\n          <card [card]=\"d.colors.Red[i]\" *ngIf=\"d.colors.Red && d.colors.Red[i]\"></card>\n          <br><i *ngIf=\"d.colors.Red && d.colors.Red[i] && d.colors.Red[i].effect\">({{d.colors.Red[i].effect}})</i>\n        </td>\n        <td class=\"cost\">\n          <span *ngIf=\"d.colors.Green && d.colors.Green[i]\">\n              <i *ngFor=\"let cost of d.colors.Green[i].costs\" [ngClass]=\"cost\"></i>\n            </span>\n        </td>\n        <td class=\"green name\">\n          <card [card]=\"d.colors.Green[i]\" *ngIf=\"d.colors.Green && d.colors.Green[i]\"></card>\n          <br><i *ngIf=\"d.colors.Green && d.colors.Green[i] && d.colors.Green[i].effect\">({{d.colors.Green[i].effect}})</i>\n        </td>\n        <td class=\"cost\">\n          <span *ngIf=\"d.colors.Multicolore && d.colors.Multicolore[i]\">\n              <i *ngFor=\"let cost of d.colors.Multicolore[i].costs\" [ngClass]=\"cost\"></i>\n            </span>\n        </td>\n        <td class=\"multi name\">\n          <card [card]=\"d.colors.Multicolore[i]\" *ngIf=\"d.colors.Multicolore && d.colors.Multicolore[i]\"></card>\n          <br><i *ngIf=\"d.colors.Multicolore && d.colors.Multicolore[i] && d.colors.Multicolore[i].effect\">({{d.colors.Multicolore[i].effect}})</i>\n        </td>\n      </tr>\n    </ng-template>\n  </tbody>\n</table>\n<a [href]=\"dashboardLink\">Link to stats</a>"
+module.exports = "<h1>All instants, flash creatures and cycling with effects in AKH</h1>\n<table class=\"cards\">\n  <thead>\n    <tr>\n      <th>CCM</th>\n      <th colspan=\"2\" class=\"white\">White</th>\n      <th colspan=\"2\" class=\"blue\">Blue</th>\n      <th colspan=\"2\" class=\"black\">Black</th>\n      <th colspan=\"2\" class=\"red\">Red</th>\n      <th colspan=\"2\" class=\"green\">Green</th>\n      <th colspan=\"2\" class=\"multi\">Multi</th>\n    </tr>\n  </thead>\n  <tbody>\n    <ng-template ngFor [ngForOf]=\"data\" let-d>\n      <tr>\n        <td [attr.rowspan]=\"d.max.length + 1\" class=\"cmc\">{{d.cmc}}</td>\n      </tr>\n      <tr *ngFor=\"let i of d.max;let l = last\" [class.border-top]=\"i === 0\" [class.last]=\"l\">\n        <td class=\"cost\">\n          <span *ngIf=\"d.colors.White && d.colors.White[i]\">\n              <i *ngFor=\"let cost of d.colors.White[i].costs\" [ngClass]=\"cost\"></i>\n          </span>\n        </td>\n        <td class=\"white name\">\n            <card [card]=\"d.colors.White[i]\" *ngIf=\"d.colors.White && d.colors.White[i]\"></card>\n            <i *ngIf=\"d.colors.White && d.colors.White[i] && d.colors.White[i].effect\">({{d.colors.White[i].effect}})</i>\n        </td>\n        <td class=\"cost\">\n          <span *ngIf=\"d.colors.Blue && d.colors.Blue[i]\">\n            <i *ngFor=\"let cost of d.colors.Blue[i].costs\" [ngClass]=\"cost\"></i>\n          </span>\n        </td>\n        <td class=\"blue name\">\n          <card [card]=\"d.colors.Blue[i]\" *ngIf=\"d.colors.Blue && d.colors.Blue[i]\"></card>\n          <i *ngIf=\"d.colors.Blue && d.colors.Blue[i] && d.colors.Blue[i].effect\">({{d.colors.Blue[i].effect}})</i>\n        </td>\n        <td class=\"cost\">\n           <span *ngIf=\"d.colors.Black && d.colors.Black[i]\">\n              <i *ngFor=\"let cost of d.colors.Black[i].costs\" [ngClass]=\"cost\"></i>\n            </span>\n        </td>\n        <td class=\"black name\">\n          <card [card]=\"d.colors.Black[i]\" *ngIf=\"d.colors.Black && d.colors.Black[i]\"></card>\n          <i *ngIf=\"d.colors.Black && d.colors.Black[i] && d.colors.Black[i].effect\">({{d.colors.Black[i].effect}})</i>\n        </td>\n        <td class=\"cost\">\n          <span *ngIf=\"d.colors.Red && d.colors.Red[i]\">\n              <i *ngFor=\"let cost of d.colors.Red[i].costs\" [ngClass]=\"cost\"></i>\n            </span>\n        </td>\n        <td class=\"red name\">\n          <card [card]=\"d.colors.Red[i]\" *ngIf=\"d.colors.Red && d.colors.Red[i]\"></card>\n          <i *ngIf=\"d.colors.Red && d.colors.Red[i] && d.colors.Red[i].effect\">({{d.colors.Red[i].effect}})</i>\n        </td>\n        <td class=\"cost\">\n          <span *ngIf=\"d.colors.Green && d.colors.Green[i]\">\n              <i *ngFor=\"let cost of d.colors.Green[i].costs\" [ngClass]=\"cost\"></i>\n            </span>\n        </td>\n        <td class=\"green name\">\n          <card [card]=\"d.colors.Green[i]\" *ngIf=\"d.colors.Green && d.colors.Green[i]\"></card>\n          <i *ngIf=\"d.colors.Green && d.colors.Green[i] && d.colors.Green[i].effect\">({{d.colors.Green[i].effect}})</i>\n        </td>\n        <td class=\"cost\">\n          <span *ngIf=\"d.colors.Multicolore && d.colors.Multicolore[i]\">\n              <i *ngFor=\"let cost of d.colors.Multicolore[i].costs\" [ngClass]=\"cost\"></i>\n            </span>\n        </td>\n        <td class=\"multi name\">\n          <card [card]=\"d.colors.Multicolore[i]\" *ngIf=\"d.colors.Multicolore && d.colors.Multicolore[i]\"></card>\n          <i *ngIf=\"d.colors.Multicolore && d.colors.Multicolore[i] && d.colors.Multicolore[i].effect\">({{d.colors.Multicolore[i].effect}})</i>\n        </td>\n      </tr>\n    </ng-template>\n  </tbody>\n</table>\n<a [href]=\"dashboardLink\">Link to stats</a>"
 
 /***/ }),
 
 /***/ 140:
 /***/ (function(module, exports) {
 
-module.exports = "<span>{{card.name}}</span>\n<img [src]=\"'assets/img/AKH/' + card.name.replace(' / ', '') + '.full.jpg'\">"
+module.exports = "<div class=\"name\">\n    <div \n        class=\"rarity\"\n        [class.mythic]=\"card.rarity === 'Mythic'\"\n        [class.rare]=\"card.rarity === 'Rare'\"\n        [class.uncommon]=\"card.rarity === 'Uncommon'\"\n        [class.common]=\"card.rarity === 'Common'\"></div>\n    <div>{{card.name}}</div>\n</div>\n<img [src]=\"'assets/img/AKH/' + card.name.replace(' / ', '') + '.full.jpg'\">"
 
 /***/ }),
 
@@ -68,325 +68,378 @@ var tricks = [
         "manaCost": "{2}{W}",
         "cmc": 3,
         "name": "Aven Mindcensor",
-        "colors": "White"
+        "colors": "White",
+        "rarity": "Rare"
     },
     {
         "manaCost": "{2}{G}",
         "cmc": 3,
         "name": "Pouncing Cheetah",
-        "colors": "Green"
+        "colors": "Green",
+        "rarity": "Common"
     },
     {
         "manaCost": "{3}{R}{G}",
         "cmc": 5,
         "name": "Samut, Voice of Dissent",
-        "colors": "Red, Green"
+        "colors": "Red, Green",
+        "rarity": "Mythic"
     },
     {
         "manaCost": "{2}{W}",
         "cmc": 3,
         "name": "Vizier of Deferment",
-        "colors": "White"
+        "colors": "White",
+        "rarity": "Uncommon"
     },
     {
         "manaCost": "{3}{W}",
         "cmc": 4,
         "name": "Cast Out",
-        "colors": "White"
+        "colors": "White",
+        "rarity": "Uncommon"
     },
     {
         "manaCost": "{1}{U}{U}",
         "cmc": 3,
         "name": "Cancel",
-        "colors": "Blue"
+        "colors": "Blue",
+        "rarity": "Common"
     },
     {
         "manaCost": "{1}{R}",
         "cmc": 2,
         "name": "Fling",
-        "colors": "Red"
+        "colors": "Red",
+        "rarity": "Common"
     },
     {
         "manaCost": "{3}{R}",
         "cmc": 4,
         "name": "Pursue Glory",
-        "colors": "Red"
+        "colors": "Red",
+        "rarity": "Common"
     },
     {
         "manaCost": "{2}{B}",
         "cmc": 3,
         "name": "Splendid Agony",
-        "colors": "Black"
+        "colors": "Black",
+        "rarity": "Common"
     },
     {
         "manaCost": "{2}{W}",
         "cmc": 3,
         "name": "Start / Finish",
-        "colors": "White"
+        "colors": "White",
+        "rarity": "Uncommon"
     },
     {
         "manaCost": "{W}",
         "cmc": 1,
         "name": "Time to Reflect",
-        "colors": "White"
+        "colors": "White",
+        "rarity": "Uncommon"
     },
     {
         "manaCost": "{1}{B}",
         "cmc": 2,
         "name": "Destined / Lead",
-        "colors": "Black"
+        "colors": "Black",
+        "rarity": "Uncommon"
     },
     {
         "manaCost": "{1}{G}",
         "cmc": 2,
         "name": "Dissenter's Deliverance",
-        "colors": "Green"
+        "colors": "Green",
+        "rarity": "Common"
     },
     {
         "manaCost": "{3}{R}",
         "cmc": 4,
         "name": "Electrify",
-        "colors": "Red"
+        "colors": "Red",
+        "rarity": "Common"
     },
     {
         "manaCost": "{4}{B}",
         "cmc": 5,
         "name": "Final Reward",
-        "colors": "Black"
+        "colors": "Black",
+        "rarity": "Common"
     },
     {
         "manaCost": "{2}{U}",
         "cmc": 3,
         "name": "Galestrike",
-        "colors": "Blue"
+        "colors": "Blue",
+        "rarity": "Uncommon"
     },
     {
         "manaCost": "{3}{U}",
         "cmc": 4,
         "name": "Hieroglyphic Illumination",
-        "colors": "Blue"
+        "colors": "Blue",
+        "rarity": "Common"
     },
     {
         "manaCost": "{R}",
         "cmc": 1,
         "name": "Magma Spray",
-        "colors": "Red"
+        "colors": "Red",
+        "rarity": "Common"
     },
     {
         "manaCost": "{1}{W}",
         "cmc": 2,
         "name": "Mighty Leap",
-        "colors": "White"
+        "colors": "White",
+        "rarity": "Common"
     },
     {
         "manaCost": "{1}{W}",
         "cmc": 2,
         "name": "Prepare / Fight",
-        "colors": "White"
+        "colors": "White",
+        "rarity": "Rare"
     },
     {
         "manaCost": "{G}",
         "cmc": 1,
         "name": "Stinging Shot",
-        "colors": "Green"
+        "colors": "Green",
+        "rarity": "Common"
     },
     {
         "manaCost": "{1}{R}",
         "cmc": 2,
         "name": "Brute Strength",
-        "colors": "Red"
+        "colors": "Red",
+        "rarity": "Common"
     },
     {
         "manaCost": "{1}{U}",
         "cmc": 2,
         "name": "Censor",
-        "colors": "Blue"
+        "colors": "Blue",
+        "rarity": "Uncommon"
     },
     {
         "manaCost": "{1}{U}",
         "cmc": 2,
         "name": "Winds of Rebuke",
-        "colors": "Blue"
+        "colors": "Blue",
+        "rarity": "Common"
     },
     {
         "manaCost": "{3}{U}",
         "cmc": 4,
         "name": "Decision Paralysis",
-        "colors": "Blue"
+        "colors": "Blue",
+        "rarity": "Common"
     },
     {
         "manaCost": "{2}{R}",
         "cmc": 3,
         "name": "Glorious End",
-        "colors": "Red"
+        "colors": "Red",
+        "rarity": "Rare"
     },
     {
         "manaCost": "{1}{G}",
         "cmc": 2,
         "name": "Haze of Pollen",
-        "colors": "Green"
+        "colors": "Green",
+        "rarity": "Common"
     },
     {
         "manaCost": "{2}{U}",
         "cmc": 3,
         "name": "Reduce / Rubble",
-        "colors": "Blue"
+        "colors": "Blue",
+        "rarity": "Uncommon"
     },
     {
         "manaCost": "{2}{W}",
         "cmc": 3,
         "name": "Renewed Faith",
-        "colors": "White"
+        "colors": "White",
+        "rarity": "Uncommon"
     },
     {
         "manaCost": "{1}{U}",
         "cmc": 2,
         "name": "Failure / Comply",
-        "colors": "Blue"
+        "colors": "Blue",
+        "rarity": "Rare"
     },
     {
         "manaCost": "{2}{W}",
         "cmc": 3,
         "name": "Forsake the Worldly",
-        "colors": "White"
+        "colors": "White",
+        "rarity": "Common"
     },
     {
         "manaCost": "{X}{G}",
         "cmc": 1,
         "name": "Heaven / Earth",
-        "colors": "Green"
+        "colors": "Green",
+        "rarity": "Rare"
     },
     {
         "manaCost": "{1}{W}",
         "cmc": 2,
         "name": "Impeccable Timing",
-        "colors": "White"
+        "colors": "White",
+        "rarity": "Common"
     },
     {
         "manaCost": "{2}{R}",
         "cmc": 3,
         "name": "Onward / Victory",
-        "colors": "Red"
+        "colors": "Red",
+        "rarity": "Uncommon"
     },
     {
         "manaCost": "{B}",
         "cmc": 1,
         "name": "Scarab Feast",
-        "colors": "Black"
+        "colors": "Black",
+        "rarity": "Common"
     },
     {
         "manaCost": "{4}{R}",
         "cmc": 5,
         "name": "Deem Worthy",
-        "colors": "Red"
+        "colors": "Red",
+        "rarity": "Uncommon"
     },
     {
         "manaCost": "{W}",
         "cmc": 1,
         "name": "Djeru's Resolve",
-        "colors": "White"
+        "colors": "White",
+        "rarity": "Common"
     },
     {
         "manaCost": "{1}{U}",
         "cmc": 2,
         "name": "Essence Scatter",
-        "colors": "Blue"
+        "colors": "Blue",
+        "rarity": "Common"
     },
     {
         "manaCost": "{G}",
         "cmc": 1,
         "name": "Hapatra's Mark",
-        "colors": "Green"
+        "colors": "Green",
+        "rarity": "Uncommon"
     },
     {
         "manaCost": "{1}{W}",
         "cmc": 2,
         "name": "In Oketra's Name",
-        "colors": "White"
+        "colors": "White",
+        "rarity": "Common"
     },
     {
         "manaCost": "{X}{U}{U}",
         "cmc": 2,
         "name": "Pull from Tomorrow",
-        "colors": "Blue"
+        "colors": "Blue",
+        "rarity": "Rare"
     },
     {
         "manaCost": "{1}{B}",
         "cmc": 2,
         "name": "Shadow of the Grave",
-        "colors": "Black"
+        "colors": "Black",
+        "rarity": "Rare"
     },
     {
         "manaCost": "{G}",
         "cmc": 1,
         "name": "Shed Weakness",
-        "colors": "Green"
+        "colors": "Green",
+        "rarity": "Common"
     },
     {
         "manaCost": "{2}{G}",
         "cmc": 3,
         "name": "Spidery Grasp",
-        "colors": "Green"
+        "colors": "Green",
+        "rarity": "Common"
     },
     {
         "manaCost": "{B}",
         "cmc": 1,
         "name": "Supernatural Stamina",
-        "colors": "Black"
+        "colors": "Black",
+        "rarity": "Common"
     },
     {
         "manaCost": "{2}{G}",
         "cmc": 3,
         "name": "Synchronized Strike",
-        "colors": "Green"
+        "colors": "Green",
+        "rarity": "Uncommon"
     },
     {
         "manaCost": "{3}{U}",
         "cmc": 4,
         "name": "Commit / Memory",
-        "colors": "Blue"
+        "colors": "Blue",
+        "rarity": "Rare"
     },
     {
         "manaCost": "{4}{U}{U}",
         "cmc": 6,
         "name": "Spring / Mind",
         "colors": "Blue",
-        "effect": "Aftermath"
+        "effect": "Aftermath",
+        "rarity": "Rare"
     },
     {
         "manaCost": "{3}{G}",
         "cmc": 4,
         "name": "Shefet Monitor",
         "colors": "Green",
-        "effect": "Cycle"
+        "effect": "Cycle",
+        "rarity": "Uncommon"
     },
     {
         "manaCost": "{1}{W}",
         "cmc": 2,
         "name": "Renewed Faith",
         "colors": "White",
-        "effect": "Cycle"
+        "effect": "Cycle",
+        "rarity": "Uncommon"
     },
     {
         "manaCost": "{3}{R}",
         "cmc": 4,
         "name": "Deem Worthy",
         "colors": "Red",
-        "effect": "Cycle"
+        "effect": "Cycle",
+        "rarity": "Uncommon"
     },
     {
         "manaCost": "{3}{B}",
         "cmc": 4,
         "name": "Stir the sands",
         "colors": "Black",
-        "effect": "Cycle"
+        "effect": "Cycle",
+        "rarity": "Uncommon"
     },
     {
         "manaCost": "{1}{U}",
         "cmc": 2,
         "name": "Vizier of Tumbling Sands",
         "colors": "Blue",
-        "effect": "Cycle"
+        "effect": "Cycle",
+        "rarity": "Uncommon"
     }
 ];
 //# sourceMappingURL=AKH-tricks.js.map
@@ -468,7 +521,8 @@ var AppComponent = (function () {
                 manaCost: c.manaCost,
                 colors: c.colors,
                 effect: c.effect,
-                costs: costs
+                costs: costs,
+                rarity: c.rarity
             };
         });
         var costs = __WEBPACK_IMPORTED_MODULE_1_lodash__["groupBy"](cards, "cmc");

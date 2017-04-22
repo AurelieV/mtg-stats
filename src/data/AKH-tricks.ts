@@ -4,6 +4,7 @@ export interface Card {
     manaCost: string;
     colors: string;
     effect?: string;
+    rarity: "Rare" | "Uncommon" | "Mythic" | "Common"
 }
 
 export const tricks: Card[] = [
@@ -11,324 +12,377 @@ export const tricks: Card[] = [
     "manaCost": "{2}{W}",
     "cmc": 3,
     "name": "Aven Mindcensor",
-    "colors": "White"
+    "colors": "White",
+    "rarity": "Rare"
   },
   {
     "manaCost": "{2}{G}",
     "cmc": 3,
     "name": "Pouncing Cheetah",
-    "colors": "Green"
+    "colors": "Green",
+    "rarity": "Common"
   },
   {
     "manaCost": "{3}{R}{G}",
     "cmc": 5,
     "name": "Samut, Voice of Dissent",
-    "colors": "Red, Green"
+    "colors": "Red, Green",
+    "rarity": "Mythic"
   },
   {
     "manaCost": "{2}{W}",
     "cmc": 3,
     "name": "Vizier of Deferment",
-    "colors": "White"
+    "colors": "White",
+    "rarity": "Uncommon"
   },
   {
     "manaCost": "{3}{W}",
     "cmc": 4,
     "name": "Cast Out",
-    "colors": "White"
+    "colors": "White",
+    "rarity": "Uncommon"
   },
   {
     "manaCost": "{1}{U}{U}",
     "cmc": 3,
     "name": "Cancel",
-    "colors": "Blue"
+    "colors": "Blue",
+    "rarity": "Common"
   },
   {
     "manaCost": "{1}{R}",
     "cmc": 2,
     "name": "Fling",
-    "colors": "Red"
+    "colors": "Red",
+    "rarity": "Common"
   },
   {
     "manaCost": "{3}{R}",
     "cmc": 4,
     "name": "Pursue Glory",
-    "colors": "Red"
+    "colors": "Red",
+    "rarity": "Common"
   },
   {
     "manaCost": "{2}{B}",
     "cmc": 3,
     "name": "Splendid Agony",
-    "colors": "Black"
+    "colors": "Black",
+    "rarity": "Common"
   },
   {
     "manaCost": "{2}{W}",
     "cmc": 3,
     "name": "Start / Finish",
-    "colors": "White"
+    "colors": "White",
+    "rarity": "Uncommon"
   },
   {
     "manaCost": "{W}",
     "cmc": 1,
     "name": "Time to Reflect",
-    "colors": "White"
+    "colors": "White",
+    "rarity": "Uncommon"
   },
   {
     "manaCost": "{1}{B}",
     "cmc": 2,
     "name": "Destined / Lead",
-    "colors": "Black"
+    "colors": "Black",
+    "rarity": "Uncommon"
   },
   {
     "manaCost": "{1}{G}",
     "cmc": 2,
     "name": "Dissenter's Deliverance",
-    "colors": "Green"
+    "colors": "Green",
+    "rarity": "Common"
   },
   {
     "manaCost": "{3}{R}",
     "cmc": 4,
     "name": "Electrify",
-    "colors": "Red"
+    "colors": "Red",
+    "rarity": "Common"
   },
   {
     "manaCost": "{4}{B}",
     "cmc": 5,
     "name": "Final Reward",
-    "colors": "Black"
+    "colors": "Black",
+    "rarity": "Common"
   },
   {
     "manaCost": "{2}{U}",
     "cmc": 3,
     "name": "Galestrike",
-    "colors": "Blue"
+    "colors": "Blue",
+    "rarity": "Uncommon"
   },
   {
     "manaCost": "{3}{U}",
     "cmc": 4,
     "name": "Hieroglyphic Illumination",
-    "colors": "Blue"
+    "colors": "Blue",
+    "rarity": "Common"
   },
   {
     "manaCost": "{R}",
     "cmc": 1,
     "name": "Magma Spray",
-    "colors": "Red"
+    "colors": "Red",
+    "rarity": "Common"
   },
   {
     "manaCost": "{1}{W}",
     "cmc": 2,
     "name": "Mighty Leap",
-    "colors": "White"
+    "colors": "White",
+    "rarity": "Common"
   },
   {
     "manaCost": "{1}{W}",
     "cmc": 2,
     "name": "Prepare / Fight",
-    "colors": "White"
+    "colors": "White",
+    "rarity": "Rare"
   },
   {
     "manaCost": "{G}",
     "cmc": 1,
     "name": "Stinging Shot",
-    "colors": "Green"
+    "colors": "Green",
+    "rarity": "Common"
   },
   {
     "manaCost": "{1}{R}",
     "cmc": 2,
     "name": "Brute Strength",
-    "colors": "Red"
+    "colors": "Red",
+    "rarity": "Common"
   },
   {
     "manaCost": "{1}{U}",
     "cmc": 2,
     "name": "Censor",
-    "colors": "Blue"
+    "colors": "Blue",
+    "rarity": "Uncommon"
   },
   {
     "manaCost": "{1}{U}",
     "cmc": 2,
     "name": "Winds of Rebuke",
-    "colors": "Blue"
+    "colors": "Blue",
+    "rarity": "Common"
   },
   {
     "manaCost": "{3}{U}",
     "cmc": 4,
     "name": "Decision Paralysis",
-    "colors": "Blue"
+    "colors": "Blue",
+    "rarity": "Common"
   },
   {
     "manaCost": "{2}{R}",
     "cmc": 3,
     "name": "Glorious End",
-    "colors": "Red"
+    "colors": "Red",
+    "rarity": "Rare"
   },
   {
     "manaCost": "{1}{G}",
     "cmc": 2,
     "name": "Haze of Pollen",
-    "colors": "Green"
+    "colors": "Green",
+    "rarity": "Common"
   },
   {
     "manaCost": "{2}{U}",
     "cmc": 3,
     "name": "Reduce / Rubble",
-    "colors": "Blue"
+    "colors": "Blue",
+    "rarity": "Uncommon"
   },
   {
     "manaCost": "{2}{W}",
     "cmc": 3,
     "name": "Renewed Faith",
-    "colors": "White"
+    "colors": "White",
+    "rarity": "Uncommon"
   },
   {
     "manaCost": "{1}{U}",
     "cmc": 2,
     "name": "Failure / Comply",
-    "colors": "Blue"
+    "colors": "Blue",
+    "rarity": "Rare"
   },
   {
     "manaCost": "{2}{W}",
     "cmc": 3,
     "name": "Forsake the Worldly",
-    "colors": "White"
+    "colors": "White",
+    "rarity": "Common"
   },
   {
     "manaCost": "{X}{G}",
     "cmc": 1,
     "name": "Heaven / Earth",
-    "colors": "Green"
+    "colors": "Green",
+    "rarity": "Rare"
   },
   {
     "manaCost": "{1}{W}",
     "cmc": 2,
     "name": "Impeccable Timing",
-    "colors": "White"
+    "colors": "White",
+    "rarity": "Common"
   },
   {
     "manaCost": "{2}{R}",
     "cmc": 3,
     "name": "Onward / Victory",
-    "colors": "Red"
+    "colors": "Red",
+    "rarity": "Uncommon"
   },
   {
     "manaCost": "{B}",
     "cmc": 1,
     "name": "Scarab Feast",
-    "colors": "Black"
+    "colors": "Black",
+    "rarity": "Common"
   },
   {
     "manaCost": "{4}{R}",
     "cmc": 5,
     "name": "Deem Worthy",
-    "colors": "Red"
+    "colors": "Red",
+    "rarity": "Uncommon"
   },
   {
     "manaCost": "{W}",
     "cmc": 1,
     "name": "Djeru's Resolve",
-    "colors": "White"
+    "colors": "White",
+    "rarity": "Common"
   },
   {
     "manaCost": "{1}{U}",
     "cmc": 2,
     "name": "Essence Scatter",
-    "colors": "Blue"
+    "colors": "Blue",
+    "rarity": "Common"
   },
   {
     "manaCost": "{G}",
     "cmc": 1,
     "name": "Hapatra's Mark",
-    "colors": "Green"
+    "colors": "Green",
+    "rarity": "Uncommon"
   },
   {
     "manaCost": "{1}{W}",
     "cmc": 2,
     "name": "In Oketra's Name",
-    "colors": "White"
+    "colors": "White",
+    "rarity": "Common"
   },
   {
     "manaCost": "{X}{U}{U}",
     "cmc": 2,
     "name": "Pull from Tomorrow",
-    "colors": "Blue"
+    "colors": "Blue",
+    "rarity": "Rare"
   },
   {
     "manaCost": "{1}{B}",
     "cmc": 2,
     "name": "Shadow of the Grave",
-    "colors": "Black"
+    "colors": "Black",
+    "rarity": "Rare"
   },
   {
     "manaCost": "{G}",
     "cmc": 1,
     "name": "Shed Weakness",
-    "colors": "Green"
+    "colors": "Green",
+    "rarity": "Common"
   },
   {
     "manaCost": "{2}{G}",
     "cmc": 3,
     "name": "Spidery Grasp",
-    "colors": "Green"
+    "colors": "Green",
+    "rarity": "Common"
   },
   {
     "manaCost": "{B}",
     "cmc": 1,
     "name": "Supernatural Stamina",
-    "colors": "Black"
+    "colors": "Black",
+    "rarity": "Common"
   },
   {
     "manaCost": "{2}{G}",
     "cmc": 3,
     "name": "Synchronized Strike",
-    "colors": "Green"
+    "colors": "Green",
+    "rarity": "Uncommon"
   },
   {
     "manaCost": "{3}{U}",
     "cmc": 4,
     "name": "Commit / Memory",
-    "colors": "Blue"
+    "colors": "Blue",
+    "rarity": "Rare"
   },
   {
     "manaCost": "{4}{U}{U}",
     "cmc": 6,
     "name": "Spring / Mind",
     "colors": "Blue",
-    "effect": "Aftermath"
+    "effect": "Aftermath",
+    "rarity": "Rare"
   },
   {
     "manaCost": "{3}{G}",
     "cmc": 4,
     "name": "Shefet Monitor",
     "colors": "Green",
-    "effect": "Cycle"
+    "effect": "Cycle",
+    "rarity": "Uncommon"
   },
   {
     "manaCost": "{1}{W}",
     "cmc": 2,
     "name": "Renewed Faith",
     "colors": "White",
-    "effect": "Cycle"
+    "effect": "Cycle",
+    "rarity": "Uncommon"
   },
   {
     "manaCost": "{3}{R}",
     "cmc": 4,
     "name": "Deem Worthy",
     "colors": "Red",
-    "effect": "Cycle"
+    "effect": "Cycle",
+    "rarity": "Uncommon"
   },
   {
     "manaCost": "{3}{B}",
     "cmc": 4,
     "name": "Stir the sands",
     "colors": "Black",
-    "effect": "Cycle"
+    "effect": "Cycle",
+    "rarity": "Uncommon"
   },
   {
     "manaCost": "{1}{U}",
     "cmc": 2,
     "name": "Vizier of Tumbling Sands",
     "colors": "Blue",
-    "effect": "Cycle"
+    "effect": "Cycle",
+    "rarity": "Uncommon"
   }
 ]

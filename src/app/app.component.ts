@@ -28,7 +28,8 @@ export class AppComponent {
         manaCost: c.manaCost,
         colors: c.colors,
         effect: c.effect,
-        costs
+        costs,
+        rarity: c.rarity
       };
     });
 
