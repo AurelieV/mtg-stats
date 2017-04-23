@@ -3,6 +3,8 @@ const KLD = require('../extensions/KLD.json');
 const AER = require('../extensions/AER.json');
 const AKH = require('../extensions/AKH.json');
 
+AKH.cards = AKH.cards.filter(c => c.number <= 249 );
+
 const client = new elasticsearch.Client({
     host: 'localhost:9200'
 });
