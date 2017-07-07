@@ -1,4 +1,7 @@
-<h1>All instants, flash creatures and cycling with effects in AKH</h1>
+<h1>All instants, flash creatures and cycling with effects in {{extension}}</h1>
+<button (click)="changeExtension('AKH&HOU')">View AKH&HOU</button>
+<button (click)="changeExtension('HOU')">View HOU</button>
+<button (click)="changeExtension('AKH')">View AKH</button>
 <table class="cards">
   <thead>
     <tr>
@@ -17,61 +20,17 @@
         <td [attr.rowspan]="d.max.length + 1" class="cmc">{{d.cmc}}</td>
       </tr>
       <tr *ngFor="let i of d.max;let l = last" [class.border-top]="i === 0" [class.last]="l">
-        <td class="cost">
-          <span *ngIf="d.colors.White && d.colors.White[i]">
-              <i *ngFor="let cost of d.colors.White[i].costs" [ngClass]="cost"></i>
-          </span>
-        </td>
-        <td class="white name">
-            <card [card]="d.colors.White[i]" *ngIf="d.colors.White && d.colors.White[i]"></card>
-            <i *ngIf="d.colors.White && d.colors.White[i] && d.colors.White[i].effect">({{d.colors.White[i].effect}})</i>
-        </td>
-        <td class="cost">
-          <span *ngIf="d.colors.Blue && d.colors.Blue[i]">
-            <i *ngFor="let cost of d.colors.Blue[i].costs" [ngClass]="cost"></i>
-          </span>
-        </td>
-        <td class="blue name">
-          <card [card]="d.colors.Blue[i]" *ngIf="d.colors.Blue && d.colors.Blue[i]"></card>
-          <i *ngIf="d.colors.Blue && d.colors.Blue[i] && d.colors.Blue[i].effect">({{d.colors.Blue[i].effect}})</i>
-        </td>
-        <td class="cost">
-           <span *ngIf="d.colors.Black && d.colors.Black[i]">
-              <i *ngFor="let cost of d.colors.Black[i].costs" [ngClass]="cost"></i>
-            </span>
-        </td>
-        <td class="black name">
-          <card [card]="d.colors.Black[i]" *ngIf="d.colors.Black && d.colors.Black[i]"></card>
-          <i *ngIf="d.colors.Black && d.colors.Black[i] && d.colors.Black[i].effect">({{d.colors.Black[i].effect}})</i>
-        </td>
-        <td class="cost">
-          <span *ngIf="d.colors.Red && d.colors.Red[i]">
-              <i *ngFor="let cost of d.colors.Red[i].costs" [ngClass]="cost"></i>
-            </span>
-        </td>
-        <td class="red name">
-          <card [card]="d.colors.Red[i]" *ngIf="d.colors.Red && d.colors.Red[i]"></card>
-          <i *ngIf="d.colors.Red && d.colors.Red[i] && d.colors.Red[i].effect">({{d.colors.Red[i].effect}})</i>
-        </td>
-        <td class="cost">
-          <span *ngIf="d.colors.Green && d.colors.Green[i]">
-              <i *ngFor="let cost of d.colors.Green[i].costs" [ngClass]="cost"></i>
-            </span>
-        </td>
-        <td class="green name">
-          <card [card]="d.colors.Green[i]" *ngIf="d.colors.Green && d.colors.Green[i]"></card>
-          <i *ngIf="d.colors.Green && d.colors.Green[i] && d.colors.Green[i].effect">({{d.colors.Green[i].effect}})</i>
-        </td>
-        <td class="cost">
-          <span *ngIf="d.colors.Multicolore && d.colors.Multicolore[i]">
-              <i *ngFor="let cost of d.colors.Multicolore[i].costs" [ngClass]="cost"></i>
-            </span>
-        </td>
-        <td class="multi name">
-          <card [card]="d.colors.Multicolore[i]" *ngIf="d.colors.Multicolore && d.colors.Multicolore[i]"></card>
-          <i *ngIf="d.colors.Multicolore && d.colors.Multicolore[i] && d.colors.Multicolore[i].effect">({{d.colors.Multicolore[i].effect}})</i>
-        </td>
-      </tr>
+        <ng-template ngFor let-column [ngForOf]="columns">
+            <td class="cost">
+              <span *ngIf="d.colors[column.name] && d.colors[column.name][i]">
+                  <i *ngFor="let cost of d.colors[column.name][i].costs" [ngClass]="cost"></i>
+              </span>
+            </td>
+            <td class="name" [class]="'name ' + column.className">
+                <card [card]="d.colors[column.name][i]" *ngIf="d.colors[column.name] && d.colors[column.name][i]"></card>
+                <i *ngIf="d.colors[column.name] && d.colors[column.name][i] && d.colors[column.name].effect">({{d.colors[column.name][i].effect}})</i>
+            </td>
+        </ng-template>
     </ng-template>
   </tbody>
 </table>

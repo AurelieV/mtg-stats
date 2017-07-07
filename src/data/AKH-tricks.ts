@@ -1,11 +1,4 @@
-export interface Card {
-    name: string;
-    cmc: number;
-    manaCost: string;
-    colors: string;
-    effect?: string;
-    rarity: "Rare" | "Uncommon" | "Mythic" | "Common"
-}
+import { Card } from "../app/card.model"
 
 export const tricks: Card[] = [
   {

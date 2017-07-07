@@ -2,8 +2,24 @@ const elasticsearch = require('elasticsearch');
 const KLD = require('../extensions/KLD.json');
 const AER = require('../extensions/AER.json');
 const AKH = require('../extensions/AKH.json');
+const HOU = require('../extensions/HOU.json');
 
-AKH.cards = AKH.cards.filter(c => c.number <= 249 );
+AKH.cards = AKH.cards.filter(c => {
+    const number = Array.from(c.number);
+    const last = Array.from(number).pop();
+    if (last === "a") {
+
+    }
+    return c.number <= 249
+});
+
+HOU.cards.forEach(c => {
+    const number = Array.from(c.number);
+    const last = Array.from(number).pop();
+    if (last === "b") {
+        c.multiverseid += c.foreignNames[0].multiverseid;
+    }
+});
 
 const client = new elasticsearch.Client({
     host: 'localhost:9200'
@@ -97,10 +113,11 @@ async function insertExtension(extension) {
 }
 
 async function insertBlock() {
-    await createIndex();
+   // await createIndex();
    // await insertExtension(KLD);
    // await insertExtension(AER);
-    await insertExtension(AKH);
+   // await insertExtension(AKH);
+   await insertExtension(HOU);
 }
 
 insertBlock();

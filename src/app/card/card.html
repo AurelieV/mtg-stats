@@ -7,4 +7,4 @@
         [class.common]="card.rarity === 'Common'"></div>
     <div>{{card.name}}</div>
 </div>
-<img [src]="'assets/img/AKH/' + card.name.replace(' / ', '') + '.full.jpg'">
+<img [src]="'assets/img/' + card.extension + '/' + card.name.replace(' / ', '') + '.full.jpg'">
