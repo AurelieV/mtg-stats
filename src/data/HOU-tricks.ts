@@ -119,7 +119,7 @@ export const tricks: Card[] = [
     "cmc": 2,
     "rarity": "Uncommon",
     "colors": "Blue",
-    "name": "Consign"
+    "name": "Consign / Oblivion"
   },
   {
     "manaCost": "{1}{B}",
@@ -161,28 +161,28 @@ export const tricks: Card[] = [
     "cmc": 3,
     "rarity": "Uncommon",
     "colors": "White",
-    "name": "Farm"
+    "name": "Farm / Market"
   },
   {
     "manaCost": "{1}{W}",
     "cmc": 2,
     "rarity": "Rare",
     "colors": "White",
-    "name": "Leave"
+    "name": "Leave / Chance"
   },
   {
     "manaCost": "{3}{R}",
     "cmc": 4,
     "rarity": "Rare",
     "colors": "Red",
-    "name": "Refuse"
+    "name": "Refuse / Cooperate"
   },
   {
     "manaCost": "{2}{U}",
     "cmc": 3,
     "rarity": "Rare",
     "colors": "Blue",
-    "name": "Cooperate",
+    "name": "Refuse / Cooperate",
     effect: "Aftermath"
   },
   {
@@ -218,6 +218,6 @@ export const tricks: Card[] = [
     "cmc": 3,
     "rarity": "Uncommon",
     "colors": "Red",
-    "name": "Struggle"
+    "name": "Struggle / Survive"
   }
 ]
