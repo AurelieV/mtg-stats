@@ -28,7 +28,7 @@
             </td>
             <td class="name" [class]="'name ' + column.className">
                 <card [card]="d.colors[column.name][i]" *ngIf="d.colors[column.name] && d.colors[column.name][i]"></card>
-                <i *ngIf="d.colors[column.name] && d.colors[column.name][i] && d.colors[column.name].effect">({{d.colors[column.name][i].effect}})</i>
+                <i *ngIf="d.colors[column.name] && d.colors[column.name][i] && d.colors[column.name][i].effect">({{d.colors[column.name][i].effect}})</i>
             </td>
         </ng-template>
     </ng-template>
