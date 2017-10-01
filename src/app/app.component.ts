@@ -78,5 +78,10 @@ export class AppComponent {
       });
       d.max = _.range(Math.max(...lengths));
     });
+
+    // Erase empty columns
+    this.columns = this.columns.filter(c => {
+      return this.data.filter(d => d.colors[c.name] !== undefined).length > 0;
+    })
   } 
 }

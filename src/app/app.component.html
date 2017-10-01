@@ -1,14 +1,12 @@
-<h1>All instants, flash creatures and cycling with effects in {{set.name}}</h1>
+<div class="title">
+  <span>All instants and flash creatures in {{set.name}}</span>
+  <img [src]="set.icon_svg_uri">
+</div>
 <table class="cards">
   <thead>
     <tr>
       <th>CCM</th>
-      <th colspan="2" class="white">White</th>
-      <th colspan="2" class="blue">Blue</th>
-      <th colspan="2" class="black">Black</th>
-      <th colspan="2" class="red">Red</th>
-      <th colspan="2" class="green">Green</th>
-      <th colspan="2" class="multi">Multi</th>
+      <th *ngFor="let column of columns" colspan="2" class="column.className">{{column.name}}</th>
     </tr>
   </thead>
   <tbody>

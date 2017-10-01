@@ -8,7 +8,7 @@ exports = module.exports = __webpack_require__(27)();
 
 
 // module
-exports.push([module.i, ".cards {\n    background: white;\n}\n.white {\n    color: black;\n}\n.blue {\n    color: black;\n}\n.black {\n    color: black;\n}\n.red {\n    color: black;\n}\n.green {\n    color: black;\n}\n.multi {\n    color: black;\n}\n.border-top {\n    border-top: 1px solid black;\n}\n\ntd.name {\n    padding-left: 0;\n    padding-right: 5px;\n    padding-top: 2px;\n    padding-bottom: 2px;\n}\n\ntd.cost {\n    padding-right: 10;\n    text-align: right;\n}\n\ntr.last > td {\n    padding-bottom: 10px;\n    border-bottom: 1px solid black;\n}\n\na {\n    margin-top: 10px;\n    float: right;\n}", ""]);
+exports.push([module.i, ".cards {\n    background: white;\n}\n.white {\n    color: black;\n}\n.blue {\n    color: black;\n}\n.black {\n    color: black;\n}\n.red {\n    color: black;\n}\n.green {\n    color: black;\n}\n.multi {\n    color: black;\n}\n.border-top {\n    border-top: 1px solid black;\n}\n\ntd.name {\n    padding-left: 0;\n    padding-right: 5px;\n    padding-top: 2px;\n    padding-bottom: 2px;\n}\n\ntd.cost {\n    padding-right: 10;\n    text-align: right;\n}\n\ntr.last > td {\n    padding-bottom: 10px;\n    border-bottom: 1px solid black;\n}\n\na {\n    margin-top: 10px;\n    float: right;\n}\n\n.title {\n    font-size: 24px;\n    margin-bottom: 10px;\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-pack: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n    -webkit-box-align: center;\n        -ms-flex-align: center;\n            align-items: center;\n}\n\n.title img {\n    width: 24px;\n    height: 24px;\n    margin-left: 10px;\n}", ""]);
 
 // exports
 
@@ -3631,7 +3631,7 @@ module.exports = {
 /***/ 140:
 /***/ (function(module, exports) {
 
-module.exports = "<h1>All instants, flash creatures and cycling with effects in {{set.name}}</h1>\n<table class=\"cards\">\n  <thead>\n    <tr>\n      <th>CCM</th>\n      <th colspan=\"2\" class=\"white\">White</th>\n      <th colspan=\"2\" class=\"blue\">Blue</th>\n      <th colspan=\"2\" class=\"black\">Black</th>\n      <th colspan=\"2\" class=\"red\">Red</th>\n      <th colspan=\"2\" class=\"green\">Green</th>\n      <th colspan=\"2\" class=\"multi\">Multi</th>\n    </tr>\n  </thead>\n  <tbody>\n    <ng-template ngFor [ngForOf]=\"data\" let-d>\n      <tr>\n        <td [attr.rowspan]=\"d.max.length + 1\" class=\"cmc\">{{d.cmc}}</td>\n      </tr>\n      <tr *ngFor=\"let i of d.max;let l = last\" [class.border-top]=\"i === 0\" [class.last]=\"l\">\n        <ng-template ngFor let-column [ngForOf]=\"columns\">\n            <td class=\"cost\">\n              <span *ngIf=\"d.colors[column.name] && d.colors[column.name][i]\">\n                  <i *ngFor=\"let cost of d.colors[column.name][i].costs\" [ngClass]=\"cost\"></i>\n              </span>\n            </td>\n            <td class=\"name\" [class]=\"'name ' + column.className\">\n                <card [card]=\"d.colors[column.name][i]\" *ngIf=\"d.colors[column.name] && d.colors[column.name][i]\"></card>\n                <i *ngIf=\"d.colors[column.name] && d.colors[column.name][i] && d.colors[column.name][i].effect\">({{d.colors[column.name][i].effect}})</i>\n            </td>\n        </ng-template>\n    </ng-template>\n  </tbody>\n</table>\n<!-- <a [href]=\"dashboardLink\">Link to stats</a> -->"
+module.exports = "<div class=\"title\">\n  <span>All instants and flash creatures in {{set.name}}</span>\n  <img [src]=\"set.icon_svg_uri\">\n</div>\n<table class=\"cards\">\n  <thead>\n    <tr>\n      <th>CCM</th>\n      <th *ngFor=\"let column of columns\" colspan=\"2\" class=\"column.className\">{{column.name}}</th>\n    </tr>\n  </thead>\n  <tbody>\n    <ng-template ngFor [ngForOf]=\"data\" let-d>\n      <tr>\n        <td [attr.rowspan]=\"d.max.length + 1\" class=\"cmc\">{{d.cmc}}</td>\n      </tr>\n      <tr *ngFor=\"let i of d.max;let l = last\" [class.border-top]=\"i === 0\" [class.last]=\"l\">\n        <ng-template ngFor let-column [ngForOf]=\"columns\">\n            <td class=\"cost\">\n              <span *ngIf=\"d.colors[column.name] && d.colors[column.name][i]\">\n                  <i *ngFor=\"let cost of d.colors[column.name][i].costs\" [ngClass]=\"cost\"></i>\n              </span>\n            </td>\n            <td class=\"name\" [class]=\"'name ' + column.className\">\n                <card [card]=\"d.colors[column.name][i]\" *ngIf=\"d.colors[column.name] && d.colors[column.name][i]\"></card>\n                <i *ngIf=\"d.colors[column.name] && d.colors[column.name][i] && d.colors[column.name][i].effect\">({{d.colors[column.name][i].effect}})</i>\n            </td>\n        </ng-template>\n    </ng-template>\n  </tbody>\n</table>\n<!-- <a [href]=\"dashboardLink\">Link to stats</a> -->"
 
 /***/ }),
 
@@ -3764,6 +3764,10 @@ var AppComponent = (function () {
                 return (d.colors[c.name] || []).length;
             });
             d.max = __WEBPACK_IMPORTED_MODULE_1_lodash__["range"](Math.max.apply(Math, lengths));
+        });
+        // Erase empty columns
+        this.columns = this.columns.filter(function (c) {
+            return _this.data.filter(function (d) { return d.colors[c.name] !== undefined; }).length > 0;
         });
     };
     return AppComponent;

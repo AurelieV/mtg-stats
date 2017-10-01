@@ -44,3 +44,17 @@ a {
     margin-top: 10px;
     float: right;
 }
+
+.title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title img {
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+}
