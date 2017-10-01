@@ -24,6 +24,7 @@
     "elasticsearch": "^13.0.0-rc2",
     "lodash": "^4.17.4",
     "mana-font": "^1.2.0",
+    "request": "^2.83.0",
     "rxjs": "^5.1.0",
     "zone.js": "^0.8.4"
   },
@@ -42,6 +43,7 @@
     "karma-jasmine": "~1.1.0",
     "karma-jasmine-html-reporter": "^0.2.2",
     "protractor": "~5.1.0",
+    "request-promise-native": "^1.0.5",
     "ts-node": "~2.0.0",
     "tslint": "~4.5.0",
     "typescript": "~2.2.0"
