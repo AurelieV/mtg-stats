@@ -1,10 +1,6 @@
 import { Component, Input } from '@angular/core';
 
-import { Card } from '../card.model';
-
-class ECard extends Card {
-    extension: string;
-}
+import { Card } from '../interface';
 
 @Component({
     selector: "card",
@@ -12,5 +8,5 @@ class ECard extends Card {
     styleUrls: [ './card.css' ]
 })
 export class CardComponent {
-    @Input() card: ECard;
+    @Input() card: Card;
 }

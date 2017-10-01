@@ -67,7 +67,8 @@ async function insertExtension(extension, maxNumber) {
             extensionDate: extension.released_at,
             block: extension.block_code,
             multiverse_id: card.multiverse_id,
-            mana_cost: card.mana_cost
+            mana_cost: card.mana_cost,
+            uri: mainCard.image_uris.small
         };
         if (power !== NaN) {
             esCard.power = power;

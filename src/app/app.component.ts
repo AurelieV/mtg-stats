@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
 import * as _ from "lodash";
 
-import { tricks as AKHTricks } from "../data/AKH-tricks";
-import { tricks as HOUTricks } from "../data/HOU-tricks";
-import { Card } from "./card.model";
+declare const require: any;
+import { Card, Color, Set } from "./interface";
+const xln = require("./tricks/xln.json");
 
 interface Column {
   name: string;
@@ -16,52 +16,44 @@ interface Column {
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  dashboardLink: string = "http://mtg-stats.purple-fox.fr/app/kibana#/dashboard/0f1b4b30-2204-11e7-a4a7-a3aa983ebfc9";
+  // dashboardLink: string = "http://mtg-stats.purple-fox.fr/app/kibana#/dashboard/0f1b4b30-2204-11e7-a4a7-a3aa983ebfc9";
+  
   data: any[] = [];
   columns: Column[] = [
-    { name: "White", className: "white" },
-    { name: "Blue", className: "blue" },
-    { name: "Black", className: "black" },
-    { name: "Red", className: "red" },
-    { name: "Green", className: "green" },
-    { name: "Multicolore", className: "multicolore" },
+    { name: "W", className: "white" },
+    { name: "U", className: "blue" },
+    { name: "B", className: "black" },
+    { name: "R", className: "red" },
+    { name: "G", className: "green" },
+    { name: "multi", className: "multicolore" },
+    { name: "incolore", className: "multicolore"}
   ];
-  extension: string;
+  set: Set;
 
   constructor() {
-    this.changeExtension("AKH&HOU");
+    this.changeSet(xln);
   }
 
-  changeExtension(extension: string) {
+  changeSet(set: Set) {
     const costRegexp = new RegExp(/\{(.)\}/g);
-    let tricks;
     this.data = [];
-    this.extension = extension;
-    if (extension === "AKH") {
-      tricks = AKHTricks.map(c => Object.assign({}, c, { extension: "AKH" }));
-    } else if (extension === "HOU") {
-      tricks = HOUTricks.map(c => Object.assign({}, c, { extension: "HOU" }));
-    } else {
-      tricks = AKHTricks.map(c => Object.assign({}, c, { extension: "AKH" })).concat(
-        HOUTricks.map(c => Object.assign({}, c, { extension: "HOU" }))
-      );
-    }
-    const cards = tricks.map(c => {
+    this.set = set;
+
+    const cards = set.cards.map(c => {
       const costs = [];
-      let cost = costRegexp.exec(c.manaCost);
+      let cost = costRegexp.exec(c.mana_cost);
       while(cost !== null) {
         costs.push(`ms-${cost[1].toLowerCase()} ms ms-cost`);
-        cost = costRegexp.exec(c.manaCost);
+        cost = costRegexp.exec(c.mana_cost);
       }
       return {
         name: c.name,
         cmc: c.cmc,
-        manaCost: c.manaCost,
+        mana_cost: c.mana_cost,
         colors: c.colors,
-        effect: c.effect,
         costs,
         rarity: c.rarity,
-        extension: c.extension
+        uri: c.image_uris.small
       };
     });
 
@@ -70,21 +62,21 @@ export class AppComponent {
       this.data.push({
         cmc,
         colors: _.groupBy(costs[cmc], (card: Card) => {
-          const colors: string[] = card.colors.split(",");
-          if (colors.length > 1) return "Multicolore";
-          else return card.colors;
+          if (card.colors.length > 1) {
+            return "multi";
+          } else if (card.colors.length === 0) {
+            return "incolore";
+          } else{
+            return card.colors[0];
+          }
         })
       })
     });
     this.data.forEach(d => {
-      d.max = _.range(Math.max(
-        (d.colors.White || []).length,
-        (d.colors.Black || []).length,
-        (d.colors.Green || []).length,
-        (d.colors.Blue || []).length,
-        (d.colors.Multicolore || []).length,
-        (d.colors.Red || []).length
-      ));
-    })
+      const lengths = this.columns.map(c => {
+        return (d.colors[c.name] || []).length
+      });
+      d.max = _.range(Math.max(...lengths));
+    });
   } 
 }

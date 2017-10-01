@@ -31,7 +31,8 @@ async function createIndex() {
                 block: { type: "keyword" },
                 multiverse_id: { type: "integer" },
                 multicolore: { type: "boolean" },
-                mana_cost: { type: "keyword" }
+                mana_cost: { type: "keyword" },
+                uri: { type: "string" }
             }
         }
         }}

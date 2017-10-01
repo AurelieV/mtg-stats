@@ -1,10 +1,10 @@
 <div class="name">
     <div 
         class="rarity"
-        [class.mythic]="card.rarity === 'Mythic'"
-        [class.rare]="card.rarity === 'Rare'"
-        [class.uncommon]="card.rarity === 'Uncommon'"
-        [class.common]="card.rarity === 'Common'"></div>
+        [class.mythic]="card.rarity === 'mythic'"
+        [class.rare]="card.rarity === 'rare'"
+        [class.uncommon]="card.rarity === 'uncommon'"
+        [class.common]="card.rarity === 'common'"></div>
     <div>{{card.name}}</div>
 </div>
-<img [src]="'assets/img/' + card.extension + '/' + card.name.replace(' / ', '') + '.full.jpg'">
+<img [src]="card.uri">
