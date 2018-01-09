@@ -4,6 +4,7 @@ import * as _ from "lodash";
 declare const require: any;
 import { Card, Color, Set } from "./interface";
 const xln = require("./tricks/xln.json");
+const rix = require("./tricks/rix.json");
 
 interface Column {
   name: string;
@@ -17,7 +18,7 @@ interface Column {
 })
 export class AppComponent {
   // dashboardLink: string = "http://mtg-stats.purple-fox.fr/app/kibana#/dashboard/0f1b4b30-2204-11e7-a4a7-a3aa983ebfc9";
-  
+
   data: any[] = [];
   columns: Column[] = [
     { name: "W", className: "white" },
@@ -29,9 +30,11 @@ export class AppComponent {
     { name: "incolore", className: "multicolore"}
   ];
   set: Set;
+  xln: Set = xln;
+  rix: Set = rix;
 
   constructor() {
-    this.changeSet(xln);
+    this.changeSet(rix);
   }
 
   changeSet(set: Set) {
@@ -83,5 +86,5 @@ export class AppComponent {
     this.columns = this.columns.filter(c => {
       return this.data.filter(d => d.colors[c.name] !== undefined).length > 0;
     })
-  } 
+  }
 }

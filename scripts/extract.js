@@ -14,7 +14,7 @@ async function fetchSet(code) {
     let cardsData = await request({
         uri: extension.search_uri,
         json: true
-    });
+    })
     extension.cards = cardsData.data;
     console.log("Début de l'extraction ...");
     while (cardsData.has_more) {
@@ -32,4 +32,4 @@ async function fetchSet(code) {
     console.log(`Fichier généré extensions/${extension.code}.json`);
 }
 
-fetchSet("XLN");
+fetchSet("RIX");

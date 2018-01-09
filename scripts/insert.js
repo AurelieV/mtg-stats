@@ -49,7 +49,7 @@ async function insertExtension(extension, maxNumber) {
         const { types, supertype, subtypes } = getTypes(mainCard);
 
         if (supertype === "Basic") return acc;
-        
+
         const power = convertToInt(mainCard.power);
         const toughness = convertToInt(mainCard.toughness);
 
@@ -68,7 +68,8 @@ async function insertExtension(extension, maxNumber) {
             block: extension.block_code,
             multiverse_id: card.multiverse_id,
             mana_cost: card.mana_cost,
-            uri: mainCard.image_uris.small
+            uri: mainCard.image_uris.small,
+            collector_number: mainCard.collector_number
         };
         if (power !== NaN) {
             esCard.power = power;
@@ -92,8 +93,8 @@ async function insertExtension(extension, maxNumber) {
     console.log(`   * ${errored.length} cards not inserted`);
 }
 
-const extension = require("../extensions/xln.json");
-const maxNumber = 259;
+const extension = require("../extensions/rix.json");
+const maxNumber = 191;
 insertExtension(extension, maxNumber);
 
 

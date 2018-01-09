@@ -2,6 +2,14 @@
   <span>All instants and flash creatures in {{set.name}}</span>
   <img [src]="set.icon_svg_uri">
 </div>
+<div *ngIf="set.code === 'xln'" class="set">
+  <span>Change for</span>
+  <img [src]="rix.icon_svg_uri" (click)=changeSet(rix)>
+</div>
+<div *ngIf="set.code === 'rix'" class="set">
+  <span>Change for</span>
+  <img [src]="xln.icon_svg_uri" (click)=changeSet(xln)>
+</div>
 <table class="cards">
   <thead>
     <tr>
