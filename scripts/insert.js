@@ -93,8 +93,8 @@ async function insertExtension(extension, maxNumber) {
     console.log(`   * ${errored.length} cards not inserted`);
 }
 
-const extension = require("../extensions/rix.json");
-const maxNumber = 191;
+const extension = require("../extensions/xln.json");
+const maxNumber = 259;
 insertExtension(extension, maxNumber);
 
 

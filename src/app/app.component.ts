@@ -32,9 +32,25 @@ export class AppComponent {
   set: Set;
   xln: Set = xln;
   rix: Set = rix;
+  both: Set = {
+    code: 'both',
+    name: 'Ixalan block',
+    uri: '',
+    scryfall_uri: '',
+    search_uri: '',
+    released_at: '',
+    set_type: '',
+    card_count: 222,
+    digital: true,
+    foil: true,
+    block_code: 'IXL',
+    block: 'IXL',
+    icon_svg_uri: '',
+    cards: xln.cards.concat(rix.cards)
+  };
 
   constructor() {
-    this.changeSet(rix);
+    this.changeSet(this.both);
   }
 
   changeSet(set: Set) {

@@ -5769,7 +5769,7 @@ module.exports = {
 /***/ 141:
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"title\">\n  <span>All instants and flash creatures in {{set.name}}</span>\n  <img [src]=\"set.icon_svg_uri\">\n</div>\n<div *ngIf=\"set.code === 'xln'\" class=\"set\">\n  <span>Change for</span>\n  <img [src]=\"rix.icon_svg_uri\" (click)=changeSet(rix)>\n</div>\n<div *ngIf=\"set.code === 'rix'\" class=\"set\">\n  <span>Change for</span>\n  <img [src]=\"xln.icon_svg_uri\" (click)=changeSet(xln)>\n</div>\n<table class=\"cards\">\n  <thead>\n    <tr>\n      <th>CCM</th>\n      <th *ngFor=\"let column of columns\" colspan=\"2\" class=\"column.className\">{{column.name}}</th>\n    </tr>\n  </thead>\n  <tbody>\n    <ng-template ngFor [ngForOf]=\"data\" let-d>\n      <tr>\n        <td [attr.rowspan]=\"d.max.length + 1\" class=\"cmc\">{{d.cmc}}</td>\n      </tr>\n      <tr *ngFor=\"let i of d.max;let l = last\" [class.border-top]=\"i === 0\" [class.last]=\"l\">\n        <ng-template ngFor let-column [ngForOf]=\"columns\">\n            <td class=\"cost\">\n              <span *ngIf=\"d.colors[column.name] && d.colors[column.name][i]\">\n                  <i *ngFor=\"let cost of d.colors[column.name][i].costs\" [ngClass]=\"cost\"></i>\n              </span>\n            </td>\n            <td class=\"name\" [class]=\"'name ' + column.className\">\n                <card [card]=\"d.colors[column.name][i]\" *ngIf=\"d.colors[column.name] && d.colors[column.name][i]\"></card>\n                <i *ngIf=\"d.colors[column.name] && d.colors[column.name][i] && d.colors[column.name][i].effect\">({{d.colors[column.name][i].effect}})</i>\n            </td>\n        </ng-template>\n    </ng-template>\n  </tbody>\n</table>\n<!-- <a [href]=\"dashboardLink\">Link to stats</a> -->"
+module.exports = "<div class=\"title\">\n  <span>All instants and flash creatures in {{set.name}}</span>\n</div>\n<div *ngIf=\"set.code !== 'rix'\" class=\"set\">\n  <button (click)=\"changeSet(rix)\">Change for Rivals only</button>\n</div>\n<div *ngIf=\"set.code !== 'xln'\" class=\"set\">\n  <button (click)=\"changeSet(xln)\">Change for Ixalan only</button>\n</div>\n<div *ngIf=\"set.code !== 'both'\" class=\"set\">\n  <button (click)=\"changeSet(both)\">Change for all block</button>\n</div>\n<table class=\"cards\">\n  <thead>\n    <tr>\n      <th>CCM</th>\n      <th *ngFor=\"let column of columns\" colspan=\"2\" class=\"column.className\">{{column.name}}</th>\n    </tr>\n  </thead>\n  <tbody>\n    <ng-template ngFor [ngForOf]=\"data\" let-d>\n      <tr>\n        <td [attr.rowspan]=\"d.max.length + 1\" class=\"cmc\">{{d.cmc}}</td>\n      </tr>\n      <tr *ngFor=\"let i of d.max;let l = last\" [class.border-top]=\"i === 0\" [class.last]=\"l\">\n        <ng-template ngFor let-column [ngForOf]=\"columns\">\n            <td class=\"cost\">\n              <span *ngIf=\"d.colors[column.name] && d.colors[column.name][i]\">\n                  <i *ngFor=\"let cost of d.colors[column.name][i].costs\" [ngClass]=\"cost\"></i>\n              </span>\n            </td>\n            <td class=\"name\" [class]=\"'name ' + column.className\">\n                <card [card]=\"d.colors[column.name][i]\" *ngIf=\"d.colors[column.name] && d.colors[column.name][i]\"></card>\n                <i *ngIf=\"d.colors[column.name] && d.colors[column.name][i] && d.colors[column.name][i].effect\">({{d.colors[column.name][i].effect}})</i>\n            </td>\n        </ng-template>\n    </ng-template>\n  </tbody>\n</table>\n<!-- <a [href]=\"dashboardLink\">Link to stats</a> -->"
 
 /***/ }),
 
@@ -5859,7 +5859,23 @@ var AppComponent = (function () {
         ];
         this.xln = xln;
         this.rix = rix;
-        this.changeSet(rix);
+        this.both = {
+            code: 'both',
+            name: 'Ixalan block',
+            uri: '',
+            scryfall_uri: '',
+            search_uri: '',
+            released_at: '',
+            set_type: '',
+            card_count: 222,
+            digital: true,
+            foil: true,
+            block_code: 'IXL',
+            block: 'IXL',
+            icon_svg_uri: '',
+            cards: xln.cards.concat(rix.cards)
+        };
+        this.changeSet(this.both);
     }
     AppComponent.prototype.changeSet = function (set) {
         var _this = this;
