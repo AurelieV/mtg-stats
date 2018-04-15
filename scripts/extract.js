@@ -10,6 +10,7 @@ async function fetchSet(code) {
         uri: setsUrl + code,
         json: true
     });
+
     console.log(`Extension ${extension.name} trouvée!`);
     let cardsData = await request({
         uri: extension.search_uri,
@@ -32,4 +33,5 @@ async function fetchSet(code) {
     console.log(`Fichier généré extensions/${extension.code}.json`);
 }
 
-fetchSet("RIX");
+
+fetchSet("DOM");

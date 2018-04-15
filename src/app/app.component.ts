@@ -3,8 +3,7 @@ import * as _ from "lodash";
 
 declare const require: any;
 import { Card, Color, Set } from "./interface";
-const xln = require("./tricks/xln.json");
-const rix = require("./tricks/rix.json");
+const dom = require("./tricks/dom.json");
 
 interface Column {
   name: string;
@@ -30,27 +29,10 @@ export class AppComponent {
     { name: "incolore", className: "multicolore"}
   ];
   set: Set;
-  xln: Set = xln;
-  rix: Set = rix;
-  both: Set = {
-    code: 'both',
-    name: 'Ixalan block',
-    uri: '',
-    scryfall_uri: '',
-    search_uri: '',
-    released_at: '',
-    set_type: '',
-    card_count: 222,
-    digital: true,
-    foil: true,
-    block_code: 'IXL',
-    block: 'IXL',
-    icon_svg_uri: '',
-    cards: xln.cards.concat(rix.cards)
-  };
+  dom: Set = dom;
 
   constructor() {
-    this.changeSet(this.both);
+    this.changeSet(this.dom);
   }
 
   changeSet(set: Set) {

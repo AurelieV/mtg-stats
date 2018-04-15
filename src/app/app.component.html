@@ -1,15 +1,6 @@
 <div class="title">
   <span>All instants and flash creatures in {{set.name}}</span>
 </div>
-<div *ngIf="set.code !== 'rix'" class="set">
-  <button (click)="changeSet(rix)">Change for Rivals only</button>
-</div>
-<div *ngIf="set.code !== 'xln'" class="set">
-  <button (click)="changeSet(xln)">Change for Ixalan only</button>
-</div>
-<div *ngIf="set.code !== 'both'" class="set">
-  <button (click)="changeSet(both)">Change for all block</button>
-</div>
 <table class="cards">
   <thead>
     <tr>

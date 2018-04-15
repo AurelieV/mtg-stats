@@ -93,8 +93,8 @@ async function insertExtension(extension, maxNumber) {
     console.log(`   * ${errored.length} cards not inserted`);
 }
 
-const extension = require("../extensions/xln.json");
-const maxNumber = 259;
+const extension = require("../extensions/dom.json");
+const maxNumber = 249;
 insertExtension(extension, maxNumber);
 
 
