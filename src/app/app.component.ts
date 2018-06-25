@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
 import * as _ from "lodash";
+import { Card, Set } from "./interface";
 
 declare const require: any;
-import { Card, Color, Set } from "./interface";
-const dom = require("./tricks/dom.json");
+const m19 = require("./tricks/m19.json");
 
 interface Column {
   name: string;
@@ -29,10 +29,10 @@ export class AppComponent {
     { name: "incolore", className: "multicolore"}
   ];
   set: Set;
-  dom: Set = dom;
+  m19: Set = m19;
 
   constructor() {
-    this.changeSet(this.dom);
+    this.changeSet(this.m19);
   }
 
   changeSet(set: Set) {
