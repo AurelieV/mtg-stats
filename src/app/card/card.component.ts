@@ -9,4 +9,11 @@ import { Card } from '../interface';
 })
 export class CardComponent {
     @Input() card: Card;
+
+    get isSpecial(): boolean {
+        if (!this.card || !this.card.oracle_text) {
+            return false;
+        }
+        return this.card.oracle_text.includes('Convoke')
+    }
 }

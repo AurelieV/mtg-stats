@@ -34,51 +34,109 @@ function getTypes(card) {
     return { subtypes, types, supertype };
 }
 
+function getMainCardInformation(card) {
+    return {
+        rarity: card.rarity,
+        collector_number: card.collector_number
+    }
+}
+
+function getExtensionInformation(extension) {
+    return {
+        extension: extension.code,
+        extensionDate: extension.released_at,
+        block: extension.block_code,
+    }
+}
+
+function calculateCCM(costString) {
+    const costRegexp = new RegExp(/\{([G, W, B, U, R, \d, \/]+)\}/g);
+    let cost = costRegexp.exec(costString);
+    let ccm = 0;
+    while(cost !== null) {
+        const number = Number(cost[1]);
+        if (!isNaN(number)) {
+            ccm += number;
+        } else {
+            ccm++;
+        }
+        cost = costRegexp.exec(costString);
+    }
+
+    return ccm;
+}
+
+function getCardInformation(cardFace, card, cardFaceIndex) {
+    const { types, supertype, subtypes } = getTypes(cardFace);
+    const power = convertToInt(cardFace.power);
+    const toughness = convertToInt(cardFace.toughness);
+    let uri;
+    if (card.layout === 'split') {
+        uri = card.image_uris.small;
+    } else {
+        uri = cardFace.image_uris.small;
+    }
+    let reference = card.collector_number;
+    if (cardFaceIndex) {
+        reference += cardFaceIndex
+    }
+    const esCard =  {
+        name: cardFace.name,
+        cmc: calculateCCM(cardFace.mana_cost),
+        colors: cardFace.colors || "Colorless",
+        multicolore: (cardFace.colors || []).length > 1,
+        supertype,
+        types,
+        subtypes,
+        oracle_text: cardFace.oracle_text,
+        mana_cost: cardFace.mana_cost,
+        uri,
+        reference
+    };
+    if (power !== NaN) {
+        esCard.power = power;
+    }
+    if (toughness !== NaN) {
+        esCard.toughness = toughness;
+    }
+
+    return esCard;
+}
+
 async function insertExtension(extension, maxNumber) {
     const index = "cards";
     const body = extension.cards.reduce((acc, card) => {
         const number = convertToInt(card.collector_number);
         if (number === NaN || number > maxNumber) return acc;
 
-        let mainCard;
-        if (card.card_faces) {
-            mainCard = card.card_faces[0];
-        } else {
-            mainCard = card;
-        }
-        const { types, supertype, subtypes } = getTypes(mainCard);
-
-        if (supertype === "Basic") return acc;
-
-        const power = convertToInt(mainCard.power);
-        const toughness = convertToInt(mainCard.toughness);
-
-        const esCard =  {
-            name: mainCard.name,
-            cmc: mainCard.cmc,
-            colors: mainCard.colors || "Colorless",
-            multicolore: (mainCard.colors || []).length > 1,
-            supertype,
-            types,
-            subtypes,
-            rarity: card.rarity,
-            oracle_text: mainCard.oracle_text,
-            extension: extension.code,
-            extensionDate: extension.released_at,
-            block: extension.block_code,
-            multiverse_id: card.multiverse_id,
-            mana_cost: card.mana_cost,
-            uri: mainCard.image_uris.small,
-            collector_number: mainCard.collector_number
-        };
-        if (power !== NaN) {
-            esCard.power = power;
-        }
-        if (toughness !== NaN) {
-            esCard.toughness = toughness;
+        const cardsInfo = [];
+        switch (card.layout) {
+            case 'split':
+                cardsInfo.push(getCardInformation(card.card_faces[0], card, '-0'));
+                cardsInfo.push(getCardInformation(card.card_faces[0], card, '-1'));
+                break;
+            case 'transform':
+            case 'flip':
+                cardsInfo.push(getCardInformation(card_faces[0], card, '-0'))
+                break;
+            default:
+                cardsInfo.push(getCardInformation(card, card))
         }
 
-        return acc.concat([{ index: {_index: index, _type: "card", _id: card.multiverse_id} }, esCard])
+        if (cardsInfo[0].supertype === "Basic") return acc;
+
+        const mainInfo = getMainCardInformation(card);
+        const extensionInfo = getExtensionInformation(extension);
+        cardsInfo.forEach(cardInfo => {
+            acc.push({ index: {_index: index, _type: "card", _id: undefined} });
+            acc.push({
+                ...mainInfo,
+                ...extensionInfo,
+                ...cardInfo
+            });
+        })
+
+        return acc;
     }, []);
 
     console.log(`Start inserting ${extension.cards.length} cards from ${extension.name}`);
@@ -93,8 +151,8 @@ async function insertExtension(extension, maxNumber) {
     console.log(`   * ${errored.length} cards not inserted`);
 }
 
-const extension = require("../extensions/m19.json");
-const maxNumber = 260;
+const extension = require("../extensions/grn.json");
+const maxNumber = 259;
 insertExtension(extension, maxNumber);
 
 

@@ -23,7 +23,8 @@
     "core-js": "^2.4.1",
     "elasticsearch": "^13.0.0-rc2",
     "lodash": "^4.17.4",
-    "mana-font": "^1.2.0",
+    "lodash.flatten": "^4.4.0",
+    "mana-font": "^1.4.1",
     "request": "^2.83.0",
     "rxjs": "^5.1.0",
     "zone.js": "^0.8.4"

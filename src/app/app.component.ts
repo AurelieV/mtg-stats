@@ -3,7 +3,7 @@ import * as _ from "lodash";
 import { Card, Set } from "./interface";
 
 declare const require: any;
-const m19 = require("./tricks/m19.json");
+const grn = require("./tricks/grn.json");
 
 interface Column {
   name: string;
@@ -29,14 +29,15 @@ export class AppComponent {
     { name: "incolore", className: "multicolore"}
   ];
   set: Set;
-  m19: Set = m19;
+  grn: Set = grn;
+
 
   constructor() {
-    this.changeSet(this.m19);
+    this.changeSet(this.grn);
   }
 
   changeSet(set: Set) {
-    const costRegexp = new RegExp(/\{(.)\}/g);
+    const costRegexp = new RegExp(/\{([G, W, B, U, R, \d, X, \/]+)\}/g);
     this.data = [];
     this.set = set;
 
@@ -44,7 +45,8 @@ export class AppComponent {
       const costs = [];
       let cost = costRegexp.exec(c.mana_cost);
       while(cost !== null) {
-        costs.push(`ms-${cost[1].toLowerCase()} ms ms-cost`);
+        const className = `ms-${cost[1].split('/').join('').toLowerCase()}`;
+        costs.push(`${className} ms ms-cost`);
         cost = costRegexp.exec(c.mana_cost);
       }
       return {
@@ -54,7 +56,8 @@ export class AppComponent {
         colors: c.colors,
         costs,
         rarity: c.rarity,
-        uri: c.image_uris.small
+        uri: c.image_uris.small,
+        oracle_text: c.oracle_text
       };
     });
 

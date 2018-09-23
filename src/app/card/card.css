@@ -36,3 +36,8 @@
 .mythic {
     background-color: orangered;
 }
+
+.special {
+    font-size: 10px;
+    font-style: italic;
+}

@@ -1,10 +1,13 @@
 <div class="name">
-    <div 
+    <div
         class="rarity"
         [class.mythic]="card.rarity === 'mythic'"
         [class.rare]="card.rarity === 'rare'"
         [class.uncommon]="card.rarity === 'uncommon'"
         [class.common]="card.rarity === 'common'"></div>
-    <div>{{card.name}}</div>
+    <div>
+        <div>{{card.name}}</div>
+        <div class="special" *ngIf="isSpecial">(Convoke)</div>
+    </div>
 </div>
 <img [src]="card.uri">
