@@ -151,7 +151,7 @@ async function insertExtension(extension, maxNumber) {
     console.log(`   * ${errored.length} cards not inserted`);
 }
 
-const extension = require("../extensions/grn.json");
+const extension = require("../extensions/rna.json");
 const maxNumber = 259;
 insertExtension(extension, maxNumber);
 
