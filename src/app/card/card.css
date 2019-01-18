@@ -13,6 +13,14 @@
   z-index: 10;
 }
 
+:host-context(.card-on-left):hover > img {
+    right: 0;
+}
+
+:host-context(.card-on-top):hover > img {
+    bottom: -200px;
+}
+
 .name {
     display: flex;
     align-items: center;

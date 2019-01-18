@@ -66,3 +66,7 @@ a {
     margin-bottom: 10px;
     align-items: center;
 }
+
+table {
+    padding-bottom: 600px;
+}
