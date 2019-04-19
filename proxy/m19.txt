@@ -1,0 +1,260 @@
+4 Angel of the Dawn
+4 Cavalry Drillmaster
+4 Daybreak Chaplain
+4 Dwarven Priest
+4 Gallant Cavalry
+4 Inspired Charge
+4 Invoke the Divine
+4 Knight of the Tusk
+4 Knight's Pledge
+4 Loxodon Line Breaker
+4 Luminous Bonds
+4 Mighty Leap
+4 Oreskos Swiftclaw
+4 Pegasus Courser
+4 Revitalize
+4 Rustwing Falcon
+4 Star-Crowned Stag
+4 Take Vengeance
+4 Trusty Packbeast
+4 Anticipate
+4 Aven Wind Mage
+4 Aviation Pioneer
+4 Cancel
+4 Disperse
+4 Divination
+4 Dwindle
+4 Essence Scatter
+4 Frilled Sea Serpent
+4 Gearsmith Prodigy
+4 Ghostform
+4 Omenspeaker
+4 Salvager of Secrets
+4 Scholar of Stars
+4 Snapping Drake
+4 Tolarian Scholar
+4 Totally Lost
+4 Uncomfortable Chill
+4 Wall of Mist
+4 Abnormal Endurance
+4 Bogstomper
+4 Child of Night
+4 Doomed Dissenter
+4 Duress
+4 Epicure of Blood
+4 Hired Blade
+4 Infectious Horror
+4 Infernal Scarring
+4 Lich's Caress
+4 Macabre Waltz
+4 Mind Rot
+4 Skeleton Archer
+4 Skymarch Bloodletter
+4 Sovereign's Bite
+4 Strangling Spores
+4 Two-Headed Zombie
+4 Vampire Neonate
+4 Walking Corpse
+4 Act of Treason
+4 Boggart Brute
+4 Catalyst Elemental
+4 Crash Through
+4 Electrify
+4 Fire Elemental
+4 Goblin Instigator
+4 Goblin Motivator
+4 Havoc Devils
+4 Hostile Minotaur
+4 Lava Axe
+4 Onakke Ogre
+4 Shock
+4 Smelt
+4 Sparktongue Dragon
+4 Sure Strike
+4 Tormenting Voice
+4 Trumpet Blast
+4 Viashino Pyromancer
+4 Bristling Boar
+4 Centaur Courser
+4 Colossal Dreadmaw
+4 Daggerback Basilisk
+4 Druid of the Cowl
+4 Elvish Rejuvenator
+4 Giant Spider
+4 Greenwood Sentinel
+4 Highland Game
+4 Naturalize
+4 Oakenform
+4 Plummet
+4 Rabid Bite
+4 Rhox Oracle
+4 Root Snare
+4 Talons of Wildwood
+4 Thornhide Wolves
+4 Titanic Growth
+4 Wall of Vines
+4 Explosive Apparatus
+4 Field Creeper
+4 Gearsmith Guardian
+4 Manalith
+4 Marauder's Axe
+4 Skyscanner
+4 Cinder Barrens
+4 Forsaken Sanctuary
+4 Foul Orchard
+4 Highland Lake
+4 Meandering River
+4 Stone Quarry
+4 Submerged Boneyard
+4 Timber Gorge
+4 Tranquil Expanse
+4 Woodland Stream
+2 Aegis of the Heavens
+2 Aethershield Artificer
+2 Ajani's Pridemate
+2 Ajani's Welcome
+2 Herald of Faith
+2 Hieromancer's Cage
+2 Knightly Valor
+2 Leonin Vanguard
+2 Make a Stand
+2 Militia Bugler
+2 Novice Knight
+2 Shield Mare
+2 Aether Tunnel
+2 Bone to Ash
+2 Departed Deckhand
+2 Exclusion Mage
+2 Horizon Scholar
+2 Mirror Image
+2 Psychic Corrosion
+2 Sift
+2 Skilled Animator
+2 Sleep
+2 Surge Mare
+2 Switcheroo
+2 Blood Divination
+2 Diregraf Ghoul
+2 Fell Specter
+2 Gravedigger
+2 Murder
+2 Nightmare's Thirst
+2 Plague Mare
+2 Ravenous Harpy
+2 Reassembling Skeleton
+2 Rise from the Grave
+2 Stitcher's Supplier
+2 Vampire Sovereign
+2 Doublecast
+2 Dragon Egg
+2 Fiery Finish
+2 Guttersnipe
+2 Inferno Hellion
+2 Lightning Mare
+2 Lightning Strike
+2 Siegebreaker Giant
+2 Tectonic Rift
+2 Thud
+2 Volcanic Dragon
+2 Volley Veteran
+2 Blanchwood Armor
+2 Colossal Majesty
+2 Declare Dominance
+2 Druid of Horns
+2 Dryad Greenseeker
+2 Ghastbark Twins
+2 Ghirapur Guide
+2 Gift of Paradise
+2 Reclamation Sage
+2 Recollect
+2 Vigilant Baloth
+2 Vine Mare
+2 Aerial Engineer
+2 Brawl-Bash Ogre
+2 Draconic Disciple
+2 Enigma Drake
+2 Heroic Reinforcements
+2 Poison-Tip Archer
+2 Psychic Symbiont
+2 Regal Bloodlord
+2 Satyr Enchanter
+2 Skyrider Patrol
+2 Arcane Encyclopedia
+2 Diamond Mare
+2 Fountain of Renewal
+2 Gargoyle Sentinel
+2 Meteor Golem
+2 Millstone
+2 Rogue's Gloves
+2 Suspicious Bookcase
+2 Reliquary Tower
+2 Rupture Spire
+1 Ajani's Last Stand
+1 Cleansing Nova
+1 Isolate
+1 Lena, Selfless Champion
+1 Leonin Warleader
+1 Mentor of the Meek
+1 Remorseful Cleric
+1 Suncleanser
+1 Valiant Knight
+1 Djinn of Wishes
+1 Metamorphic Alteration
+1 Mistcaller
+1 Mystic Archaeologist
+1 One with the Machine
+1 Patient Rebuilding
+1 Sai, Master Thopterist
+1 Supreme Phantom
+1 Windreader Sphinx
+1 Death Baron
+1 Demon of Catastrophes
+1 Fraying Omnipotence
+1 Graveyard Marshal
+1 Infernal Reckoning
+1 Isareth the Awakener
+1 Liliana's Contract
+1 Open the Graves
+1 Phylactery Lich
+1 Alpine Moon
+1 Banefire
+1 Dark-Dweller Oracle
+1 Demanding Dragon
+1 Dismissive Pyromancer
+1 Goblin Trashmaster
+1 Lathliss, Dragon Queen
+1 Sarkhan's Unsealing
+1 Spit Flame
+1 Elvish Clancaller
+1 Gigantosaurus
+1 Goreclaw, Terror of Qal Sisma
+1 Hungering Hydra
+1 Pelakka Wurm
+1 Prodigious Growth
+1 Runic Armasaur
+1 Thorn Lieutenant
+1 Vivien's Invocation
+1 Amulet of Safekeeping
+1 Chaos Wand
+1 Desecrated Tomb
+1 Dragon's Hoard
+1 Magistrate's Scepter
+1 Sigiled Sword of Valeron
+1 Transmogrifying Wand
+1 Detection Tower
+1 Ajani, Adversary of Tyrants
+1 Resplendent Angel
+1 Omniscience
+1 Tezzeret, Artifice Master
+1 Bone Dragon
+1 Liliana, Untouched by Death
+1 Apex of Power
+1 Sarkhan, Fireblood
+1 Scapeshift
+1 Vivien Reid
+1 Arcades, the Strategist
+1 Chromium, the Mutable
+1 Nicol Bolas, the Ravager // Nicol Bolas, the Arisen
+1 Palladia-Mors, the Ruiner
+1 Vaevictis Asmadi, the Dire
+1 Crucible of Worlds

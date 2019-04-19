@@ -1,0 +1,249 @@
+4 Battlefield Promotion
+4 Bulwark Giant
+4 Charmed Stray
+4 Defiant Strike
+4 Divine Arrow
+4 Enforcer Griffin
+4 Gideon's Sacrifice
+4 Ironclad Krovod
+4 Law-Rune Enforcer
+4 Loxodon Sergeant
+4 Makeshift Battalion
+4 Martyr for the Cause
+4 Pouncing Lynx
+4 Rising Populace
+4 Teyo's Lightshield
+4 Topple the Statue
+4 Trusted Pegasus
+4 Wanderer's Strike
+4 War Screecher
+4 Ashiok's Skulker
+4 Aven Eternal
+4 Callous Dismissal
+4 Contentious Plan
+4 Crush Dissent
+4 Erratic Visionary
+4 Kasmina's Transmutation
+4 Kiora's Dambreaker
+4 Naga Eternal
+4 No Escape
+4 Relentless Advance
+4 Sky Theater Strix
+4 Spellkeeper Weird
+4 Stealth Mission
+4 Tamiyo's Epiphany
+4 Teferi's Time Twist
+4 Thunder Drake
+4 Totally Lost
+4 Wall of Runes
+4 Aid the Fallen
+4 Banehound
+4 Charity Extractor
+4 Davriel's Shadowfugue
+4 Duskmantle Operative
+4 Herald of the Dreadhorde
+4 Kaya's Ghostform
+4 Lazotep Behemoth
+4 Lazotep Reaver
+4 Ob Nixilis's Cruelty
+4 Shriekdiver
+4 Sorin's Thirst
+4 Spark Harvest
+4 Spark Reaper
+4 Tithebearer Giant
+4 Toll of the Invasion
+4 Unlikely Aid
+4 Vampire Opportunist
+4 Vraska's Finisher
+4 Ahn-Crop Invader
+4 Blindblast
+4 Burning Prophet
+4 Chainwhip Cyclops
+4 Chandra's Pyrohelix
+4 Demolish
+4 Goblin Assailant
+4 Goblin Assault Team
+4 Grim Initiate
+4 Heartfire
+4 Honor the God-Pharaoh
+4 Invading Manticore
+4 Jaya's Greeting
+4 Nahiri's Stoneblades
+4 Raging Kronch
+4 Samut's Sprint
+4 Sarkhan's Catharsis
+4 Spellgorger Weird
+4 Turret Ogre
+4 Arboreal Grazer
+4 Arlinn's Wolf
+4 Band Together
+4 Bloom Hulk
+4 Centaur Nurturer
+4 Courage in Crisis
+4 Forced Landing
+4 Giant Growth
+4 Kraul Stinger
+4 Kronch Wrangler
+4 New Horizons
+4 Pollenbright Druid
+4 Primordial Wurm
+4 Return to Nature
+4 Snarespinner
+4 Steady Aim
+4 Thundering Ceratok
+4 Vivien's Grizzly
+4 Wardscale Crocodile
+4 Guild Globe
+4 Iron Bully
+4 Mana Geode
+4 Prismite
+4 Saheeli's Silverwing
+4 Gateway Plaza
+2 Ugin's Conjurant
+2 Ajani's Pridemate
+2 Bond of Discipline
+2 Gideon's Triumph
+2 Grateful Apparition
+2 Prison Realm
+2 Rally of Wings
+2 Sunblade Angel
+2 Teyo, the Shieldmage
+2 The Wanderer
+2 Augur of Bolas
+2 Bond of Insight
+2 Eternal Skylord
+2 Flux Channeler
+2 Jace's Triumph
+2 Kasmina, Enigmatic Mentor
+2 Lazotep Plating
+2 Narset, Parter of Veils
+2 Rescuer Sphinx
+2 Bleeding Edge
+2 Bond of Revival
+2 Davriel, Rogue Shadowmage
+2 Dreadmalkin
+2 Eternal Taskmaster
+2 Liliana's Triumph
+2 Ob Nixilis, the Hate-Twisted
+2 Price of Betrayal
+2 Vizier of the Scorpion
+2 Bolt Bend
+2 Bond of Passion
+2 Chandra's Triumph
+2 Cyclops Electromancer
+2 Devouring Hellion
+2 Dreadhorde Twins
+2 Jaya, Venerated Firemage
+2 Tibalt, Rakish Instigator
+2 Tibalt's Rager
+2 Arlinn, Voice of the Pack
+2 Bond of Flourishing
+2 Challenger Troll
+2 Evolution Sage
+2 Jiang Yanggu, Wildcrafter
+2 Mowu, Loyal Companion
+2 Nissa's Triumph
+2 Paradise Druid
+2 Storm the Citadel
+2 Angrath's Rampage
+2 Cruel Celebrant
+2 Deathsprout
+2 Despark
+2 Domri's Ambush
+2 Dovin's Veto
+2 Elite Guardmage
+2 Gleaming Overseer
+2 Heartwarming Redemption
+2 Huatli's Raptor
+2 Invade the City
+2 Leyline Prowler
+2 Mayhem Devil
+2 Merfolk Skydiver
+2 Neoform
+2 Pledge of Unity
+2 Ral's Outburst
+2 Rubblebelt Rioters
+2 Tenth District Legionnaire
+2 Tyrant's Scorn
+2 Angrath, Captain of Chaos
+2 Ashiok, Dream Render
+2 Dovin, Hand of Control
+2 Huatli, the Sun's Heart
+2 Kaya, Bane of the Dead
+2 Kiora, Behemoth Beckoner
+2 Nahiri, Storm of Stone
+2 Saheeli, Sublime Artificer
+2 Samut, Tyrant Smasher
+2 Vraska, Swarm's Eminence
+2 Firemind Vessel
+2 God-Pharaoh's Statue
+2 Emergence Zone
+2 Interplanar Beacon
+1 Karn, the Great Creator
+1 Ugin, the Ineffable
+1 Ignite the Beacon
+1 Parhelion II
+1 Ravnica at War
+1 Single Combat
+1 Tomik, Distinguished Advokist
+1 Commence the Endgame
+1 Fblthp, the Lost
+1 Jace, Wielder of Mysteries
+1 Narset's Reversal
+1 Silent Submersible
+1 Spark Double
+1 Bolas's Citadel
+1 Command the Dreadhorde
+1 Deliver Unto Evil
+1 Dreadhorde Invasion
+1 The Elderspell
+1 Massacre Girl
+1 Chandra, Fire Artisan
+1 Dreadhorde Arcanist
+1 Krenko, Tin Street Kingpin
+1 Mizzium Tank
+1 Neheb, Dreadhorde Champion
+1 Sarkhan the Masterless
+1 Awakening of Vitu-Ghazi
+1 Nissa, Who Shakes the World
+1 Planewide Celebration
+1 Vivien, Champion of the Wilds
+1 Vivien's Arkbow
+1 Ajani, the Greathearted
+1 Bioessence Hydra
+1 Casualties of War
+1 Domri, Anarch of Bolas
+1 Dreadhorde Butcher
+1 Enter the God-Eternals
+1 Feather, the Redeemed
+1 Living Twister
+1 Oath of Kaya
+1 Ral, Storm Conduit
+1 Role Reversal
+1 Solar Blaze
+1 Sorin, Vengeful Bloodlord
+1 Soul Diviner
+1 Storrev, Devkarin Lich
+1 Tamiyo, Collector of Tales
+1 Teferi, Time Raveler
+1 Time Wipe
+1 Tolsimir, Friend to Wolves
+1 Widespread Brutality
+1 Blast Zone
+1 Karn's Bastion
+1 Mobilized District
+1 Finale of Glory
+1 Gideon Blackblade
+1 God-Eternal Oketra
+1 Finale of Revelation
+1 God-Eternal Kefnet
+1 Finale of Eternity
+1 God-Eternal Bontu
+1 Liliana, Dreadhorde General
+1 Finale of Promise
+1 Ilharg, the Raze-Boar
+1 Finale of Devastation
+1 God-Eternal Rhonas
+1 Nicol Bolas, Dragon-God
+1 Niv-Mizzet Reborn
+1 Roalesk, Apex Hybrid

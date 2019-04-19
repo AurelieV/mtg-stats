@@ -1,158 +1,158 @@
-const elasticsearch = require('elasticsearch');
+const elasticsearch = require('elasticsearch')
 
 const client = new elasticsearch.Client({
-    host: 'localhost:9200'
-});
+  host: 'localhost:9200',
+})
 
-const surtypes = [ "Basic", "Legendary" ];
+const surtypes = ['Basic', 'Legendary']
 
 function convertToInt(value) {
-  if (/^(\-|\+)?([0-9]+|Infinity)$/.test(value))
-    return Number(value);
-  return NaN;
+  if (/^(\-|\+)?([0-9]+|Infinity)$/.test(value)) return Number(value)
+  return NaN
 }
 
 function getTypes(card) {
-    const typeLine = card.type_line;
-    let [ types, subtypes ] = typeLine.split(' — ');
-    types = types || '';
-    subtypes = subtypes || '';
+  const typeLine = card.type_line
+  let [types, subtypes] = typeLine.split(' — ')
+  types = types || ''
+  subtypes = subtypes || ''
 
-    let supertype = surtypes.map(t => {
+  let supertype =
+    surtypes
+      .map((t) => {
         if (types.startsWith(t)) {
-            return t;
+          return t
         } else {
-            return '';
+          return ''
         }
-    }).find(t => !!t) || '';
-    if (!!supertype) {
-        types = types.slice(supertype.length + 1);
-    }
-    types = types.split(" ").filter(t => !!t);
-    subtypes = subtypes.split(" ").filter(t => !!t);
+      })
+      .find((t) => !!t) || ''
+  if (!!supertype) {
+    types = types.slice(supertype.length + 1)
+  }
+  types = types.split(' ').filter((t) => !!t)
+  subtypes = subtypes.split(' ').filter((t) => !!t)
 
-    return { subtypes, types, supertype };
+  return { subtypes, types, supertype }
 }
 
 function getMainCardInformation(card) {
-    return {
-        rarity: card.rarity,
-        collector_number: card.collector_number
-    }
+  return {
+    rarity: card.rarity,
+    collector_number: card.collector_number,
+  }
 }
 
 function getExtensionInformation(extension) {
-    return {
-        extension: extension.code,
-        extensionDate: extension.released_at,
-        block: extension.block_code,
-    }
+  return {
+    extension: extension.code,
+    extensionDate: extension.released_at,
+    block: extension.block_code,
+  }
 }
 
 function calculateCCM(costString) {
-    const costRegexp = new RegExp(/\{([G, W, B, U, R, \d, \/]+)\}/g);
-    let cost = costRegexp.exec(costString);
-    let ccm = 0;
-    while(cost !== null) {
-        const number = Number(cost[1]);
-        if (!isNaN(number)) {
-            ccm += number;
-        } else {
-            ccm++;
-        }
-        cost = costRegexp.exec(costString);
+  const costRegexp = new RegExp(/\{([G, W, B, U, R, \d, \/]+)\}/g)
+  let cost = costRegexp.exec(costString)
+  let ccm = 0
+  while (cost !== null) {
+    const number = Number(cost[1])
+    if (!isNaN(number)) {
+      ccm += number
+    } else {
+      ccm++
     }
+    cost = costRegexp.exec(costString)
+  }
 
-    return ccm;
+  return ccm
 }
 
 function getCardInformation(cardFace, card, cardFaceIndex) {
-    const { types, supertype, subtypes } = getTypes(cardFace);
-    const power = convertToInt(cardFace.power);
-    const toughness = convertToInt(cardFace.toughness);
-    let uri;
-    if (card.layout === 'split') {
-        uri = card.image_uris.small;
-    } else {
-        uri = cardFace.image_uris.small;
-    }
-    let reference = card.collector_number;
-    if (cardFaceIndex) {
-        reference += cardFaceIndex
-    }
-    const esCard =  {
-        name: cardFace.name,
-        cmc: calculateCCM(cardFace.mana_cost),
-        colors: cardFace.colors || "Colorless",
-        multicolore: (cardFace.colors || []).length > 1,
-        supertype,
-        types,
-        subtypes,
-        oracle_text: cardFace.oracle_text,
-        mana_cost: cardFace.mana_cost,
-        uri,
-        reference
-    };
-    if (power !== NaN) {
-        esCard.power = power;
-    }
-    if (toughness !== NaN) {
-        esCard.toughness = toughness;
-    }
+  const { types, supertype, subtypes } = getTypes(cardFace)
+  const power = convertToInt(cardFace.power)
+  const toughness = convertToInt(cardFace.toughness)
+  let uri
+  if (card.layout === 'split') {
+    uri = card.image_uris.small
+  } else {
+    uri = cardFace.image_uris.small
+  }
+  let reference = card.collector_number
+  if (cardFaceIndex) {
+    reference += cardFaceIndex
+  }
+  const esCard = {
+    name: cardFace.name,
+    cmc: calculateCCM(cardFace.mana_cost),
+    colors: cardFace.colors || 'Colorless',
+    multicolore: (cardFace.colors || []).length > 1,
+    supertype,
+    types,
+    subtypes,
+    oracle_text: cardFace.oracle_text,
+    mana_cost: cardFace.mana_cost,
+    uri,
+    reference,
+  }
+  if (power !== NaN) {
+    esCard.power = power
+  }
+  if (toughness !== NaN) {
+    esCard.toughness = toughness
+  }
 
-    return esCard;
+  return esCard
 }
 
 async function insertExtension(extension, maxNumber) {
-    const index = "cards";
-    const body = extension.cards.reduce((acc, card) => {
-        const number = convertToInt(card.collector_number);
-        if (number === NaN || number > maxNumber) return acc;
+  const index = 'cards'
+  const body = extension.cards.reduce((acc, card) => {
+    const number = convertToInt(card.collector_number)
+    if (number === NaN || number > maxNumber) return acc
 
-        const cardsInfo = [];
-        switch (card.layout) {
-            case 'split':
-                cardsInfo.push(getCardInformation(card.card_faces[0], card, '-0'));
-                cardsInfo.push(getCardInformation(card.card_faces[0], card, '-1'));
-                break;
-            case 'transform':
-            case 'flip':
-                cardsInfo.push(getCardInformation(card_faces[0], card, '-0'))
-                break;
-            default:
-                cardsInfo.push(getCardInformation(card, card))
-        }
+    const cardsInfo = []
+    switch (card.layout) {
+      case 'split':
+        cardsInfo.push(getCardInformation(card.card_faces[0], card, '-0'))
+        cardsInfo.push(getCardInformation(card.card_faces[0], card, '-1'))
+        break
+      case 'transform':
+      case 'flip':
+        cardsInfo.push(getCardInformation(card_faces[0], card, '-0'))
+        break
+      default:
+        cardsInfo.push(getCardInformation(card, card))
+    }
 
-        if (cardsInfo[0].supertype === "Basic") return acc;
+    if (cardsInfo[0].supertype === 'Basic') return acc
 
-        const mainInfo = getMainCardInformation(card);
-        const extensionInfo = getExtensionInformation(extension);
-        cardsInfo.forEach(cardInfo => {
-            acc.push({ index: {_index: index, _type: "card", _id: undefined} });
-            acc.push({
-                ...mainInfo,
-                ...extensionInfo,
-                ...cardInfo
-            });
-        })
+    const mainInfo = getMainCardInformation(card)
+    const extensionInfo = getExtensionInformation(extension)
+    cardsInfo.forEach((cardInfo) => {
+      acc.push({ index: { _index: index, _type: 'card', _id: undefined } })
+      acc.push({
+        ...mainInfo,
+        ...extensionInfo,
+        ...cardInfo,
+      })
+    })
 
-        return acc;
-    }, []);
+    return acc
+  }, [])
 
-    console.log(`Start inserting ${extension.cards.length} cards from ${extension.name}`);
-    const result = await client.bulk({ body });
-    const updated = result.items.filter(item => item.index.result === "updated");
-    const created = result.items.filter(item => item.index.result === "created");
-    const errored = result.items.filter(item => item.index.status >= 300);
+  console.log(`Start inserting ${extension.cards.length} cards from ${extension.name}`)
+  const result = await client.bulk({ body })
+  const updated = result.items.filter((item) => item.index.result === 'updated')
+  const created = result.items.filter((item) => item.index.result === 'created')
+  const errored = result.items.filter((item) => item.index.status >= 300)
 
-    console.log("Insertion finished");
-    console.log(`   * ${updated.length} cards updated`);
-    console.log(`   * ${created.length} cards created`);
-    console.log(`   * ${errored.length} cards not inserted`);
+  console.log('Insertion finished')
+  console.log(`   * ${updated.length} cards updated`)
+  console.log(`   * ${created.length} cards created`)
+  console.log(`   * ${errored.length} cards not inserted`)
 }
 
-const extension = require("../extensions/rna.json");
-const maxNumber = 259;
-insertExtension(extension, maxNumber);
-
-
+const extension = require('../extensions/war.json')
+const maxNumber = 249
+insertExtension(extension, maxNumber)
