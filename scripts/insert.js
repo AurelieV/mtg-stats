@@ -1,8 +1,18 @@
-const elasticsearch = require('elasticsearch')
+const { Client } = require("@elastic/elasticsearch");
 
-const client = new elasticsearch.Client({
-  host: 'localhost:9200',
-})
+const {
+  elasticsearch: elasticsearchConfiguration
+} = require("../private.json");
+
+const client = new Client({
+  cloud: {
+    id: elasticsearchConfiguration.cloudId
+  },
+  auth: {
+    username: elasticsearchConfiguration.username,
+    password: elasticsearchConfiguration.password
+  }
+});
 
 const surtypes = ['Basic', 'Legendary']
 
@@ -130,7 +140,7 @@ async function insertExtension(extension, maxNumber) {
     const mainInfo = getMainCardInformation(card)
     const extensionInfo = getExtensionInformation(extension)
     cardsInfo.forEach((cardInfo) => {
-      acc.push({ index: { _index: index, _type: 'card', _id: undefined } })
+      acc.push({ create: { _index: index } })
       acc.push({
         ...mainInfo,
         ...extensionInfo,
@@ -142,10 +152,11 @@ async function insertExtension(extension, maxNumber) {
   }, [])
 
   console.log(`Start inserting ${extension.cards.length} cards from ${extension.name}`)
-  const result = await client.bulk({ body })
-  const updated = result.items.filter((item) => item.index.result === 'updated')
-  const created = result.items.filter((item) => item.index.result === 'created')
-  const errored = result.items.filter((item) => item.index.status >= 300)
+  const { body: result } = await client.bulk({ body })
+  console.log(result.items[0])
+  const updated = result.items.filter((item) => item.create.result === 'updated')
+  const created = result.items.filter((item) => item.create.result === 'created')
+  const errored = result.items.filter((item) => item.create.status >= 300)
 
   console.log('Insertion finished')
   console.log(`   * ${updated.length} cards updated`)
@@ -153,6 +164,6 @@ async function insertExtension(extension, maxNumber) {
   console.log(`   * ${errored.length} cards not inserted`)
 }
 
-const extension = require('../extensions/war.json')
+const extension = require('../extensions/thb.json')
 const maxNumber = 249
 insertExtension(extension, maxNumber)

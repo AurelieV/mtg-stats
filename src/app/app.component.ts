@@ -3,7 +3,7 @@ import * as _ from "lodash";
 import { Card, Set } from "./interface";
 
 declare const require: any;
-const war = require("./tricks/war.json");
+const thb = require("./tricks/thb.json");
 
 interface Column {
   name: string;
@@ -29,11 +29,11 @@ export class AppComponent {
     { name: "incolore", className: "multicolore"}
   ];
   set: Set;
-  war: Set = war;
+  thb: Set = thb;
 
 
   constructor() {
-    this.changeSet(this.war);
+    this.changeSet(this.thb);
   }
 
   changeSet(set: Set) {

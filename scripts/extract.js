@@ -34,4 +34,4 @@ async function fetchSet(code) {
 }
 
 
-fetchSet("war");
+fetchSet("thb");
