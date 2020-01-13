@@ -26,7 +26,7 @@ exports = module.exports = __webpack_require__(28)();
 
 
 // module
-exports.push([module.i, ":host {\n    position: relative;\n    cursor: pointer;\n}\n\n:host > img {\n    display: none;\n}\n\n:host:hover > img {\n  display: block;\n  position: absolute;\n  z-index: 10;\n}\n\n:host-context(.card-on-left):hover > img {\n    right: 0;\n}\n\n:host-context(.card-on-top):hover > img {\n    bottom: -200px;\n}\n\n.name {\n    display: -ms-flexbox;\n    display: flex;\n    -ms-flex-align: center;\n        align-items: center;\n}\n\n.rarity {\n    border-radius: 10px;\n    width: 10px;\n    height: 10px;\n    margin-right: 2px;\n}\n.uncommon {\n    background-color: grey;\n}\n.common {\n    background-color: black;\n}\n.rare {\n    background-color: yellow;\n}\n.mythic {\n    background-color: orangered;\n}\n\n.special {\n    font-size: 10px;\n    font-style: italic;\n}", ""]);
+exports.push([module.i, ":host {\n    position: relative;\n    cursor: pointer;\n}\n\n:host > img {\n    display: none;\n}\n\n:host:hover > img {\n  display: block;\n  position: absolute;\n  z-index: 10;\n}\n\nimg.small {\n    width: 200px;\n}\n\n:host-context(.card-on-left):hover > img {\n    right: 0;\n}\n\n:host-context(.card-on-top):hover > img {\n    bottom: -200px;\n}\n\n.name {\n    display: -ms-flexbox;\n    display: flex;\n    -ms-flex-align: center;\n        align-items: center;\n}\n\n.rarity {\n    border-radius: 10px;\n    width: 10px;\n    height: 10px;\n    margin-right: 2px;\n}\n.uncommon {\n    background-color: grey;\n}\n.common {\n    background-color: black;\n}\n.rare {\n    background-color: yellow;\n}\n.mythic {\n    background-color: orangered;\n}\n\n.special {\n    font-size: 10px;\n    font-style: italic;\n}", ""]);
 
 // exports
 
@@ -4197,14 +4197,14 @@ module.exports = {
 /***/ 142:
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"title\">\n  <span>All instants and flash creatures in {{set.name}}</span>\n</div>\n<table class=\"cards\">\n  <thead>\n    <tr>\n      <th>CCM</th>\n      <th *ngFor=\"let column of columns\" colspan=\"2\" class=\"column.className\">{{column.name}}</th>\n    </tr>\n  </thead>\n  <tbody>\n    <ng-template ngFor [ngForOf]=\"data\" let-d>\n      <tr>\n        <td [attr.rowspan]=\"d.max.length + 1\" class=\"cmc\">{{d.cmc}}</td>\n      </tr>\n      <tr *ngFor=\"let i of d.max;let l = last\" [class.border-top]=\"i === 0\" [class.last]=\"l\">\n        <ng-template ngFor let-column [ngForOf]=\"columns\">\n            <td class=\"cost\">\n              <span *ngIf=\"d.colors[column.name] && d.colors[column.name][i]\">\n                  <i *ngFor=\"let cost of d.colors[column.name][i].costs\" [ngClass]=\"cost\"></i>\n              </span>\n            </td>\n            <td class=\"name\" [class]=\"'name ' + column.className\">\n                <card [card]=\"d.colors[column.name][i]\" *ngIf=\"d.colors[column.name] && d.colors[column.name][i]\" [class.card-on-left]=\"column.name === 'multi' || column.name === 'G'\" [class.card-on-top]=\"d.cmc >= 3\"></card>\n                <i *ngIf=\"d.colors[column.name] && d.colors[column.name][i] && d.colors[column.name][i].effect\">({{d.colors[column.name][i].effect}})</i>\n            </td>\n        </ng-template>\n    </ng-template>\n  </tbody>\n</table>\n<!-- <a [href]=\"dashboardLink\">Link to stats</a> -->"
+module.exports = "<div class=\"title\">\n  <span>All instants and flash creatures in {{set.name}}</span>\n</div>\n<button *ngIf=\"displayImage === 'small'\" (click)=\"displayImage = 'big'\">Display bigger image</button>\n<button *ngIf=\"displayImage === 'big'\" (click)=\"displayImage = 'none'\">Do not display image</button>\n<button *ngIf=\"displayImage === 'none'\" (click)=\"displayImage = 'small'\">Display image</button>\n<table class=\"cards\">\n  <thead>\n    <tr>\n      <th>CCM</th>\n      <th *ngFor=\"let column of columns\" colspan=\"2\" class=\"column.className\">{{column.name}}</th>\n    </tr>\n  </thead>\n  <tbody>\n    <ng-template ngFor [ngForOf]=\"data\" let-d>\n      <tr>\n        <td [attr.rowspan]=\"d.max.length + 1\" class=\"cmc\">{{d.cmc}}</td>\n      </tr>\n      <tr *ngFor=\"let i of d.max;let l = last\" [class.border-top]=\"i === 0\" [class.last]=\"l\">\n        <ng-template ngFor let-column [ngForOf]=\"columns\">\n            <td class=\"cost\">\n              <span *ngIf=\"d.colors[column.name] && d.colors[column.name][i]\">\n                  <i *ngFor=\"let cost of d.colors[column.name][i].costs\" [ngClass]=\"cost\"></i>\n              </span>\n            </td>\n            <td class=\"name\" [class]=\"'name ' + column.className\">\n                <card [displayImage]=\"displayImage\" [card]=\"d.colors[column.name][i]\" *ngIf=\"d.colors[column.name] && d.colors[column.name][i]\" [class.card-on-left]=\"column.name === 'multi' || column.name === 'G'\" [class.card-on-top]=\"d.cmc >= 3\"></card>\n                <i *ngIf=\"d.colors[column.name] && d.colors[column.name][i] && d.colors[column.name][i].effect\">({{d.colors[column.name][i].effect}})</i>\n            </td>\n        </ng-template>\n    </ng-template>\n  </tbody>\n</table>\n<!-- <a [href]=\"dashboardLink\">Link to stats</a> -->"
 
 /***/ }),
 
 /***/ 143:
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"name\">\n    <div\n        class=\"rarity\"\n        [class.mythic]=\"card.rarity === 'mythic'\"\n        [class.rare]=\"card.rarity === 'rare'\"\n        [class.uncommon]=\"card.rarity === 'uncommon'\"\n        [class.common]=\"card.rarity === 'common'\"></div>\n    <div>\n        <div>{{card.name}}</div>\n        <div class=\"special\" *ngIf=\"isSpecial\">(Convoke)</div>\n    </div>\n</div>\n<img [src]=\"card.uri\">"
+module.exports = "<div class=\"name\">\n    <div\n        class=\"rarity\"\n        [class.mythic]=\"card.rarity === 'mythic'\"\n        [class.rare]=\"card.rarity === 'rare'\"\n        [class.uncommon]=\"card.rarity === 'uncommon'\"\n        [class.common]=\"card.rarity === 'common'\"></div>\n    <div>\n        <div>{{card.name}}</div>\n        <div class=\"special\" *ngIf=\"isSpecial\">(Convoke)</div>\n    </div>\n</div>\n<img [src]=\"card.uri\" *ngIf=\"displayImage !== 'none'\" [class.small]=\"displayImage === 'small'\">"
 
 /***/ }),
 
@@ -4285,6 +4285,7 @@ var AppComponent = (function () {
             { name: "incolore", className: "multicolore" }
         ];
         this.thb = thb;
+        this.displayImage = 'small';
         this.changeSet(this.thb);
     }
     AppComponent.prototype.changeSet = function (set) {
@@ -4440,6 +4441,10 @@ __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* Input */])(),
     __metadata("design:type", typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__interface__["Card"] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__interface__["Card"]) === "function" && _a || Object)
 ], CardComponent.prototype, "card", void 0);
+__decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* Input */])(),
+    __metadata("design:type", String)
+], CardComponent.prototype, "displayImage", void 0);
 CardComponent = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_3" /* Component */])({
         selector: "card",

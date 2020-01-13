@@ -30,6 +30,7 @@ export class AppComponent {
   ];
   set: Set;
   thb: Set = thb;
+  displayImage: 'small' | 'big' | 'none' = 'small'
 
 
   constructor() {

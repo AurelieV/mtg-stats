@@ -1,6 +1,9 @@
 <div class="title">
   <span>All instants and flash creatures in {{set.name}}</span>
 </div>
+<button *ngIf="displayImage === 'small'" (click)="displayImage = 'big'">Display bigger image</button>
+<button *ngIf="displayImage === 'big'" (click)="displayImage = 'none'">Do not display image</button>
+<button *ngIf="displayImage === 'none'" (click)="displayImage = 'small'">Display image</button>
 <table class="cards">
   <thead>
     <tr>
@@ -21,7 +24,7 @@
               </span>
             </td>
             <td class="name" [class]="'name ' + column.className">
-                <card [card]="d.colors[column.name][i]" *ngIf="d.colors[column.name] && d.colors[column.name][i]" [class.card-on-left]="column.name === 'multi' || column.name === 'G'" [class.card-on-top]="d.cmc >= 3"></card>
+                <card [displayImage]="displayImage" [card]="d.colors[column.name][i]" *ngIf="d.colors[column.name] && d.colors[column.name][i]" [class.card-on-left]="column.name === 'multi' || column.name === 'G'" [class.card-on-top]="d.cmc >= 3"></card>
                 <i *ngIf="d.colors[column.name] && d.colors[column.name][i] && d.colors[column.name][i].effect">({{d.colors[column.name][i].effect}})</i>
             </td>
         </ng-template>

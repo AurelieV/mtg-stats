@@ -13,6 +13,10 @@
   z-index: 10;
 }
 
+img.small {
+    width: 200px;
+}
+
 :host-context(.card-on-left):hover > img {
     right: 0;
 }

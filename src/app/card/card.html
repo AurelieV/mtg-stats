@@ -10,4 +10,4 @@
         <div class="special" *ngIf="isSpecial">(Convoke)</div>
     </div>
 </div>
-<img [src]="card.uri">
+<img [src]="card.uri" *ngIf="displayImage !== 'none'" [class.small]="displayImage === 'small'">

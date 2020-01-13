@@ -9,6 +9,7 @@ import { Card } from '../interface';
 })
 export class CardComponent {
     @Input() card: Card;
+    @Input() displayImage: 'none' | 'small' | 'big'
 
     get isSpecial(): boolean {
         if (!this.card || !this.card.oracle_text) {
