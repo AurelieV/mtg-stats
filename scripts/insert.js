@@ -164,6 +164,6 @@ async function insertExtension(extension, maxNumber) {
   console.log(`   * ${errored.length} cards not inserted`)
 }
 
-const extension = require('../extensions/thb.json')
-const maxNumber = 249
+const extension = require('../extensions/iko.json')
+const maxNumber = 259
 insertExtension(extension, maxNumber)

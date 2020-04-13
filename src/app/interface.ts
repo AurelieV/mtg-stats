@@ -27,4 +27,5 @@ export interface Card {
     types: string;
     mana_cost: string;
     colors: Color[];
+    capacity?: String;
 }

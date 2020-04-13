@@ -3,7 +3,7 @@ import * as _ from "lodash";
 import { Card, Set } from "./interface";
 
 declare const require: any;
-const thb = require("./tricks/thb.json");
+const iko = require("./tricks/iko.json");
 
 interface Column {
   name: string;
@@ -29,12 +29,12 @@ export class AppComponent {
     { name: "incolore", className: "multicolore"}
   ];
   set: Set;
-  thb: Set = thb;
+  iko: Set = iko;
   displayImage: 'small' | 'big' | 'none' = 'small'
 
 
   constructor() {
-    this.changeSet(this.thb);
+    this.changeSet(this.iko);
   }
 
   changeSet(set: Set) {
@@ -58,7 +58,8 @@ export class AppComponent {
         costs,
         rarity: c.rarity,
         uri: c.image_uris.normal,
-        oracle_text: c.oracle_text
+        oracle_text: c.oracle_text,
+        capacity: c.capacity,
       };
     });
 
