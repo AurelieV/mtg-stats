@@ -71,9 +71,21 @@
             }
         },
         {
-            "name": "Kabira Takedown // Kabira Plateau",
+            "name": "Kabira Takedown",
             "cmc": 2,
-            "rarity": "uncommon"
+            "mana_cost": "{1}{W}",
+            "colors": [
+                "W"
+            ],
+            "rarity": "uncommon",
+            "image_uris": {
+                "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/3/6/366e9845-019d-47cc-adb8-8fbbaad35b6d.jpg?1599254987",
+                "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/3/6/366e9845-019d-47cc-adb8-8fbbaad35b6d.jpg?1599254987",
+                "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/3/6/366e9845-019d-47cc-adb8-8fbbaad35b6d.jpg?1599254987",
+                "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/3/6/366e9845-019d-47cc-adb8-8fbbaad35b6d.png?1599254987",
+                "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/3/6/366e9845-019d-47cc-adb8-8fbbaad35b6d.jpg?1599254987",
+                "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/3/6/366e9845-019d-47cc-adb8-8fbbaad35b6d.jpg?1599254987"
+            }
         },
         {
             "name": "Practiced Tactics",
@@ -127,9 +139,21 @@
             }
         },
         {
-            "name": "Sejiri Shelter // Sejiri Glacier",
+            "name": "Sejiri Shelter",
             "cmc": 2,
-            "rarity": "uncommon"
+            "mana_cost": "{1}{W}",
+            "colors": [
+                "W"
+            ],
+            "rarity": "uncommon",
+            "image_uris": {
+                "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/f/2/f25d56f9-aa54-4657-9ac9-e93fbba3e715.jpg?1599058079",
+                "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/f/2/f25d56f9-aa54-4657-9ac9-e93fbba3e715.jpg?1599058079",
+                "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/f/2/f25d56f9-aa54-4657-9ac9-e93fbba3e715.jpg?1599058079",
+                "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/f/2/f25d56f9-aa54-4657-9ac9-e93fbba3e715.png?1599058079",
+                "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/f/2/f25d56f9-aa54-4657-9ac9-e93fbba3e715.jpg?1599058079",
+                "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/f/2/f25d56f9-aa54-4657-9ac9-e93fbba3e715.jpg?1599058079"
+            }
         },
         {
             "name": "Smite the Monstrous",
@@ -166,9 +190,21 @@
             }
         },
         {
-            "name": "Beyeen Veil // Beyeen Coast",
+            "name": "Beyeen Veil",
             "cmc": 2,
-            "rarity": "uncommon"
+            "mana_cost": "{1}{U}",
+            "colors": [
+                "U"
+            ],
+            "rarity": "uncommon",
+            "image_uris": {
+                "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/5/f/5f411f08-45dd-4d73-8894-daf51c175150.jpg?1599587304",
+                "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/5/f/5f411f08-45dd-4d73-8894-daf51c175150.jpg?1599587304",
+                "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/5/f/5f411f08-45dd-4d73-8894-daf51c175150.jpg?1599587304",
+                "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/5/f/5f411f08-45dd-4d73-8894-daf51c175150.png?1599587304",
+                "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/5/f/5f411f08-45dd-4d73-8894-daf51c175150.jpg?1599587304",
+                "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/5/f/5f411f08-45dd-4d73-8894-daf51c175150.jpg?1599587304"
+            }
         },
         {
             "name": "Chilling Trap",
@@ -274,9 +310,21 @@
             "capacity": "Kick"
         },
         {
-            "name": "Jwari Disruption // Jwari Ruins",
+            "name": "Jwari Disruption",
             "cmc": 2,
-            "rarity": "uncommon"
+            "mana_cost": "{1}{U}",
+            "colors": [
+                "U"
+            ],
+            "rarity": "uncommon",
+            "image_uris": {
+                "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/3/0/301750a7-d1fd-435e-bfa8-9d2fb22ad627.jpg?1599486255",
+                "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/3/0/301750a7-d1fd-435e-bfa8-9d2fb22ad627.jpg?1599486255",
+                "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/3/0/301750a7-d1fd-435e-bfa8-9d2fb22ad627.jpg?1599486255",
+                "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/3/0/301750a7-d1fd-435e-bfa8-9d2fb22ad627.png?1599486255",
+                "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/3/0/301750a7-d1fd-435e-bfa8-9d2fb22ad627.jpg?1599486255",
+                "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/3/0/301750a7-d1fd-435e-bfa8-9d2fb22ad627.jpg?1599486255"
+            }
         },
         {
             "name": "Living Tempest",
@@ -348,9 +396,21 @@
             "capacity": "Kick"
         },
         {
-            "name": "Silundi Vision // Silundi Isle",
+            "name": "Silundi Vision",
             "cmc": 3,
-            "rarity": "uncommon"
+            "mana_cost": "{2}{U}",
+            "colors": [
+                "U"
+            ],
+            "rarity": "uncommon",
+            "image_uris": {
+                "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/1/1/11568cdf-6148-494c-8b98-f5ca5797d775.jpg?1599486230",
+                "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/1/1/11568cdf-6148-494c-8b98-f5ca5797d775.jpg?1599486230",
+                "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/1/1/11568cdf-6148-494c-8b98-f5ca5797d775.jpg?1599486230",
+                "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/1/1/11568cdf-6148-494c-8b98-f5ca5797d775.png?1599486230",
+                "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/1/1/11568cdf-6148-494c-8b98-f5ca5797d775.jpg?1599486230",
+                "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/1/1/11568cdf-6148-494c-8b98-f5ca5797d775.jpg?1599486230"
+            }
         },
         {
             "name": "Zulaport Duelist",
@@ -387,14 +447,38 @@
             }
         },
         {
-            "name": "Hagra Mauling // Hagra Broodpit",
+            "name": "Hagra Mauling",
             "cmc": 4,
-            "rarity": "rare"
+            "mana_cost": "{2}{B}{B}",
+            "colors": [
+                "B"
+            ],
+            "rarity": "rare",
+            "image_uris": {
+                "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/7/c/7c04c734-354d-4925-8161-7052110951df.jpg?1599494064",
+                "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/7/c/7c04c734-354d-4925-8161-7052110951df.jpg?1599494064",
+                "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/7/c/7c04c734-354d-4925-8161-7052110951df.jpg?1599494064",
+                "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/7/c/7c04c734-354d-4925-8161-7052110951df.png?1599494064",
+                "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/7/c/7c04c734-354d-4925-8161-7052110951df.jpg?1599494064",
+                "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/7/c/7c04c734-354d-4925-8161-7052110951df.jpg?1599494064"
+            }
         },
         {
-            "name": "Malakir Rebirth // Malakir Mire",
+            "name": "Malakir Rebirth",
             "cmc": 1,
-            "rarity": "uncommon"
+            "mana_cost": "{B}",
+            "colors": [
+                "B"
+            ],
+            "rarity": "uncommon",
+            "image_uris": {
+                "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/6/0/609d3ecf-f88d-4268-a8d3-4bf2bcf5df60.jpg?1599587281",
+                "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/6/0/609d3ecf-f88d-4268-a8d3-4bf2bcf5df60.jpg?1599587281",
+                "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/6/0/609d3ecf-f88d-4268-a8d3-4bf2bcf5df60.jpg?1599587281",
+                "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/6/0/609d3ecf-f88d-4268-a8d3-4bf2bcf5df60.png?1599587281",
+                "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/6/0/609d3ecf-f88d-4268-a8d3-4bf2bcf5df60.jpg?1599587281",
+                "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/6/0/609d3ecf-f88d-4268-a8d3-4bf2bcf5df60.jpg?1599587281"
+            }
         },
         {
             "name": "Nimana Skydancer",
@@ -534,9 +618,21 @@
             }
         },
         {
-            "name": "Kazuul's Fury // Kazuul's Cliffs",
+            "name": "Kazuul's Fury",
             "cmc": 3,
-            "rarity": "uncommon"
+            "mana_cost": "{2}{R}",
+            "colors": [
+                "R"
+            ],
+            "rarity": "uncommon",
+            "image_uris": {
+                "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/7/5/75240bbc-adc7-48ff-9523-c79776d710d3.jpg?1599232023",
+                "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/7/5/75240bbc-adc7-48ff-9523-c79776d710d3.jpg?1599232023",
+                "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/7/5/75240bbc-adc7-48ff-9523-c79776d710d3.jpg?1599232023",
+                "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/7/5/75240bbc-adc7-48ff-9523-c79776d710d3.png?1599232023",
+                "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/7/5/75240bbc-adc7-48ff-9523-c79776d710d3.jpg?1599232023",
+                "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/7/5/75240bbc-adc7-48ff-9523-c79776d710d3.jpg?1599232023"
+            }
         },
         {
             "name": "Molten Blast",
@@ -573,9 +669,21 @@
             }
         },
         {
-            "name": "Spikefield Hazard // Spikefield Cave",
+            "name": "Spikefield Hazard",
             "cmc": 1,
-            "rarity": "uncommon"
+            "mana_cost": "{R}",
+            "colors": [
+                "R"
+            ],
+            "rarity": "uncommon",
+            "image_uris": {
+                "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/a/6/a69541db-3f4e-412f-aa8e-dec1e74f74dc.jpg?1599246280",
+                "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/a/6/a69541db-3f4e-412f-aa8e-dec1e74f74dc.jpg?1599246280",
+                "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/a/6/a69541db-3f4e-412f-aa8e-dec1e74f74dc.jpg?1599246280",
+                "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/a/6/a69541db-3f4e-412f-aa8e-dec1e74f74dc.png?1599246280",
+                "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/a/6/a69541db-3f4e-412f-aa8e-dec1e74f74dc.jpg?1599246280",
+                "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/a/6/a69541db-3f4e-412f-aa8e-dec1e74f74dc.jpg?1599246280"
+            }
         },
         {
             "name": "Synchronized Spellcraft",
@@ -595,9 +703,21 @@
             }
         },
         {
-            "name": "Valakut Awakening // Valakut Stoneforge",
+            "name": "Valakut Awakening",
             "cmc": 3,
-            "rarity": "rare"
+            "mana_cost": "{2}{R}",
+            "colors": [
+                "R"
+            ],
+            "rarity": "rare",
+            "image_uris": {
+                "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/2/2/228e551e-023a-4c9a-8f32-58dae6ffdf7f.jpg?1599062026",
+                "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/2/2/228e551e-023a-4c9a-8f32-58dae6ffdf7f.jpg?1599062026",
+                "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/2/2/228e551e-023a-4c9a-8f32-58dae6ffdf7f.jpg?1599062026",
+                "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/2/2/228e551e-023a-4c9a-8f32-58dae6ffdf7f.png?1599062026",
+                "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/2/2/228e551e-023a-4c9a-8f32-58dae6ffdf7f.jpg?1599062026",
+                "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/2/2/228e551e-023a-4c9a-8f32-58dae6ffdf7f.jpg?1599062026"
+            }
         },
         {
             "name": "Broken Wings",
@@ -652,9 +772,21 @@
             "capacity": "Kick"
         },
         {
-            "name": "Khalni Ambush // Khalni Territory",
+            "name": "Khalni Ambush",
             "cmc": 3,
-            "rarity": "uncommon"
+            "mana_cost": "{2}{G}",
+            "colors": [
+                "G"
+            ],
+            "rarity": "uncommon",
+            "image_uris": {
+                "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/9/9/99535539-aa73-41ed-86ab-21c97b92620d.jpg?1599060248",
+                "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/9/9/99535539-aa73-41ed-86ab-21c97b92620d.jpg?1599060248",
+                "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/9/9/99535539-aa73-41ed-86ab-21c97b92620d.jpg?1599060248",
+                "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/9/9/99535539-aa73-41ed-86ab-21c97b92620d.png?1599060248",
+                "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/9/9/99535539-aa73-41ed-86ab-21c97b92620d.jpg?1599060248",
+                "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/9/9/99535539-aa73-41ed-86ab-21c97b92620d.jpg?1599060248"
+            }
         },
         {
             "name": "Might of Murasa",
@@ -709,9 +841,21 @@
             }
         },
         {
-            "name": "Vastwood Fortification // Vastwood Thicket",
+            "name": "Vastwood Fortification",
             "cmc": 1,
-            "rarity": "uncommon"
+            "mana_cost": "{G}",
+            "colors": [
+                "G"
+            ],
+            "rarity": "uncommon",
+            "image_uris": {
+                "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/3/a/3a7fd24e-84d8-405d-86e4-0571a9e23cc2.jpg?1599593362",
+                "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/3/a/3a7fd24e-84d8-405d-86e4-0571a9e23cc2.jpg?1599593362",
+                "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/3/a/3a7fd24e-84d8-405d-86e4-0571a9e23cc2.jpg?1599593362",
+                "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/3/a/3a7fd24e-84d8-405d-86e4-0571a9e23cc2.png?1599593362",
+                "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/3/a/3a7fd24e-84d8-405d-86e4-0571a9e23cc2.jpg?1599593362",
+                "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/3/a/3a7fd24e-84d8-405d-86e4-0571a9e23cc2.jpg?1599593362"
+            }
         },
         {
             "name": "Soaring Thought-Thief",
