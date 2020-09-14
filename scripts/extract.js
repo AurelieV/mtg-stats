@@ -33,5 +33,4 @@ async function fetchSet(code) {
     console.log(`Fichier généré extensions/${extension.code}.json`);
 }
 
-
-fetchSet("iko");
+fetchSet("znr");

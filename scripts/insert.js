@@ -1,17 +1,7 @@
 const { Client } = require("@elastic/elasticsearch");
 
-const {
-  elasticsearch: elasticsearchConfiguration
-} = require("../private.json");
-
 const client = new Client({
-  cloud: {
-    id: elasticsearchConfiguration.cloudId
-  },
-  auth: {
-    username: elasticsearchConfiguration.username,
-    password: elasticsearchConfiguration.password
-  }
+  node: 'http://localhost:9200'
 });
 
 const surtypes = ['Basic', 'Legendary']
@@ -129,7 +119,8 @@ async function insertExtension(extension, maxNumber) {
         break
       case 'transform':
       case 'flip':
-        cardsInfo.push(getCardInformation(card_faces[0], card, '-0'))
+      case 'modal_dfc':
+        cardsInfo.push(getCardInformation(card.card_faces[0], card, '-0'))
         break
       default:
         cardsInfo.push(getCardInformation(card, card))
@@ -164,6 +155,6 @@ async function insertExtension(extension, maxNumber) {
   console.log(`   * ${errored.length} cards not inserted`)
 }
 
-const extension = require('../extensions/iko.json')
-const maxNumber = 259
+const extension = require('../extensions/znr.json')
+const maxNumber = 265
 insertExtension(extension, maxNumber)

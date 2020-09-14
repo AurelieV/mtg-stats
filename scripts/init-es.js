@@ -5,13 +5,7 @@ const {
 } = require("../private.json");
 
 const client = new Client({
-  cloud: {
-    id: elasticsearchConfiguration.cloudId
-  },
-  auth: {
-    username: elasticsearchConfiguration.username,
-    password: elasticsearchConfiguration.password
-  }
+  node: 'http://localhost:9200'
 });
 
 async function createIndex() {
