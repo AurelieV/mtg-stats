@@ -22,7 +22,7 @@
     "@elastic/elasticsearch": "^7.5.0",
     "@types/lodash": "^4.14.62",
     "core-js": "^2.4.1",
-    "lodash": "^4.17.4",
+    "lodash": "^4.17.21",
     "lodash.flatten": "^4.4.0",
     "lodash.groupby": "^4.6.0",
     "mana-font": "^1.4.1",
